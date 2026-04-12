@@ -259,6 +259,9 @@ export default function QuizPage() {
             <span className="font-semibold text-sm">
               Frage {current + 1} / {quizQuestions.length}
             </span>
+            <Button variant="destructive" size="sm" className="ml-2 hidden sm:inline-flex" onClick={() => navigate("/")}>
+              Training abbrechen
+            </Button>
           </div>
 
           <div className={cn("flex items-center gap-2 text-sm font-mono font-medium", timeExpired && "text-destructive")}>
