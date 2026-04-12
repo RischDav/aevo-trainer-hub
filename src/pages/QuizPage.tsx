@@ -316,28 +316,33 @@ export default function QuizPage() {
               );
             })}
           </div>
+{/* Navigation */}
+<div className="mt-8 pt-4 border-t space-y-4">
+  <div className="flex items-center justify-between">
+    <Button
+      variant="outline"
+      onClick={() => setCurrent((p) => Math.max(0, p - 1))}
+      disabled={current === 0}
+      className="gap-2"
+    >
+      <ChevronLeft className="h-4 w-4" /> Zurück
+    </Button>
 
-          {/* Navigation */}
-          <div className="flex items-center justify-between mt-8 pt-4 border-t">
-            <Button
-              variant="outline"
-              onClick={() => setCurrent((p) => Math.max(0, p - 1))}
-              disabled={current === 0}
-              className="gap-2"
-            >
-              <ChevronLeft className="h-4 w-4" /> Zurück
-            </Button>
-
-            {current === quizQuestions.length - 1 ? (
-              <Button onClick={handleSubmit} className="gap-2">
-                <Send className="h-4 w-4" /> Abgeben
-              </Button>
-            ) : (
-              <Button onClick={() => setCurrent((p) => Math.min(quizQuestions.length - 1, p + 1))} className="gap-2">
-                Weiter <ChevronRight className="h-4 w-4" />
-              </Button>
-            )}
-          </div>
+    {current === quizQuestions.length - 1 ? (
+      <Button onClick={handleSubmit} className="gap-2 bg-success hover:bg-success/90 text-white">
+        <Send className="h-4 w-4" /> Abgeben
+      </Button>
+    ) : (
+      <Button onClick={() => setCurrent((p) => Math.min(quizQuestions.length - 1, p + 1))} className="gap-2">
+        Weiter <ChevronRight className="h-4 w-4" />
+      </Button>
+    )}
+  </div>
+  
+  <p className="text-center text-xs text-muted-foreground italic">
+    Die Ergebnisse werden nach Abschließen der Übung angezeigt.
+  </p>
+</div>
         </main>
       </div>
     </div>
