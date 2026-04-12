@@ -586,6 +586,566 @@ export const questions: Question[] = [
   {
     "handlungsfeld": "1",
     "schwierigkeit": 3,
+    "question": "Ein Betrieb möchte erstmals ausbilden. Wer prüft im Vorfeld die 'Eignung der Ausbildungsstätte'?",
+    "answers": {
+      "A": "Das Gewerbeaufsichtsamt",
+      "B": "Die Berufsgenossenschaft",
+      "C": "Die zuständige Stelle (z. B. IHK oder HWK)",
+      "D": "Die Agentur für Arbeit"
+    },
+    "correct_answer": ["C"],
+    "explanation": "Gemäß § 32 BBiG überwacht die zuständige Stelle die Eignung der Ausbildungsstätte sowie die persönliche und fachliche Eignung der Ausbilder.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 2,
+    "question": "Was unterscheidet den 'Ausbildenden' vom 'Ausbilder' im rechtlichen Sinne?",
+    "answers": {
+      "A": "Es gibt keinen Unterschied, beide Begriffe sind synonym.",
+      "B": "Der Ausbildende ist der Vertragspartner des Azubis (Betriebsinhaber), der Ausbilder führt die Ausbildung tatsächlich durch.",
+      "C": "Der Ausbildende ist immer eine natürliche Person, der Ausbilder eine juristische Person.",
+      "D": "Der Ausbilder unterschreibt den Ausbildungsvertrag."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Ausbildende (z. B. die GmbH) schließt den Vertrag. Da eine GmbH nicht selbst unterrichten kann, bestellt sie einen Ausbilder, der die pädagogische Arbeit leistet.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein potenzieller Ausbilder wurde wegen eines schweren Verstoßes gegen das Betäubungsmittelgesetz zu einer zweijährigen Haftstrafe verurteilt. Welche Eignung fehlt ihm?",
+    "answers": {
+      "A": "Die fachliche Eignung",
+      "B": "Die persönliche Eignung",
+      "C": "Die pädagogische Eignung",
+      "D": "Die charakteristische Eignung"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 29 BBiG ist persönlich nicht geeignet, wer Kinder und Jugendliche nicht beschäftigen darf oder schwerwiegend gegen das BBiG verstoßen hat (inkl. bestimmter Straftaten).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "In welchem Verhältnis müssen Fachkräfte zu Auszubildenden in einem Betrieb stehen, damit die Ausbildungsstätte als geeignet gilt?",
+    "answers": {
+      "A": "1 Fachkraft für 1 Azubi",
+      "B": "In der Regel 1 bis 2 Fachkräfte für den ersten Azubi, jede weitere Fachkraft für einen weiteren Azubi",
+      "C": "Mindestens 10 Fachkräfte pro Azubi",
+      "D": "Es gibt keine Empfehlung zum Zahlenverhältnis."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die zuständigen Stellen orientieren sich meist an dem Schlüssel: 1-2 Fachkräfte = 1 Azubi, 3-5 Fachkräfte = 2 Azubis, ab dann je 3 weitere Fachkräfte = +1 Azubi.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 2,
+    "question": "Welches Gesetz bildet die oberste Rechtsgrundlage für die Berufsbildung in Deutschland (außerhalb des Handwerks)?",
+    "answers": {
+      "A": "Das Betriebsverfassungsgesetz",
+      "B": "Das Berufsbildungsgesetz (BBiG)",
+      "C": "Das Jugendarbeitsschutzgesetz",
+      "D": "Das Bürgerliche Gesetzbuch (BGB)"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das BBiG ist das Rahmengesetz für die gesamte berufliche Bildung in Deutschland (für das Handwerk gilt ergänzend die Handwerksordnung HwO).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 2,
+    "question": "Was gehört zu den 'indirekten Kosten' der Ausbildung für einen Betrieb?",
+    "answers": {
+      "A": "Die Ausbildungsvergütung",
+      "B": "Die Kosten für Lehrmittel",
+      "C": "Die Personalkosten der Ausbilder (Zeitaufwand)",
+      "D": "Die Prüfungsgebühren der Kammer"
+    },
+    "correct_answer": ["C"],
+    "explanation": "Direkte Kosten sind unmittelbar zahlbar (Vergütung, Material). Indirekte Kosten sind z. B. der Zeitaufwand der Fachkräfte, in der sie nicht produktiv arbeiten können.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Warum ist die Kooperation zwischen den Lernorten (Betrieb und Berufsschule) gesetzlich vorgeschrieben?",
+    "answers": {
+      "A": "Damit die Lehrer die Berichtshefte kontrollieren können.",
+      "B": "Um eine Verzahnung von Theorie und Praxis sicherzustellen (§ 2 BBiG).",
+      "C": "Damit der Betrieb die Noten der Berufsschule ändern kann.",
+      "D": "Um die Schulpflicht des Azubis zu überwachen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Lernortkooperation soll sicherstellen, dass schulische und betriebliche Inhalte aufeinander abgestimmt sind (Dualitätsprinzip).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Was versteht man unter einer 'Einstiegsqualifizierung' (EQ)?",
+    "answers": {
+      "A": "Ein kurzes Praktikum von 2 Wochen zum Kennenlernen.",
+      "B": "Ein sozialversicherungspflichtiges Langzeitpraktikum (6-12 Monate) zur Vorbereitung auf eine Ausbildung.",
+      "C": "Die erste Woche der Ausbildung im Betrieb.",
+      "D": "Die Abschlussprüfung Teil 1."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die EQ dient als Brücke für Jugendliche, die noch nicht voll ausbildungsreif sind, um sie an eine Ausbildung heranzuführen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Darf ein Betrieb ausbilden, wenn er nicht alle im Ausbildungsrahmenplan geforderten Inhalte selbst vermitteln kann?",
+    "answers": {
+      "A": "Nein, das ist streng verboten.",
+      "B": "Ja, wenn die fehlenden Inhalte durch Verbundausbildung oder überbetriebliche Maßnahmen ergänzt werden.",
+      "C": "Ja, der Azubi muss sich diese Inhalte dann im Selbststudium aneignen.",
+      "D": "Ja, sofern die Inhalte für die Prüfung nicht wichtig sind."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Mängel in der Eignung der Ausbildungsstätte können durch Ausbildung im Verbund (§ 10 BBiG) oder überbetriebliche Unterweisung ausgeglichen werden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 2,
+    "question": "Welche Institution ist für die Erarbeitung von Ausbildungsordnungen auf Bundesebene zuständig?",
+    "answers": {
+      "A": "Die lokale IHK",
+      "B": "Das Bundesinstitut für Berufsbildung (BIBB)",
+      "C": "Die Bundesagentur für Arbeit",
+      "D": "Das jeweilige Schulamt"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das BIBB hat u. a. die Aufgabe, an der Vorbereitung von Ausbildungsordnungen mitzuwirken und die Forschung in der Berufsbildung voranzutreiben.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb möchte einen Geflüchteten ausbilden. Welches Dokument ist neben dem Ausbildungsvertrag entscheidend für den Beginn der Ausbildung?",
+    "answers": {
+      "A": "Der Nachweis über ein abgeschlossenes Studium im Heimatland",
+      "B": "Ein gültiger Aufenthaltstitel mit der Erlaubnis zur Ausübung einer Erwerbstätigkeit bzw. Berufsausbildung",
+      "C": "Die Mitgliedschaft in einer deutschen Gewerkschaft",
+      "D": "Ein polizeiliches Führungszeugnis aus dem Heimatland"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die rechtliche Zulässigkeit der Beschäftigung hängt vom Aufenthaltsstatus und der Genehmigung durch die Ausländerbehörde ab.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Welcher Nutzen ergibt sich für einen Betrieb durch die Ausbildung eigener Fachkräfte?",
+    "answers": {
+      "A": "Einsparung von Einarbeitungskosten für externe Kräfte",
+      "B": "Sicherung des spezifischen betrieblichen Know-hows",
+      "C": "Imagegewinn als verantwortungsbewusstes Unternehmen",
+      "D": "Auszubildende sind billige Arbeitskräfte für einfache Hilfstätigkeiten"
+    },
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Ausbildung dient der Fachkräftesicherung. Dass Azubis 'billige Hilfskräfte' seien, ist rechtlich und pädagogisch falsch, da die Ausbildung im Vordergrund steht.",
+    "question_type": "multiple_choice"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 2,
+    "question": "Was regelt die 'Handwerksordnung' (HwO) im Vergleich zum BBiG?",
+    "answers": {
+      "A": "Sie gilt ausschließlich für die Industrie.",
+      "B": "Sie enthält spezifische Regelungen für die Berufsbildung in handwerklichen Berufen.",
+      "C": "Sie ersetzt das BBiG komplett.",
+      "D": "Sie regelt nur die Meisterprüfung."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die HwO ist das Pendant zum BBiG für den Handwerkssektor; viele Regelungen sind jedoch identisch oder sehr ähnlich.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Wer entscheidet final über die Anerkennung eines neuen Ausbildungsberufes?",
+    "answers": {
+      "A": "Der Bundeskanzler",
+      "B": "Das zuständige Bundesministerium (im Einvernehmen mit dem Bildungsministerium)",
+      "C": "Die Gewerkschaft",
+      "D": "Der Prüfungsausschuss"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die staatliche Anerkennung von Ausbildungsberufen erfolgt durch Rechtsverordnung des zuständigen Fachministeriums.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 2,
+    "question": "Was versteht man unter dem Begriff 'Duales System'?",
+    "answers": {
+      "A": "Zwei Ausbilder betreuen einen Azubi.",
+      "B": "Die Ausbildung findet an zwei Lernorten statt: Betrieb und Berufsschule.",
+      "C": "Es gibt zwei Prüfungen: Zwischenprüfung und Abschlussprüfung.",
+      "D": "Man kann zwei Berufe gleichzeitig lernen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das Duale System ist das Kennzeichen der deutschen Berufsbildung: Praxis im Betrieb, Theorie in der Schule.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Was ist die Hauptaufgabe des 'Hauptausschusses' beim Bundesinstitut für Berufsbildung (BIBB)?",
+    "answers": {
+      "A": "Er korrigiert die Abschlussprüfungen.",
+      "B": "Er berät die Bundesregierung in grundsätzlichen Fragen der Berufsbildung.",
+      "C": "Er vermittelt Ausbildungsplätze.",
+      "D": "Er legt die Höhe der Ausbildungsvergütung fest."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Hauptausschuss ist das oberste Organ des BIBB und hat eine beratende Funktion für die Bundespolitik.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 2,
+    "question": "Ab welcher Anzahl an Auszubildenden muss ein Betrieb zwingend einen Ausbilder bestellen, wenn der Chef selbst nicht fachlich geeignet ist?",
+    "answers": {
+      "A": "Ab dem ersten Auszubildenden",
+      "B": "Erst ab 5 Auszubildenden",
+      "C": "Erst ab 10 Auszubildenden",
+      "D": "Nur wenn der Azubi minderjährig ist"
+    },
+    "correct_answer": ["A"],
+    "explanation": "Wer ausbilden will, muss entweder selbst geeignet sein oder einen geeigneten Ausbilder beschäftigen (§ 28 BBiG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Darf ein Ausbilder die Ausbildung in seinem Homeoffice durchführen?",
+    "answers": {
+      "A": "Ja, uneingeschränkt.",
+      "B": "Nur wenn die zuständige Stelle die Eignung der Privatwohnung als Ausbildungsstätte bestätigt hat (sehr selten).",
+      "C": "Nein, Ausbildung muss immer im Hauptbetrieb stattfinden.",
+      "D": "Nur wenn der Azubi ein eigenes Zimmer dort hat."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Grundsätzlich muss die Ausbildungsstätte geeignet sein. 'Mobiles Lernen' ist möglich, aber die permanente Ausbildung in einer Privatwohnung widerspricht in der Regel der Eignung einer Ausbildungsstätte.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Was ist der wesentliche Inhalt einer 'Ausbildungsordnung'?",
+    "answers": {
+      "A": "Die Pausenzeiten im Betrieb",
+      "B": "Das Ausbildungsberufsbild und der Ausbildungsrahmenplan",
+      "C": "Die Namen der Ausbilder",
+      "D": "Die Kündigungsfristen während der Probezeit"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Ausbildungsordnung definiert das Ziel, die Dauer, das Berufsbild, den Rahmenplan und die Prüfungsanforderungen eines Berufs.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 2,
+    "question": "Welche Kompetenz gehört NICHT zu den klassischen Bereichen der beruflichen Handlungskompetenz?",
+    "answers": {
+      "A": "Fachkompetenz",
+      "B": "Methodenkompetenz",
+      "C": "Freizeitkompetenz",
+      "D": "Sozialkompetenz"
+    },
+    "correct_answer": ["C"],
+    "explanation": "Die berufliche Handlungskompetenz setzt sich aus Fach-, Methoden-, Sozial- und Selbstkompetenz zusammen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender ist zu Beginn des Kalenderjahres 15 Jahre alt. Wie viele Werktage (Montag bis Samstag) Urlaub stehen ihm gesetzlich mindestens zu?",
+    "answers": {
+      "A": "24 Werktage",
+      "B": "25 Werktage",
+      "C": "27 Werktage",
+      "D": "30 Werktage"
+    },
+    "correct_answer": ["D"],
+    "explanation": "Nach § 19 JArbSchG beträgt der Urlaub für unter 16-Jährige mindestens 30 Werktage. Die Altersgrenze gilt immer für den Beginn des Kalenderjahres.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender ist 17 Jahre alt und arbeitet von 08:00 bis 14:30 Uhr (6,5 Stunden). Wie lange muss seine Ruhepause laut Gesetz insgesamt mindestens sein?",
+    "answers": {
+      "A": "30 Minuten",
+      "B": "45 Minuten",
+      "C": "60 Minuten",
+      "D": "15 Minuten"
+    },
+    "correct_answer": ["C"],
+    "explanation": "Für Jugendliche (unter 18) schreibt § 11 JArbSchG bei einer Arbeitszeit von mehr als 6 Stunden eine Pause von 60 Minuten vor. Bei Erwachsenen (ab 18) würden hier 30 Minuten reichen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender wird im März 18 Jahre alt. Wie viele Werktage Urlaub stehen ihm für dieses Kalenderjahr gesetzlich mindestens zu?",
+    "answers": {
+      "A": "24 Werktage",
+      "B": "25 Werktage",
+      "C": "27 Werktage",
+      "D": "30 Werktage"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Maßgeblich ist das Alter am 1. Januar. Da er am 01.01. noch 17 war, steht ihm der Urlaub für unter 18-Jährige zu, also 25 Werktage (§ 19 JArbSchG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Eine 16-jährige Auszubildende hat am Dienstag 9 Stunden im Betrieb gearbeitet. Wie lange darf sie am Mittwoch maximal arbeiten, damit die wöchentliche Höchstarbeitszeit nicht überschritten wird?",
+    "answers": {
+      "A": "Ebenfalls 9 Stunden",
+      "B": "7 Stunden",
+      "C": "8 Stunden",
+      "D": "7,5 Stunden"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Jugendliche dürfen max. 40 Std./Woche arbeiten (§ 8 JArbSchG). Wenn an einem Tag auf 8,5 oder 9 Std. erhöht wird, muss dies innerhalb derselben Woche ausgeglichen werden, damit die 40 Std. im Schnitt passen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 19-jähriger Auszubildender arbeitet in einer 5-Tage-Woche. Wie viele Arbeitstage Urlaub stehen ihm gesetzlich mindestens zu?",
+    "answers": {
+      "A": "24 Tage",
+      "B": "20 Tage",
+      "C": "25 Tage",
+      "D": "30 Tage"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Für Erwachsene gilt das BUrlG. Dieses schreibt 24 Werktage (Mo-Sa) vor. Rechnet man dies auf eine 5-Tage-Woche um, ergeben sich 20 Arbeitstage (24 / 6 * 5).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 17-jähriger Azubi beendet seine Schicht um 20:00 Uhr. Wann darf er am nächsten Morgen frühestens wieder mit der Arbeit beginnen?",
+    "answers": {
+      "A": "Um 06:00 Uhr",
+      "B": "Um 07:00 Uhr",
+      "C": "Um 08:00 Uhr",
+      "D": "Um 09:00 Uhr"
+    },
+    "correct_answer": ["C"],
+    "explanation": "Nach § 13 JArbSchG müssen Jugendliche nach Feierabend eine ununterbrochene Freizeit von mindestens 12 Stunden haben.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder plant einen 16-jährigen Azubi für Samstagsarbeit im Einzelhandel ein. Was muss er beachten?",
+    "answers": {
+      "A": "Samstagsarbeit ist für Jugendliche generell verboten.",
+      "B": "Er muss dem Azubi einen Ersatzruhetag in derselben Woche (Mo-Fr) gewähren.",
+      "C": "Der Azubi darf am Samstag nur 4 Stunden arbeiten.",
+      "D": "Eine Freistellung ist nicht nötig, solange 40 Stunden nicht überschritten werden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "§ 16 JArbSchG erlaubt Samstagsarbeit in bestimmten Branchen (wie Handel), schreibt aber zwingend die 5-Tage-Woche vor. Ein Ersatzruhetag ist somit Pflicht.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 20-jähriger Auszubildender hat eine tägliche Arbeitszeit von 9,5 Stunden. Wie lange muss seine Pause mindestens sein?",
+    "answers": {
+      "A": "30 Minuten",
+      "B": "45 Minuten",
+      "C": "60 Minuten",
+      "D": "90 Minuten"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Für Erwachsene gilt das ArbZG. Ab 9 Stunden Arbeitszeit ist eine Pause von 45 Minuten vorgeschrieben (§ 4 ArbZG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 16-jähriger Azubi hat Berufsschulunterricht von 08:00 bis 13:15 Uhr (6 Unterrichtsstunden). Der Ausbilder verlangt, dass er danach noch in den Betrieb kommt. Ist das zulässig?",
+    "answers": {
+      "A": "Ja, er muss die restliche Zeit bis 17:00 Uhr arbeiten.",
+      "B": "Nein, er ist für diesen Tag komplett freigestellt und wird mit 8 Stunden angerechnet.",
+      "C": "Nur wenn eine Prüfung ansteht.",
+      "D": "Ja, aber nur für maximal 2 Stunden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 15 BBiG (und § 9 JArbSchG) sind Azubis an einem Berufsschultag mit mehr als 5 Unterrichtsstunden einmal pro Woche für den ganzen Tag freizustellen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Welche maximale tägliche Arbeitszeit darf bei einem 17-jährigen Auszubildenden im Ausnahmefall (z.B. zur Kompensation eines kurzen Freitags) nicht überschritten werden?",
+    "answers": {
+      "A": "8 Stunden",
+      "B": "8,5 Stunden",
+      "C": "9 Stunden",
+      "D": "10 Stunden"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Regelzeit ist 8 Stunden. Sie darf auf 8,5 Stunden verlängert werden, wenn die Zeit an anderen Tagen derselben Woche verkürzt wird (§ 8 JArbSchG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 19-jähriger Azubi hat Berufsschulunterricht von 8:00 bis 13:15 Uhr (6 Stunden). Danach soll er in den Betrieb. Wie wird die Zeit angerechnet?",
+    "answers": {
+      "A": "Die tatsächliche Zeit inkl. Pause und Wegezeit.",
+      "B": "Gar nicht, Berufsschule ist Privatvergnügen.",
+      "C": "Die Unterrichtszeit plus Pausen wird auf die Arbeitszeit angerechnet.",
+      "D": "Pauschal mit 8 Stunden."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Bei Erwachsenen wird laut § 15 BBiG die Unterrichtszeit einschließlich der Pausen angerechnet. Eine pauschale Freistellung für den ganzen Tag gilt nur einmal pro Woche (wie bei Jugendlichen).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 15-jähriger Auszubildender soll in einer Bäckerei arbeiten. Ab wann darf er morgens frühestens beginnen?",
+    "answers": {
+      "A": "04:00 Uhr",
+      "B": "05:00 Uhr",
+      "C": "06:00 Uhr",
+      "D": "07:00 Uhr"
+    },
+    "correct_answer": ["C"],
+    "explanation": "15-Jährige dürfen erst ab 06:00 Uhr arbeiten. Erst ab 16 Jahren ist in Bäckereien der Beginn ab 05:00 Uhr (und ab 17 Jahren ab 04:00 Uhr) erlaubt (§ 14 JArbSchG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 17-jähriger Azubi arbeitet 5 Stunden am Stück. Er möchte keine Pause machen, um früher gehen zu können. Was muss der Ausbilder tun?",
+    "answers": {
+      "A": "Dem Wunsch nachkommen, um die Motivation zu fördern.",
+      "B": "Eine Pause von mindestens 30 Minuten anordnen.",
+      "C": "Eine Pause von 15 Minuten reicht hier.",
+      "D": "Den Azubi erst nach 6 Stunden in die Pause schicken."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Jugendliche MÜSSEN bei einer Arbeitszeit von 4,5 bis 6 Stunden mindestens 30 Minuten Pause machen (§ 11 JArbSchG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 18-jähriger Azubi arbeitet im Gastgewerbe am Sonntag. Welchen Ausgleich muss er erhalten?",
+    "answers": {
+      "A": "Einen Ersatzruhetag innerhalb von 2 Wochen.",
+      "B": "Einen Ersatzruhetag in derselben Woche.",
+      "C": "Zahlung eines 100%igen Zuschlags ohne freien Tag.",
+      "D": "Gar keinen, da Gastgewerbe eine Ausnahme ist."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Für Erwachsene gilt § 11 ArbZG: Für Sonntagsarbeit ist ein Ersatzruhetag innerhalb eines Zeitraums von zwei Wochen zu gewähren.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 16-jähriger Azubi möchte seinen Urlaub während der Berufsschulferien nehmen. Der Ausbilder lehnt das ab. Ist das rechtens?",
+    "answers": {
+      "A": "Ja, der Betrieb bestimmt den Urlaubszeitpunkt allein.",
+      "B": "Nein, Urlaub soll während der Berufsschulferien gegeben werden (§ 19 Abs. 4 JArbSchG).",
+      "C": "Nur wenn der Azubi volljährig ist.",
+      "D": "Ja, solange der Azubi noch Resturlaub hat."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das JArbSchG schreibt vor, dass der Urlaub in der Zeit der Berufsschulferien gegeben werden SOLL. Erfolgt dies nicht, muss für jeden Berufsschultag, an dem der Azubi während des Urlaubs die Schule besucht, ein weiterer Urlaubstag gewährt werden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Wie lang darf die 'Schichtzeit' (Arbeitszeit + Pausen) bei einem 17-jährigen Azubi in einem Gastronomiebetrieb maximal sein?",
+    "answers": {
+      "A": "8 Stunden",
+      "B": "10 Stunden",
+      "C": "11 Stunden",
+      "D": "12 Stunden"
+    },
+    "correct_answer": ["C"],
+    "explanation": "Im Gastgewerbe (und anderen speziellen Branchen) darf die Schichtzeit für Jugendliche bis zu 11 Stunden betragen, sonst maximal 10 Stunden (§ 12 JArbSchG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 16-jähriger Azubi wird zur Abschlussprüfung Teil 1 eingeladen. Muss er am Tag davor zur Arbeit erscheinen?",
+    "answers": {
+      "A": "Ja, eine Freistellung gibt es nur für den Prüfungstag selbst.",
+      "B": "Nein, er ist am Arbeitstag, der der Prüfung unmittelbar vorangeht, freigestellt.",
+      "C": "Nur wenn er weniger als 40 Stunden in der Woche gearbeitet hat.",
+      "D": "Er muss nur für 4 Stunden kommen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Laut § 15 BBiG (neu seit 2020) und § 9 JArbSchG sind Azubis am Arbeitstag vor der schriftlichen Abschlussprüfung freizustellen. Das gilt für Jugendliche zwingend.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 18-jähriger Auszubildender wird vor der schriftlichen Abschlussprüfung vom Betrieb zur Arbeit aufgefordert. Hat er einen Anspruch auf Freistellung am Tag davor?",
+    "answers": {
+      "A": "Nein, dieser Anspruch gilt nur für Jugendliche.",
+      "B": "Ja, der Anspruch nach § 15 BBiG gilt für alle Auszubildenden.",
+      "C": "Nur wenn der Tarifvertrag dies vorsieht.",
+      "D": "Nur für die halbe Arbeitszeit."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Seit der BBiG-Reform 2020 sind auch erwachsene Azubis am Arbeitstag vor der schriftlichen Abschlussprüfung freizustellen (§ 15 Abs. 1 Nr. 4 BBiG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 17-jähriger Azubi arbeitet an einem gesetzlichen Feiertag, der auf einen Werktag fällt. Was ist zu beachten?",
+    "answers": {
+      "A": "Feiertagsarbeit ist für Jugendliche strikt verboten.",
+      "B": "Er muss einen Ersatzruhetag in derselben oder der darauffolgenden Woche erhalten.",
+      "C": "Er bekommt 200% Lohn, aber keinen freien Tag.",
+      "D": "Er darf nur 5 Stunden arbeiten."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 17 JArbSchG ist Feiertagsarbeit in bestimmten Branchen erlaubt, erfordert aber einen zeitnahen Ersatzruhetag.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi ist 16 Jahre alt. Wie oft darf er pro Woche maximal in der Berufsschule fehlen, damit der Betrieb ihn noch beschäftigen darf?",
+    "answers": {
+      "A": "Gar nicht, Berufsschulbesuch ist eine Pflicht nach BBiG.",
+      "B": "Einmal pro Halbjahr.",
+      "C": "Nur mit ärztlichem Attest.",
+      "D": "Das Alter spielt hier keine Rolle."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Sowohl BBiG (§ 13) als auch JArbSchG (§ 9) verpflichten den Azubi zum Besuch der Berufsschule. Der Betrieb muss ihn dafür freistellen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
     "question": "Was regelt die 'Ausbildereignungsverordnung' (AEVO) hauptsächlich?",
     "answers": {
       "A": "Die Höhe der Prüfungsgebühren",
