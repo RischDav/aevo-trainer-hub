@@ -9,6 +9,7 @@ import QuizPage from "./pages/QuizPage";
 import Datenschutz from "./pages/Datenschutz";
 import Impressum from "./pages/Impressum";
 import NotFound from "./pages/NotFound";
+import CookieBanner from "./components/CookieBanner";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/impressum" element={<Impressum />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <CookieBanner />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
