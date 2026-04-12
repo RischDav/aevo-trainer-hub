@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
+  base: "/aevotrainer/", // Auch hier für konsistente Pfade
   plugins: [react()],
   test: {
     environment: "jsdom",

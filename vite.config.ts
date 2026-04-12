@@ -5,6 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // WICHTIG: Ersetze 'aevotrainer' durch deinen exakten Repository-Namen auf GitHub
+  base: "/aevotrainer/", 
   server: {
     host: "::",
     port: 8080,
