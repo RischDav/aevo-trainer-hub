@@ -24,6 +24,286 @@ export const questions: Question[] = [
     question_type: "multiple_choice",
   },
   {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb möchte in einem völlig neuen, hochspezialisierten Bereich ausbilden, für den es noch keine staatlich anerkannte Ausbildungsordnung gibt. Was ist rechtlich korrekt?",
+    "answers": {
+      "A": "Der Betrieb darf eine eigene Ausbildungsordnung verfassen und die Prüfung selbst abnehmen.",
+      "B": "Eine Ausbildung nach dem BBiG ist nur in staatlich anerkannten Ausbildungsberufen zulässig.",
+      "C": "Der Betrieb kann einen 'ähnlichen' Beruf wählen und die Inhalte eigenständig anpassen.",
+      "D": "Die Ausbildung kann nur als rein betriebliche Umschulung ohne Kammerprüfung erfolgen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 4 BBiG darf in anderen als staatlich anerkannten Ausbildungsberufen nicht ausgebildet werden. Dies dient der bundeseinheitlichen Qualitätssicherung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Die 'Müller GmbH' möchte im Verbund mit der 'Schulze KG' ausbilden, da sie selbst die geforderten Inhalte zur Steuerungstechnik nicht vermitteln kann. Welche Form der Verbundausbildung liegt vor, wenn der Azubi für 4 Monate zur Schulze KG entsandt wird?",
+    "answers": {
+      "A": "Auftragsausbildung",
+      "B": "Ausbildungsverein",
+      "C": "Lehrgangswerkstatt",
+      "D": "Konsortium"
+    },
+    "correct_answer": ["A"],
+    "explanation": "Wird ein Teil der Ausbildung gegen Kostenerstattung in einen anderen Betrieb ausgelagert, spricht man von Auftragsausbildung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Bewerber für eine Ausbildung zum Mechatroniker ist 16 Jahre alt. Er legt zur Unterzeichnung des Vertrages keine ärztliche Bescheinigung vor. Wie muss der Ausbilder reagieren?",
+    "answers": {
+      "A": "Er darf den Vertrag unterzeichnen, muss die Bescheinigung aber bis zum Ende der Probezeit einfordern.",
+      "B": "Er darf den Jugendlichen nicht beschäftigen, bevor die Bescheinigung über die Erstuntersuchung vorliegt.",
+      "C": "Die Untersuchung ist nur bei gefährlichen Arbeiten notwendig; er kann also beginnen.",
+      "D": "Eine Bescheinigung des Hausarztes über die allgemeine Sportlichkeit reicht aus."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 32 JArbSchG darf ein Jugendlicher nur beschäftigt werden, wenn er innerhalb der letzten 14 Monate ärztlich untersucht wurde und dem Arbeitgeber eine Bescheinigung vorliegt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "In einem Vorstellungsgespräch fragt der Ausbilder eine Bewerberin nach ihrer Familienplanung für die nächsten fünf Jahre. Die Bewerberin lügt bewusst. Welche Konsequenz hat dies?",
+    "answers": {
+      "A": "Der Ausbildungsvertrag kann wegen arglistiger Täuschung angefochten werden.",
+      "B": "Die Lüge bleibt folgenlos, da die Frage unzulässig war.",
+      "C": "Die Auszubildende kann innerhalb der Probezeit fristlos entlassen werden, sobald die Lüge auffliegt.",
+      "D": "Der Betrieb kann Schadenersatz verlangen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Fragen nach der Familienplanung verstoßen gegen das AGG. Auf unzulässige Fragen hat der Bewerber ein 'Recht zur Lüge'.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbildungsvertrag sieht eine Probezeit von 5 Monaten vor. Welche Rechtsfolge tritt ein?",
+    "answers": {
+      "A": "Der gesamte Vertrag ist nichtig.",
+      "B": "Die Probezeit verkürzt sich automatisch auf das gesetzliche Höchstmaß von 4 Monaten.",
+      "C": "Die Probezeit ist wirksam, da sie individuell vereinbart wurde.",
+      "D": "Nur die Klausel zur Probezeit ist unwirksam, es gilt keine Probezeit."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 20 BBiG beträgt die Probezeit mindestens einen Monat und höchstens vier Monate. Abweichende Vereinbarungen zuungunsten des Azubis werden auf das gesetzliche Maß korrigiert.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder stellt fest, dass zwei Azubis im zweiten Lehrjahr ständig in Konflikt geraten. Er entscheidet sich für eine Moderation. Welcher Schritt gehört an den ANFANG eines Moderationszyklus?",
+    "answers": {
+      "A": "Bewertung der Lösungsvorschläge",
+      "B": "Einstieg und Sammeln von Themen",
+      "C": "Festlegen von Sanktionen",
+      "D": "Erstellen eines Maßnahmenplans"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Ein klassischer Moderationszyklus beginnt mit dem Einstieg (Begrüßung, Regeln) und der Themensammlung (Problemerfassung).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi soll lernen, wie man eine komplexe Kundenreklamation am Telefon bearbeitet. Der Ausbilder wählt das Rollenspiel. Warum ist diese Methode hier besonders geeignet?",
+    "answers": {
+      "A": "Weil der Azubi dabei keine Fehler machen kann.",
+      "B": "Weil soziale Kompetenzen und Verhaltensweisen in einer geschützten Umgebung geübt werden können.",
+      "C": "Weil es die schnellste Methode ist, um Fakten zu vermitteln.",
+      "D": "Weil der Ausbilder währenddessen andere Arbeiten erledigen kann."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Rollenspiele fördern die affektiven Lernziele und die Kommunikationsfähigkeit durch praktisches Erproben und anschließendes Feedback.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "Ein Auszubildender führt sein Berichtsheft (Ausbildungsnachweis) nur sehr lückenhaft. Trotz mehrfacher Ermahnung ändert sich nichts. Welche Sanktion ist als letzte Vorstufe zur Kündigung angemessen?",
+    "answers": {
+      "A": "Eine schriftliche Abmahnung",
+      "B": "Kürzung der Ausbildungsvergütung",
+      "C": "Einbehalt des Urlaubs",
+      "D": "Zusätzliche Überstunden zur Nacharbeit"
+    },
+    "correct_answer": ["A"],
+    "explanation": "Die Führung des Berichtshefts ist eine Pflicht des Azubis (§ 13 BBiG). Verstöße hiergegen können nach erfolgloser Ermahnung abgemahnt werden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Während einer Unterweisung nach der 4-Stufen-Methode bemerkt der Ausbilder in Stufe 2 (Vormachen und Erklären), dass der Azubi unaufmerksam wird. Was sollte der Ausbilder tun?",
+    "answers": {
+      "A": "Die Unterweisung sofort abbrechen.",
+      "B": "Den Azubi durch gezielte Fragen einbeziehen (aktivieren).",
+      "C": "Schneller weitermachen, um Zeit zu sparen.",
+      "D": "Den Stoff am nächsten Tag wiederholen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "In der 2. Stufe ist es wichtig, den Azubi nicht nur passiv zuschauen zu lassen, sondern durch Erklärungen und Fragen zur Mitwirkung anzuregen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb nutzt 'E-Learning' für die Theorievermittlung. Der Azubi soll die Module von zu Hause aus bearbeiten. Was muss der Ausbilder beachten?",
+    "answers": {
+      "A": "Die Zeit am PC gilt nicht als Arbeitszeit.",
+      "B": "Der Betrieb muss die notwendigen Arbeitsmittel (z. B. Laptop) kostenlos zur Verfügung stellen.",
+      "C": "E-Learning darf nur am Wochenende stattfinden.",
+      "D": "Der Ausbilder muss für Rückfragen zur Verfügung stehen (Lernbegleitung)."
+    },
+    "correct_answer": ["B", "D"],
+    "explanation": "Ausbildungsmittel müssen kostenlos gestellt werden (§ 14 BBiG). Zudem entbindet E-Learning den Ausbilder nicht von seiner Betreuungspflicht.",
+    "question_type": "multiple_choice"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender schließt seine Prüfung mit der Note 'ausreichend' ab. Im Zeugnis möchte der Ausbilder schreiben: 'Er war stets bemüht, die ihm übertragenen Aufgaben zu erfüllen.' Warum ist dieser Satz problematisch?",
+    "answers": {
+      "A": "Er ist zu positiv formuliert.",
+      "B": "Es ist ein 'Geheimcode', der aussagt, dass der Azubi zwar gewollt, aber nichts erreicht hat.",
+      "C": "Er ist grammatikalisch falsch.",
+      "D": "Solche Sätze sind seit 2020 gesetzlich verboten."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das Zeugnis muss wohlwollend sein, darf aber keine versteckten negativen Bewertungen enthalten. 'Stets bemüht' gilt als Chiffre für Erfolglosigkeit.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi hat seine Abschlussprüfung bestanden. Am nächsten Tag erscheint er im Betrieb und arbeitet normal weiter, ohne dass jemand widerspricht. Welche rechtliche Folge hat dies?",
+    "answers": {
+      "A": "Keine, er ist nun Praktikant.",
+      "B": "Es entsteht automatisch ein unbefristetes Arbeitsverhältnis.",
+      "C": "Das Ausbildungsverhältnis verlängert sich um einen Monat.",
+      "D": "Er muss sofort nach Hause geschickt werden, sonst macht sich der Chef strafbar."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Wird ein Auszubildender im Anschluss an das Ausbildungsverhältnis beschäftigt, ohne dass hierüber etwas vereinbart worden ist, so gilt ein Arbeitsverhältnis auf unbestimmte Zeit als begründet (§ 24 BBiG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder möchte einen Azubi für 3 Monate nach Frankreich schicken (Auslandsaufenthalt). Welche Voraussetzungen müssen erfüllt sein?",
+    "answers": {
+      "A": "Der Auslandsaufenthalt muss dem Ausbildungsziel dienen.",
+      "B": "Die Gesamtdauer der Auslandsphasen darf in der Regel 1/4 der Ausbildungsdauer nicht überschreiten.",
+      "C": "Die zuständige Stelle (Kammer) muss nicht informiert werden.",
+      "D": "Der Azubi muss mindestens 18 Jahre alt sein."
+    },
+    "correct_answer": ["A", "B"],
+    "explanation": "Auslandsaufenthalte sind bis zu 25% der Ausbildungsdauer möglich (§ 2 BBiG), sofern sie dem Ausbildungsziel dienen. Die Kammer sollte informiert werden, eine Genehmigung ist bei Einhaltung der Grenzen nicht immer strikt nötig, aber ratsam.",
+    "question_type": "multiple_choice"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb hat 50 Mitarbeiter, aber keine Jugend- und Auszubildendenvertretung (JAV). Unter welchen Bedingungen könnte eine JAV gewählt werden?",
+    "answers": {
+      "A": "Es müssen mindestens 5 Jugendliche (unter 18) oder Azubis (unter 25) dauerhaft beschäftigt sein.",
+      "B": "Es muss ein Betriebsrat vorhanden sein.",
+      "C": "Der Chef muss die Wahl persönlich anordnen.",
+      "D": "Jeder Betrieb über 20 Mitarbeiter muss zwingend eine JAV haben."
+    },
+    "correct_answer": ["A", "B"],
+    "explanation": "Die JAV setzt einen Betriebsrat voraus. Zudem müssen mindestens 5 wahlberechtigte Personen im Betrieb sein.",
+    "question_type": "multiple_choice"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "Ein Azubi hat Probleme, die theoretischen Hintergründe der Hydraulik zu verstehen. Der Ausbilder beauftragt einen erfahrenen Gesellen, dem Azubi dies zu erklären. Wer trägt die Verantwortung für die Vermittlung?",
+    "answers": {
+      "A": "Der Geselle, da er die Aufgabe übernommen hat.",
+      "B": "Der Ausbilder, da er die Ausbildung leitet und überwacht.",
+      "C": "Der Azubi selbst (Selbstlernpflicht).",
+      "D": "Die Berufsschule."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Ausbilder kann Aufgaben an 'Ausbildungsbeauftragte' delegieren, bleibt aber für die ordnungsgemäße Durchführung verantwortlich (§ 14 BBiG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Welche Methode der Erfolgskontrolle eignet sich am besten, um die 'Handlungskompetenz' (Planen, Durchführen, Kontrollieren) eines Azubis am Ende eines Projekts zu prüfen?",
+    "answers": {
+      "A": "Ein schriftlicher Multiple-Choice-Test.",
+      "B": "Ein Fachgespräch in Kombination mit einer Arbeitsprobe.",
+      "C": "Das Abfragen von Vokabeln.",
+      "D": "Die Kontrolle der Anwesenheitsliste."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Handlungskompetenz zeigt sich im Tun (Arbeitsprobe) und im Reflektieren darüber (Fachgespräch).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Bewerber für eine Bürokaufmann-Lehre hat die Fachhochschulreife. Der Ausbilder schlägt vor, die Ausbildung direkt auf 2 Jahre zu verkürzen. Wo muss dies beantragt werden?",
+    "answers": {
+      "A": "Gar nicht, das entscheiden Betrieb und Azubi allein.",
+      "B": "Bei der zuständigen Stelle (z. B. IHK), die dies in das Verzeichnis der Berufsausbildungsverhältnisse einträgt.",
+      "C": "Beim Kultusministerium des Landes.",
+      "D": "Bei der Bundesagentur für Arbeit."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Verkürzungen der Ausbildungszeit müssen gemeinsam beantragt und von der Kammer genehmigt/eingetragen werden (§ 8 BBiG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "In der Mitte der Ausbildung stellt ein Azubi fest, dass er den falschen Beruf gewählt hat. Er möchte kündigen. Welche Frist muss er einhalten?",
+    "answers": {
+      "A": "Keine, er kann jederzeit fristlos gehen.",
+      "B": "Eine Kündigungsfrist von 4 Wochen.",
+      "C": "Er kann nach der Probezeit gar nicht mehr kündigen.",
+      "D": "Drei Monate zum Quartalsende."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 22 BBiG kann der Azubi mit einer Frist von 4 Wochen kündigen, wenn er die Ausbildung aufgeben oder sich für eine andere Berufstätigkeit ausbilden lassen will.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 2,
+    "question": "Ein Ausbildungsbetrieb möchte einen Azubi nach der Ausbildung nicht übernehmen. Wann muss er dies dem Azubi spätestens mitteilen?",
+    "answers": {
+      "A": "Drei Monate vor Ende der Ausbildung (Pflicht zur frühzeitigen Info).",
+      "B": "Gar nicht, das Ende steht im Vertrag.",
+      "C": "Am Tag der Zeugnisübergabe.",
+      "D": "Vier Wochen nach der Zwischenprüfung."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Rechtlich endet der Vertrag mit Ablauf der Zeit oder Bestehen der Prüfung. Es gibt keine gesetzliche Frist zur Mitteilung der Nichtübernahme (außer es ist im Tarifvertrag anders geregelt), auch wenn es pädagogisch sinnvoll ist.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi im 3. Lehrjahr soll im Rahmen der 'selbstständigen Projektarbeit' eine neue Lagerordnung entwerfen. Der Ausbilder gibt nur das Ziel vor. Welcher Führungsstil ist hier angemessen?",
+    "answers": {
+      "A": "Autoritärer Führungsstil",
+      "B": "Kooperativer Führungsstil",
+      "C": "Laissez-faire-Stil",
+      "D": "Situativer Führungsstil"
+    },
+    "correct_answer": ["B", "D"],
+    "explanation": "Kooperation fördert die Selbstständigkeit. Da der Stil an die Reife des Azubis (3. Jahr) angepasst wird, spricht man auch von situativer Führung.",
+    "question_type": "multiple_choice"
+  },
+  {
     handlungsfeld: "1",
     schwierigkeit: 2,
     question: "Was gilt seit 2020 bezüglich der Mindestvergütung für Auszubildende?",
@@ -122,6 +402,286 @@ export const questions: Question[] = [
     question_type: "multiple_choice",
   },
   {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Welche Bestandteile sind zwingend in einer Ausbildungsordnung enthalten, die auf Basis des § 25 BBiG erlassen wurde?",
+    "answers": {
+      "A": "Die Bezeichnung des Ausbildungsberufes",
+      "B": "Die Ausbildungsdauer (Regelausbildungszeit)",
+      "C": "Das Ausbildungsberufsbild (Fertigkeiten, Kenntnisse und Fähigkeiten)",
+      "D": "Die Höhe der angemessenen Ausbildungsvergütung"
+    },
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Die Vergütung ist nicht Teil der Ausbildungsordnung, sondern wird im Ausbildungsvertrag individuell (oft auf Basis von Tarifen) geregelt. Die Ausbildungsordnung legt nur den Rahmen für die sachliche und zeitliche Gliederung sowie die Prüfungsanforderungen fest.",
+    "question_type": "multiple_choice"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Was versteht man unter einer 'Stufenausbildung' im Sinne des BBiG?",
+    "answers": {
+      "A": "Eine Ausbildung, die in aufeinander aufbauenden Phasen erfolgt, wobei die erste Stufe mit einem eigenen Berufsabschluss enden kann",
+      "B": "Eine Ausbildung, die abwechselnd im Betrieb und in der Schule stattfindet",
+      "C": "Die Gliederung der Ausbildung in Probezeit und Hauptzeit",
+      "D": "Ein Modell, bei dem die Vergütung stufenweise pro Quartal steigt"
+    },
+    "correct_answer": ["A"],
+    "explanation": "Stufenausbildungen (z.B. im Bauhauptgewerbe) ermöglichen nach einer ersten Stufe (z.B. 2 Jahre) einen qualifizierten Abschluss, auf dem eine weitere Spezialisierung (z.B. ein drittes Jahr zum Gesellen) aufbauen kann.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender ist 17 Jahre alt. Welche Besonderheit gilt gemäß Jugendarbeitsschutzgesetz (JArbSchG) bezüglich der ersten Nachuntersuchung?",
+    "answers": {
+      "A": "Sie muss nach 6 Monaten erfolgen",
+      "B": "Sie muss ein Jahr nach Aufnahme der Ausbildung erfolgen, sofern der Jugendliche dann noch nicht 18 ist",
+      "C": "Sie ist nur erforderlich, wenn der Jugendliche im Handwerk arbeitet",
+      "D": "Sie entfällt, wenn die Erstuntersuchung ohne Befund war"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 33 JArbSchG hat der Arbeitgeber sich ein Jahr nach Aufnahme der Beschäftigung eine Bescheinigung über eine Nachuntersuchung vorlegen zu lassen, falls der Auszubildende zu diesem Zeitpunkt noch minderjährig ist.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Welches Dokument bildet die Grundlage für die Erstellung des 'Betrieblichen Ausbildungsplans'?",
+    "answers": {
+      "A": "Der Rahmenlehrplan der Berufsschule",
+      "B": "Der Ausbildungsrahmenplan der Ausbildungsordnung",
+      "C": "Die Arbeitsordnung des Betriebes",
+      "D": "Das Zeugnis der letzten Schule"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Ausbildungsrahmenplan (sachliche und zeitliche Gliederung) ist die verbindliche Vorlage. Dieser muss vom Betrieb auf die eigenen Gegebenheiten angepasst werden (Betrieblicher Ausbildungsplan).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Wer entscheidet über die 'fachliche Eignung' eines Ausbilders in einem zulassungspflichtigen Handwerk?",
+    "answers": {
+      "A": "Der Inhaber des Betriebes",
+      "B": "Die zuständige Stelle (Handwerkskammer)",
+      "C": "Die Berufsschule",
+      "D": "Das Bundesinstitut für Berufsbildung (BIBB)"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Überwachung der persönlichen und fachlichen Eignung obliegt nach § 32 BBiG bzw. der HwO der zuständigen Stelle (Kammer).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Was beschreibt die 'didaktische Parallelität' im dualen System?",
+    "answers": {
+      "A": "Dass Ausbilder und Lehrer denselben Stoff am gleichen Tag unterrichten müssen",
+      "B": "Die inhaltliche und zeitliche Abstimmung zwischen Betrieb und Berufsschule",
+      "C": "Das gleichzeitige Lernen von Theorie und Praxis im Betrieb",
+      "D": "Dass zwei Auszubildende immer die gleichen Aufgaben erhalten"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Lernortkooperation zielt darauf ab, dass die schulischen Inhalte (Rahmenlehrplan) und die betriebliche Praxis (Ausbildungsrahmenplan) so weit wie möglich synchronisiert werden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "Welches Ziel verfolgt die 'Leittextmethode' primär?",
+    "answers": {
+      "A": "Die reine Vermittlung von Faktenwissen durch Vorlesen",
+      "B": "Die Förderung der Handlungskompetenz durch selbstständiges Planen, Durchführen und Kontrollieren",
+      "C": "Die Entlastung des Ausbilders, damit dieser nicht mehr anwesend sein muss",
+      "D": "Die Vorbereitung auf schriftliche Multiple-Choice-Prüfungen"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Leittextmethode ist eine Form des handlungsorientierten Lernens, bei der der Auszubildende anhand von Leitfragen und Aufgaben eine vollständige Handlung vollzieht.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "In der Gruppendynamik nach Tuckman folgt auf die 'Forming'-Phase welche Phase?",
+    "answers": {
+      "A": "Norming",
+      "B": "Storming",
+      "C": "Performing",
+      "D": "Adjourning"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Phasen sind: Forming (Kontakt), Storming (Konflikt), Norming (Kontrakt), Performing (Kooperation). Die Storming-Phase ist oft durch Machtkämpfe und Rollenfindung geprägt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "Was versteht man unter einem 'affektiven Lernziel'?",
+    "answers": {
+      "A": "Die Vermittlung von manuellem Geschick",
+      "B": "Die Änderung von Einstellungen, Werten und Verhaltensweisen",
+      "C": "Das Auswendiglernen von Fachbegriffen",
+      "D": "Das Verstehen komplexer mathematischer Formeln"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Affektive Lernziele betreffen die Herzens- und Einstellungsebene (z.B. Sorgfalt, Pünktlichkeit, Kundenorientierung).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender zeigt eine 'Leistungsstagnation'. Welche pädagogischen Ursachen könnten vorliegen?",
+    "answers": {
+      "A": "Überforderung durch zu komplexe Aufgaben",
+      "B": "Unterforderung und Langeweile",
+      "C": "Mangelndes Feedback durch den Ausbilder",
+      "D": "Zu hohe Ausbildungsvergütung"
+    },
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Sowohl Unter- als auch Überforderung sowie fehlende Rückmeldung führen häufig zu einem Leistungsknick.",
+    "question_type": "multiple_choice"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 2,
+    "question": "Wann endet das Ausbildungsverhältnis offiziell, wenn der Auszubildende die Abschlussprüfung vor Ablauf der im Vertrag gesetzten Zeit besteht?",
+    "answers": {
+      "A": "Mit dem Datum, das im Ausbildungsvertrag steht",
+      "B": "Mit Bekanntgabe des Ergebnisses durch den Prüfungsausschuss",
+      "C": "Am Ende des jeweiligen Monats",
+      "D": "Sobald der Auszubildende seinen ersten Arbeitstag als Geselle antritt"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 21 BBiG endet die Ausbildung mit Bestehen der Abschlussprüfung, d.h. in dem Moment, in dem der Prüfungsausschuss das Ergebnis mitteilt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Welcher Grundsatz gilt für die Erstellung eines Arbeitszeugnisses für Auszubildende?",
+    "answers": {
+      "A": "Wahrheitspflicht und Wohlwollenspflicht",
+      "B": "Es dürfen nur gute Noten vergeben werden",
+      "C": "Fehlzeiten müssen zwingend aufgeführt werden",
+      "D": "Der Ausbilder darf seine private Meinung über den Charakter frei äußern"
+    },
+    "correct_answer": ["A"],
+    "explanation": "Das Zeugnis muss wahr sein, darf aber das weitere Fortkommen des Auszubildenden nicht unbillig erschweren (Wohlwollen).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 2,
+    "question": "Was ist der Unterschied zwischen einem einfachen und einem qualifizierten Zeugnis?",
+    "answers": {
+      "A": "Das einfache Zeugnis enthält nur Angaben zu Art und Dauer der Ausbildung",
+      "B": "Das qualifizierte Zeugnis enthält zusätzlich Angaben zu Führung und Leistung",
+      "C": "Das einfache Zeugnis ist handschriftlich",
+      "D": "Nur das qualifizierte Zeugnis ist rechtlich bindend"
+    },
+    "correct_answer": ["A", "B"],
+    "explanation": "Auszubildende haben bei Ende der Ausbildung Anspruch auf ein Zeugnis. Auf Verlangen muss es ein qualifiziertes Zeugnis sein (§ 16 BBiG).",
+    "question_type": "multiple_choice"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Was regelt die 'Ausbildereignungsverordnung' (AEVO) hauptsächlich?",
+    "answers": {
+      "A": "Die Höhe der Prüfungsgebühren",
+      "B": "Den Erwerb der berufs- und arbeitspädagogischen Kenntnisse",
+      "C": "Die Mindestanzahl der Auszubildenden pro Betrieb",
+      "D": "Die Dauer der Berufsschulpflicht"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die AEVO legt fest, welche pädagogischen Kompetenzen jemand nachweisen muss, um als Ausbilder tätig sein zu dürfen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Welches Auswahlkriterium ist bei der Einstellung von Auszubildenden rechtlich problematisch (AGG)?",
+    "answers": {
+      "A": "Die fachliche Eignung",
+      "B": "Die Religionszugehörigkeit (außer bei Tendenzbetrieben)",
+      "C": "Das Geschlecht",
+      "D": "Die soziale Kompetenz"
+    },
+    "correct_answer": ["B", "C"],
+    "explanation": "Das Allgemeine Gleichbehandlungsgesetz (AGG) untersagt Diskriminierung u.a. wegen des Geschlechts oder der Religion.",
+    "question_type": "multiple_choice"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Welche Funktion hat die 'Transferkontrolle' im Lernprozess?",
+    "answers": {
+      "A": "Zu prüfen, ob der Auszubildende pünktlich ist",
+      "B": "Festzustellen, ob das Gelernte in neuen, praxisnahen Situationen angewendet werden kann",
+      "C": "Die Überprüfung des Fahrgeldes für den Weg zur Berufsschule",
+      "D": "Die Kontrolle des Berichtshefts durch die Kammer"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Transfer bedeutet, Wissen von der Lernsituation auf eine reale Arbeitssituation zu übertragen. Die Kontrolle stellt sicher, dass nicht nur 'auswendig' gelernt wurde.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "Was ist ein Merkmal des 'Laissez-faire' Führungsstils in der Ausbildung?",
+    "answers": {
+      "A": "Der Ausbilder gibt klare Befehle",
+      "B": "Der Ausbilder greift kaum ein und überlässt den Azubis weitgehend sich selbst",
+      "C": "Entscheidungen werden gemeinsam in der Gruppe getroffen",
+      "D": "Fehler werden streng bestraft"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Laissez-faire bedeutet 'gewähren lassen'. In der Ausbildung ist dieser Stil meist ungeeignet, da die Orientierung für den Azubi fehlt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi fällt durch die Abschlussprüfung. Was sind die rechtlichen Konsequenzen für den Ausbildungsvertrag?",
+    "answers": {
+      "A": "Der Vertrag endet automatisch zum vereinbarten Datum",
+      "B": "Auf Verlangen des Azubis verlängert sich das Verhältnis bis zur nächstmöglichen Wiederholungsprüfung, maximal um ein Jahr",
+      "C": "Der Betrieb muss den Azubi sofort fest einstellen",
+      "D": "Die Vergütung wird gestrichen"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 21 Abs. 3 BBiG hat der Azubi einen Anspruch auf Verlängerung, um das Ziel (den Abschluss) doch noch zu erreichen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Wer ist im 'Landesausschuss für Berufsbildung' vertreten?",
+    "answers": {
+      "A": "Vertreter der Arbeitgeber",
+      "B": "Vertreter der Arbeitnehmer (Gewerkschaften)",
+      "C": "Vertreter der obersten Landesbehörden",
+      "D": "Nur Lehrer"
+    },
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Dieser Ausschuss berät die Landesregierung in Fragen der Berufsbildung und ist drittelparitätisch besetzt.",
+    "question_type": "multiple_choice"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "Welche Methode eignet sich am besten für die Vermittlung von 'Sozialkompetenz'?",
+    "answers": {
+      "A": "Frontalvortrag",
+      "B": "Rollenspiel",
+      "C": "Stilles Lesen eines Fachbuchs",
+      "D": "Demonstration durch den Ausbilder"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Im Rollenspiel können Perspektivwechsel geübt und Verhaltensweisen in sozialen Interaktionen (z.B. Kundengespräch) direkt erprobt werden.",
+    "question_type": "normal"
+  },
+  {
     handlungsfeld: "1",
     schwierigkeit: 2,
     question: "Welche Bedeutung hat der 'Deutsche Qualifikationsrahmen' (DQR)?",
@@ -135,6 +695,7 @@ export const questions: Question[] = [
     explanation: "Der DQR ordnet Abschlüsse in 8 Niveaus ein. Ein Meister oder Fachwirt steht dabei beispielsweise auf Stufe 6 – genau wie ein akademischer Bachelor.",
     question_type: "multiple_choice",
   },
+
   {
     handlungsfeld: "4",
     schwierigkeit: 2,
@@ -2669,9 +3230,287 @@ export const questions: Question[] = [
     correct_answer: ["B"],
     explanation: "Nach § 111 ArbGG müssen Streitigkeiten aus einem bestehenden Ausbildungsverhältnis zwingend erst vor dem paritätischen Schlichtungsausschuss der Kammer verhandelt werden, bevor eine Klage beim Arbeitsgericht zulässig ist.",
     question_type: "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "Ein Auszubildender führt eine komplexe Reparatur exakt nach den technischen Vorgaben und Sicherheitsbestimmungen durch. Welche Kompetenz steht hier im Vordergrund?",
+    "answers": {
+      "A": "Sozialkompetenz",
+      "B": "Fachkompetenz",
+      "C": "Selbstkompetenz",
+      "D": "Methodenkompetenz"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Fachkompetenz umfasst die Fähigkeit, fachspezifische Aufgaben theoretisch und praktisch nach den geltenden Regeln und Standards zu lösen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ihr Auszubildender soll sich eigenständig Informationen aus verschiedenen Handbüchern und Online-Portalen zusammensuchen, um ein Problem zu lösen. Welche Kompetenz fördern Sie damit primär?",
+    "answers": {
+      "A": "Fachkompetenz",
+      "B": "Methodenkompetenz",
+      "C": "Sozialkompetenz",
+      "D": "Sprachkompetenz"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Methodenkompetenz ist die Fähigkeit, sich Informationen zu beschaffen, Arbeitsschritte zu planen und Problemlösungsstrategien anzuwenden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "Ein Azubi gibt einem Kollegen konstruktives Feedback nach einer gemeinsamen Projektpräsentation. Welcher Kompetenzbereich wird hier deutlich?",
+    "answers": {
+      "A": "Selbstkompetenz",
+      "B": "Fachkompetenz",
+      "C": "Sozialkompetenz",
+      "D": "Methodenkompetenz"
+    },
+    "correct_answer": ["C"],
+    "explanation": "Sozialkompetenz zeigt sich in der Kommunikation, Kooperation und im angemessenen Umgang mit anderen Menschen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Nach einem Fehler in der Abrechnung reflektiert die Auszubildende ihr Vorgehen kritisch und übernimmt die Verantwortung, ohne die Schuld bei anderen zu suchen. Was beweist sie hier?",
+    "answers": {
+      "A": "Methodenkompetenz",
+      "B": "Fachkompetenz",
+      "C": "Selbstkompetenz",
+      "D": "Führungskompetenz"
+    },
+    "correct_answer": ["C"],
+    "explanation": "Selbstkompetenz (auch Personalkompetenz) umfasst Selbstreflexion, Verantwortungsbewusstsein, Zuverlässigkeit und den Umgang mit eigenen Stärken und Schwächen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Was ergibt sich aus der Summe von Fach-, Methoden-, Sozial- und Selbstkompetenz im Sinne der AEVO?",
+    "answers": {
+      "A": "Die theoretische Intelligenz",
+      "B": "Die berufliche Handlungskompetenz",
+      "C": "Die pädagogische Eignung",
+      "D": "Das lebenslange Lernen"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Berufliche Handlungskompetenz ist das Ziel der Ausbildung. Sie befähigt dazu, Aufgaben eigenständig zu planen, durchzuführen und zu kontrollieren.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "Ein Azubi nutzt ein Mind-Mapping-Tool, um ein neues Projekt zu strukturieren. Welcher Bereich wird hier trainiert?",
+    "answers": {
+      "A": "Fachkompetenz",
+      "B": "Methodenkompetenz",
+      "C": "Sozialkompetenz",
+      "D": "Selbstkompetenz"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Arbeitstechniken und Strukturierungshilfen fallen unter die Methodenkompetenz.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Sie lassen zwei Azubis ein Projekt gemeinsam bearbeiten. Dabei kommt es zu Meinungsverschiedenheiten, die sie selbstständig und sachlich lösen. Welche Kompetenzen werden hier gleichzeitig gestärkt?",
+    "answers": {
+      "A": "Sozialkompetenz",
+      "B": "Methodenkompetenz",
+      "C": "Selbstkompetenz",
+      "D": "Fachkompetenz"
+    },
+    "correct_answer": ["A", "C"],
+    "explanation": "Die Zusammenarbeit und Konfliktlösung stärkt die Sozialkompetenz; die Selbstbeherrschung und Reflexion während des Konflikts die Selbstkompetenz.",
+    "question_type": "multiple_choice"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi im 3. Lehrjahr soll eine Präsentation vor der Geschäftsführung halten. Er bereitet sich intensiv vor und geht souverän mit Lampenfieber um. Dies ist ein Zeichen für:",
+    "answers": {
+      "A": "Hohe Selbstkompetenz",
+      "B": "Hohe Fachkompetenz",
+      "C": "Ausschließlich Methodenkompetenz",
+      "D": "Mangelnde soziale Anpassung"
+    },
+    "correct_answer": ["A"],
+    "explanation": "Der Umgang mit eigenen Emotionen (Lampenfieber) und die Selbstorganisation bei der Vorbereitung sind Kernaspekte der Selbstkompetenz.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "Welche Kompetenz wird primär gefördert, wenn ein Azubi lernt, die Qualität seiner eigenen Arbeit mit einer Checkliste (Soll-Ist-Vergleich) zu prüfen?",
+    "answers": {
+      "A": "Fachkompetenz",
+      "B": "Methodenkompetenz",
+      "C": "Sozialkompetenz",
+      "D": "Führungskompetenz"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Kontrolle des eigenen Arbeitsprozesses mittels systematischer Instrumente (Checkliste) gehört zur Methodenkompetenz.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi erkennt von selbst, dass sein Arbeitsplatz unordentlich ist und die Arbeit behindert. Er räumt ohne Aufforderung auf. Dies zeigt:",
+    "answers": {
+      "A": "Selbstkompetenz",
+      "B": "Fachkompetenz",
+      "C": "Sozialkompetenz",
+      "D": "Methodenkompetenz"
+    },
+    "correct_answer": ["A"],
+    "explanation": "Eigeninitiative und Selbstorganisation sind wesentliche Merkmale der Selbstkompetenz.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Während eines Kundengesprächs merkt der Azubi, dass der Kunde unzufrieden ist, und reagiert empathisch. Welcher Bereich ist hier entscheidend?",
+    "answers": {
+      "A": "Fachkompetenz",
+      "B": "Sozialkompetenz",
+      "C": "Methodenkompetenz",
+      "D": "Rechenkompetenz"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Empathie und Kundenorientierung sind klassische Bestandteile der Sozialkompetenz.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Die Vermittlung von 'Lern- und Arbeitstechniken' zielt direkt auf welche Kompetenz ab?",
+    "answers": {
+      "A": "Fachkompetenz",
+      "B": "Selbstkompetenz",
+      "C": "Methodenkompetenz",
+      "D": "Sozialkompetenz"
+    },
+    "correct_answer": ["C"],
+    "explanation": "Methodenkompetenz bedeutet 'zu wissen, wie man lernt und arbeitet'.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender beherrscht die Programmiersprache Java perfekt, kann aber seine Ergebnisse im Teammeeting nicht verständlich erklären. Wo liegt das Defizit?",
+    "answers": {
+      "A": "In der Fachkompetenz",
+      "B": "In der Sozialkompetenz (Kommunikationsfähigkeit)",
+      "C": "In der Selbstkompetenz",
+      "D": "In der Methodenkompetenz"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das Fachwissen ist vorhanden (Fachkompetenz), aber die Übermittlung und Interaktion mit anderen (Sozialkompetenz) bereitet Probleme.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Warum ist 'Selbstkompetenz' für das lebenslange Lernen so wichtig?",
+    "answers": {
+      "A": "Weil man dadurch besser mit Werkzeugen umgehen kann.",
+      "B": "Weil sie die Motivation und die Bereitschaft zur Selbstentwicklung beinhaltet.",
+      "C": "Weil man dadurch schneller tippen kann.",
+      "D": "Sie ist dafür nicht wichtig, Fachwissen reicht aus."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Ohne die Fähigkeit zur Selbstreflexion und Eigenmotivation (Selbstkompetenz) findet keine dauerhafte Weiterentwicklung statt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "In einer Prüfungssimulation soll ein Azubi einen Fehler in einer Schaltung finden. Er geht systematisch nach einem Ausschlussprinzip vor. Dies ist:",
+    "answers": {
+      "A": "Fachkompetenz",
+      "B": "Methodenkompetenz",
+      "C": "Sozialkompetenz",
+      "D": "Zufall"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Systematisches Fehlersuchen ist eine methodische Vorgehensweise.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder fordert den Azubi auf, seine Arbeitsergebnisse vor der Gruppe zu präsentieren. Welche Kompetenzen werden dabei gleichzeitig angesprochen?",
+    "answers": {
+      "A": "Methodenkompetenz (Präsentationstechniken)",
+      "B": "Sozialkompetenz (Sprechen vor anderen)",
+      "C": "Fachkompetenz (Inhalt der Präsentation)",
+      "D": "Handwerkskompetenz"
+    },
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Eine Präsentation ist eine komplexe Aufgabe, die Wissen, Technik und Auftreten erfordert und somit fast alle Kompetenzbereiche berührt.",
+    "question_type": "multiple_choice"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "Ein Azubi hält sich strikt an die Datenschutzregeln des Betriebs, auch wenn es unbequem ist. Dies zeigt seine:",
+    "answers": {
+      "A": "Fachkompetenz",
+      "B": "Selbstkompetenz (Werte und Verantwortungsbewusstsein)",
+      "C": "Methodenkompetenz",
+      "D": "Führungskompetenz"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das Einhalten von Normen und Werten aus innerer Überzeugung gehört zur Selbstkompetenz.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Welche Kompetenzkombination ist am ehesten gefragt, wenn ein Azubi eine Gruppenarbeit moderieren soll?",
+    "answers": {
+      "A": "Fachkompetenz und Rechenstärke",
+      "B": "Sozialkompetenz und Methodenkompetenz",
+      "C": "Selbstkompetenz und Kraft",
+      "D": "Ausschließlich Fachkompetenz"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Moderation erfordert Methoden (Visualisierung, Fragetechniken) und soziale Fähigkeiten (Umgang mit Gruppendynamik).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 2,
+    "question": "Ein Auszubildender kann technische Zeichnungen fehlerfrei lesen und interpretieren. Das ist ein Beleg für:",
+    "answers": {
+      "A": "Methodenkompetenz",
+      "B": "Fachkompetenz",
+      "C": "Sozialkompetenz",
+      "D": "Selbstkompetenz"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das Verstehen von berufstypischen Unterlagen und Werkzeugen ist Kern der Fachkompetenz.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Das 'Modell der vollständigen Handlung' zielt darauf ab, alle Kompetenzbereiche zu fördern. Welche Reihenfolge ist korrekt?",
+    "answers": {
+      "A": "Durchführen - Kontrollieren - Informieren",
+      "B": "Informieren - Planen - Entscheiden - Ausführen - Kontrollieren - Bewerten",
+      "C": "Entscheiden - Ausführen - Informieren",
+      "D": "Planen - Ausführen - Vergessen"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nur der gesamte Zyklus (IPEKAB) stellt sicher, dass der Azubi umfassende Handlungskompetenz erwirbt.",
+    "question_type": "normal"
   }
-
-
   
 ];
 

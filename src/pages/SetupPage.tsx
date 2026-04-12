@@ -88,7 +88,7 @@ export default function SetupPage() {
               <CardTitle className="text-lg">Anzahl der Fragen: {count}</CardTitle>
             </CardHeader>
             <CardContent>
-              <Slider min={1} max={20} step={1} value={[count]} onValueChange={([v]) => setCount(v)} />
+              <Slider min={1} max={100} step={1} value={[count]} onValueChange={([v]) => setCount(v)} />
               <div className="flex justify-between text-xs text-muted-foreground mt-1">
                 <span>1</span><span>20</span>
               </div>
