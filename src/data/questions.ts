@@ -5190,6 +5190,496 @@ export const questions: Question[] = [
     "correct_answer": ["B"],
     "explanation": "Nach Ende der Ausbildung ist der Betrieb nicht zur Übernahme verpflichtet (außer durch Tarifvertrag). Wenn er übernimmt, können die Konditionen frei ausgehandelt werden.",
     "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender hat seine Abschlussprüfung nicht bestanden. Er möchte die Ausbildung fortsetzen, um die Wiederholungsprüfung abzulegen. Wie muss er rechtlich vorgehen?",
+    "answers": {
+      "A": "Er muss einen neuen Ausbildungsvertrag mit einer verkürzten Laufzeit abschließen.",
+      "B": "Er muss die Verlängerung gegenüber dem Ausbildenden verlangen; das Verhältnis verlängert sich dann bis zur nächstmöglichen Wiederholungsprüfung, maximal um ein Jahr.",
+      "C": "Das Ausbildungsverhältnis verlängert sich automatisch ohne sein Zutun, sobald die Kammer das Ergebnis übermittelt.",
+      "D": "Er kann keine Verlängerung verlangen, muss aber vom Betrieb als ungelernte Kraft bis zur Prüfung weiterbeschäftigt werden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 21 Abs. 3 BBiG verlängert sich das Verhältnis auf Verlangen des Azubis. Die Initiative muss vom Azubi ausgehen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Welche Regelung gilt laut BBiG für die Bereitstellung von Ausbildungsmitteln (z.B. Werkzeuge, Werkstoffe), die zur Ausbildung oder zum Ablegen von Prüfungen erforderlich sind?",
+    "answers": {
+      "A": "Der Azubi muss diese von seiner Vergütung selbst erwerben, damit er den Wert der Werkzeuge schätzen lernt.",
+      "B": "Der Ausbildende muss diese dem Azubi kostenlos zur Verfügung stellen.",
+      "C": "Die Kosten werden zwischen Betrieb und Azubi hälftig geteilt.",
+      "D": "Der Betrieb muss sie nur stellen, wenn der Azubi nachweisen kann, dass er bedürftig ist."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Laut § 14 Abs. 1 Nr. 3 BBiG ist der Ausbildende verpflichtet, die notwendigen Fachmittel kostenlos zur Verfügung zu stellen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb möchte im Ausbildungsvertrag vereinbaren, dass der Azubi nach erfolgreichem Abschluss für mindestens zwei Jahre im Unternehmen bleiben muss. Ist dies zulässig?",
+    "answers": {
+      "A": "Ja, das ist eine übliche Bindungsklausel zum Schutz der Investition des Betriebs.",
+      "B": "Nein, Vereinbarungen, die den Azubi für die Zeit nach der Ausbildung in der Wahl seiner beruflichen Tätigkeit beschränken, sind grundsätzlich nichtig.",
+      "C": "Nur wenn der Betrieb dem Azubi während der Ausbildung ein zusätzliches Stipendium gezahlt hat.",
+      "D": "Ja, sofern die Vereinbarung bereits vor Beginn der Ausbildung schriftlich fixiert wurde."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 12 BBiG sind solche Einschränkungen der Berufswahlfreiheit unzulässig. Eine Ausnahme gibt es nur, wenn die Vereinbarung erst innerhalb der letzten 6 Monate der Ausbildung für die Zeit danach getroffen wird.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Wann ist die Ausbildungsvergütung für den laufenden Monat spätestens an den Auszubildenden zu zahlen?",
+    "answers": {
+      "A": "Am 15. des Folgemonats.",
+      "B": "Spätestens am letzten Kalendertag des laufenden Monats.",
+      "C": "Am ersten Arbeitstag des neuen Monats.",
+      "D": "Das kann der Betrieb im Rahmen der Vertragsfreiheit völlig frei entscheiden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "§ 18 Abs. 2 BBiG schreibt vor, dass die Vergütung spätestens am letzten Kalendertag des Monats fällig wird.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder wurde wegen eines schweren Verstoßes gegen das Betäubungsmittelgesetz zu einer Haftstrafe verurteilt. Welche rechtliche Folge hat dies für seine Ausbildertätigkeit?",
+    "answers": {
+      "A": "Keine, solange er seine fachliche Eignung noch besitzt.",
+      "B": "Er verliert die persönliche Eignung und darf keine Jugendlichen mehr ausbilden.",
+      "C": "Er darf nur noch unter Aufsicht eines anderen Ausbilders tätig sein.",
+      "D": "Die Kammer muss entscheiden, ob er charakterlich noch tragbar ist."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 29 BBiG besitzt die persönliche Eignung nicht, wer gegen bestimmte Gesetze (u.a. BtMG) verstoßen hat oder für mindestens ein Jahr ins Gefängnis muss.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi möchte nach der Probezeit kündigen, weil er bemerkt hat, dass er lieber ein Studium aufnehmen möchte. Welche Frist muss er einhalten?",
+    "answers": {
+      "A": "Er kann nur fristlos kündigen.",
+      "B": "Er muss eine Frist von vier Wochen einhalten.",
+      "C": "Er muss eine Frist von drei Monaten einhalten.",
+      "D": "Er kann gar nicht kündigen, da die Probezeit vorbei ist."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 22 Abs. 2 Nr. 2 BBiG kann der Azubi mit einer Frist von 4 Wochen kündigen, wenn er die Ausbildung aufgeben oder den Beruf wechseln will.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 2,
+    "question": "Was passiert mit dem Ausbildungsverhältnis, wenn der Azubi die Abschlussprüfung vor Ablauf der im Vertrag genannten Zeit besteht?",
+    "answers": {
+      "A": "Es läuft bis zum vertraglich vereinbarten Datum weiter.",
+      "B": "Es endet mit Bekanntgabe des Ergebnisses durch den Prüfungsausschuss.",
+      "C": "Es endet am letzten Tag des entsprechenden Monats.",
+      "D": "Es wandelt sich automatisch in ein Arbeitsverhältnis um, außer der Betrieb kündigt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 21 Abs. 2 BBiG endet die Ausbildung mit dem Bestehen der Prüfung am Tag der Ergebnisfeststellung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Darf ein Ausbilder dem Azubi Aufgaben übertragen, die nicht dem Ausbildungszweck dienen (z.B. das private Auto des Chefs waschen)?",
+    "answers": {
+      "A": "Ja, Azubis müssen alle Anweisungen befolgen.",
+      "B": "Nur wenn der Azubi dafür eine extra Vergütung erhält.",
+      "C": "Nein, es dürfen nur Aufgaben übertragen werden, die dem Ausbildungszweck dienen und der körperlichen Kraft angemessen sind.",
+      "D": "Nur in Ausnahmefällen, wenn gerade keine andere Arbeit da ist."
+    },
+    "correct_answer": ["C"],
+    "explanation": "§ 14 Abs. 2 BBiG verbietet ausbildungsfremde Verrichtungen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 2,
+    "question": "Wer ist rechtlich dafür verantwortlich, den Ausbildungsvertrag bei der zuständigen Stelle (z.B. IHK) zur Eintragung anzumelden?",
+    "answers": {
+      "A": "Der Auszubildende.",
+      "B": "Die Berufsschule.",
+      "C": "Der Ausbildende (Betriebsinhaber).",
+      "D": "Der gesetzliche Vertreter des Azubis."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Nach § 36 BBiG hat der Ausbildende die Eintragung unverzüglich nach Abschluss des Vertrags zu beantragen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi ist 19 Jahre alt. Muss der Ausbildende ihn für die Teilnahme am Berufsschulunterricht freistellen?",
+    "answers": {
+      "A": "Nein, Volljährige müssen Schule und Betrieb in ihrer Freizeit koordinieren.",
+      "B": "Ja, der Ausbildende hat den Azubi für die Teilnahme am Berufsschulunterricht freizustellen.",
+      "C": "Nur wenn der Azubi gute Noten hat.",
+      "D": "Nur für die Kernfächer, nicht für Sport oder Religion."
+    },
+    "correct_answer": ["B"],
+    "explanation": "§ 15 BBiG verpflichtet den Ausbildenden zur Freistellung für den Berufsschulunterricht, unabhängig vom Alter des Azubis.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi verlangt am Ende seiner Ausbildung ein Zeugnis. Er möchte, dass auch Angaben über seine Führung und Leistung enthalten sind. Wie nennt man dieses Zeugnis?",
+    "answers": {
+      "A": "Einfaches Zeugnis.",
+      "B": "Qualifiziertes Zeugnis.",
+      "C": "Zwischenzeugnis.",
+      "D": "Berufsschulzeugnis."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Ein Zeugnis, das über Art und Dauer hinaus auch Leistung und Führung bewertet, ist laut § 16 BBiG ein qualifiziertes Zeugnis.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 2,
+    "question": "Muss ein Ausbildungsvertrag zwingend schriftlich niedergelegt werden?",
+    "answers": {
+      "A": "Nein, ein Handschlag reicht rechtlich aus.",
+      "B": "Ja, die wesentlichen Inhalte müssen unverzüglich nach Abschluss, spätestens vor Beginn der Ausbildung, schriftlich niedergelegt werden.",
+      "C": "Nur wenn der Azubi minderjährig ist.",
+      "D": "Schriftform ist nur für tarifgebundene Betriebe Pflicht."
+    },
+    "correct_answer": ["B"],
+    "explanation": "§ 11 BBiG schreibt die Schriftform der Vertragsniederschrift zwingend vor.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Die Ausbildungsvergütung muss laut BBiG 'angemessen' sein. Was bedeutet das konkret für die Staffelung über die Jahre?",
+    "answers": {
+      "A": "Die Vergütung bleibt über alle Jahre gleich, da der Azubi am Anfang mehr lernt und am Ende mehr arbeitet.",
+      "B": "Die Vergütung muss mit fortschreitender Ausbildung, mindestens jährlich, ansteigen.",
+      "C": "Die Vergütung sinkt, da der Lernaufwand am Ende geringer ist.",
+      "D": "Die Höhe ist völlig frei verhandelbar, solange sie über dem Bürgergeld-Niveau liegt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 17 BBiG muss die Vergütung jährlich ansteigen, um dem wachsenden Beitrag des Azubis zum Betriebserfolg Rechnung zu tragen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Darf die Führung des Ausbildungsnachweises (Berichtsheft) am Arbeitsplatz während der Arbeitszeit verlangt werden?",
+    "answers": {
+      "A": "Nein, das ist reine Freizeitbeschäftigung des Azubis.",
+      "B": "Ja, der Ausbildende hat dem Azubi Gelegenheit zu geben, den Nachweis während der Ausbildungszeit zu führen.",
+      "C": "Nur wenn der Betrieb keine Aufträge hat.",
+      "D": "Nur in der Berufsschule, nicht im Betrieb."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Laut § 13 Nr. 7 BBiG gehört das Führen des Nachweises zu den Pflichten des Azubis, und der Betrieb muss ihm dafür laut § 14 die Zeit im Betrieb einräumen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Welche Voraussetzung muss ein Azubi erfüllen, um zur Abschlussprüfung zugelassen zu werden?",
+    "answers": {
+      "A": "Er muss die Zwischenprüfung mit mindestens 'befriedigend' bestanden haben.",
+      "B": "Er muss die Ausbildungszeit zurückgelegt haben und die vorgeschriebenen Ausbildungsnachweise (Berichtshefte) ordnungsgemäß geführt haben.",
+      "C": "Er muss mindestens 18 Jahre alt sein.",
+      "D": "Er muss eine Empfehlung der Berufsschule vorlegen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Zulassungsvoraussetzungen sind in § 43 BBiG geregelt: Ende der Ausbildungszeit, Teilnahme an Zwischenprüfungen und geführte Berichtshefte.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Kann ein Ausbildungsverhältnis nach der Probezeit vom Ausbildenden (Betrieb) ordentlich gekündigt werden?",
+    "answers": {
+      "A": "Ja, mit einer Frist von 4 Wochen.",
+      "B": "Ja, wenn der Betrieb weniger Aufträge hat.",
+      "C": "Nein, eine ordentliche Kündigung durch den Ausbildenden ist nach der Probezeit ausgeschlossen.",
+      "D": "Nur wenn der Azubi einverstanden ist."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Nach § 22 Abs. 2 BBiG kann nach der Probezeit nur noch aus einem wichtigen Grund (fristlos) gekündigt werden. Eine ordentliche Kündigung durch den Betrieb gibt es nicht mehr.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Was versteht man unter der 'persönlichen Eignung' eines Ausbilders?",
+    "answers": {
+      "A": "Er hat die erforderlichen beruflichen Fertigkeiten und Kenntnisse.",
+      "B": "Er ist nicht wegen schwerer Straftaten vorbestraft und hat keine Kinder oder Jugendlichen gefährdet.",
+      "C": "Er hat den AdA-Schein erfolgreich bestanden.",
+      "D": "Er ist körperlich fit genug für den Beruf."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die persönliche Eignung (§ 29 BBiG) bezieht sich auf die moralische und rechtliche Unbedenklichkeit, während die fachliche Eignung (§ 30 BBiG) die Qualifikation betrifft.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Welche Pflicht hat der Azubi im Hinblick auf Betriebsgeheimnisse?",
+    "answers": {
+      "A": "Keine, da er nur lernt und keine Verantwortung trägt.",
+      "B": "Er ist verpflichtet, über Betriebs- und Geschäftsgeheimnisse Stillschweigen zu wahren.",
+      "C": "Er darf Geheimnisse nur mit seinen Mitschülern teilen.",
+      "D": "Die Schweigepflicht beginnt erst nach Ende der Ausbildung."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Verschwiegenheitspflicht gehört zu den gesetzlichen Grundpflichten des Azubis gemäß § 13 Nr. 6 BBiG.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi ist besonders begabt und erbringt überdurchschnittliche Leistungen. Kann er die Abschlussprüfung vorzeitig ablegen?",
+    "answers": {
+      "A": "Nein, die Zeit im Vertrag ist unumstößlich.",
+      "B": "Ja, auf Antrag kann er vorzeitig zugelassen werden, wenn seine Leistungen dies rechtfertigen.",
+      "C": "Nur wenn der Betrieb ihm die restlichen Monate erlässt.",
+      "D": "Nur wenn er mindestens 21 Jahre alt ist."
+    },
+    "correct_answer": ["B"],
+    "explanation": "§ 45 Abs. 1 BBiG erlaubt die vorzeitige Zulassung bei überdurchschnittlichen Leistungen in Betrieb und Schule.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Muss ein Auszubildender für die Teilnahme an Prüfungen vom Betrieb freigestellt werden?",
+    "answers": {
+      "A": "Ja, und die Vergütung muss für diese Zeit weitergezahlt werden.",
+      "B": "Ja, aber er muss die Zeit nacharbeiten.",
+      "C": "Nein, er muss dafür Urlaub nehmen.",
+      "D": "Nur wenn die Prüfung während der regulären Arbeitszeit stattfindet."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Nach § 15 BBiG ist der Ausbildende zur Freistellung für Prüfungen bei Fortzahlung der Vergütung verpflichtet.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Die Geschäftsleitung möchte einen 16-jährigen Auszubildenden während einer Messewoche täglich 10 Stunden einsetzen, da 'viel zu tun ist'. Wie reagieren Sie als verantwortlicher Ausbilder?",
+    "answers": {
+      "A": "Das ist zulässig, sofern die Mehrarbeit innerhalb der nächsten drei Wochen durch Freizeit ausgeglichen wird.",
+      "B": "Das ist unzulässig. Jugendliche dürfen grundsätzlich nicht mehr als 8 Stunden täglich und nicht mehr als 40 Stunden wöchentlich beschäftigt werden.",
+      "C": "Das ist möglich, wenn der Auszubildende eine schriftliche Einverständniserklärung unterschreibt.",
+      "D": "Das ist nur zulässig, wenn der Auszubildende am nächsten Tag erst später zur Arbeit kommen muss."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß JArbSchG liegt die Höchstgrenze für Jugendliche bei 8 Stunden täglich. Eine Ausweitung auf 8,5 Stunden ist nur möglich, wenn die Zeit an anderen Tagen derselben Woche ausgeglichen wird.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Fachausbilder in der Werkstatt meint, es reiche aus, wenn sein 17-jähriger Azubi nach 5 Stunden Arbeit eine Pause von 15 Minuten macht. Was korrigieren Sie?",
+    "answers": {
+      "A": "Die Pause ist ausreichend, da der Azubi noch keine 6 Stunden gearbeitet hat.",
+      "B": "Jugendliche müssen bei einer Arbeitszeit von mehr als 4,5 bis 6 Stunden mindestens 30 Minuten Ruhepause erhalten.",
+      "C": "Jugendliche benötigen grundsätzlich nach jeder zweiten Stunde eine Pause von 10 Minuten.",
+      "D": "Die Pausenzeit ist erst ab einer täglichen Arbeitszeit von 8 Stunden gesetzlich vorgeschrieben."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das JArbSchG schreibt bei einer Arbeitszeit von 4,5 bis 6 Stunden eine Pause von 30 Minuten vor, bei mehr als 6 Stunden sind es 60 Minuten.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein minderjähriger Auszubildender hat an einem Berufsschultag mehr als 5 Unterrichtsstunden (à 45 Minuten). Der Fachbereich fordert, dass er danach noch für zwei Stunden in den Betrieb kommt. Wie ist die Rechtslage?",
+    "answers": {
+      "A": "Der Auszubildende muss in den Betrieb kommen, wenn die Fahrzeit zumutbar ist.",
+      "B": "Der Auszubildende darf nach einem Berufsschultag mit mehr als 5 Unterrichtsstunden einmal in der Woche nicht mehr im Betrieb beschäftigt werden.",
+      "C": "Volljährige und Minderjährige müssen nach der Schule immer in den Betrieb, wenn die tägliche Sollarbeitszeit noch nicht erreicht ist.",
+      "D": "Das entscheidet der Ausbilder je nach aktuellem Arbeitsaufwand."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Jugendliche dürfen einmal pro Woche bei einem langen Schultag (mehr als 5 Stunden) nicht mehr beschäftigt werden; dieser Tag wird mit der durchschnittlichen täglichen Arbeitszeit angerechnet.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Die Personalabteilung berechnet den Urlaubsanspruch für einen Azubi, der zu Beginn des Kalenderjahres noch 16 Jahre alt ist. Wie hoch ist der gesetzliche Mindesturlaub laut JArbSchG?",
+    "answers": {
+      "A": "Mindestens 25 Werktage.",
+      "B": "Mindestens 27 Werktage.",
+      "C": "Mindestens 30 Werktage.",
+      "D": "Mindestens 24 Werktage, wie bei Erwachsenen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das Gesetz staffelt den Urlaub nach Alter: Unter 16 Jahre (30 Tage), unter 17 Jahre (27 Tage), unter 18 Jahre (25 Tage). Maßgeblich ist das Alter zu Beginn des Kalenderjahres.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 16-jähriger Auszubildender soll am Samstag im Ladenverkauf aushelfen. Was müssen Sie hinsichtlich der 5-Tage-Woche beachten?",
+    "answers": {
+      "A": "Samstagsarbeit ist für Jugendliche generell verboten.",
+      "B": "Wenn er am Samstag arbeitet, muss ihm in derselben Woche ein anderer Tag als Ersatzruhetag freigegeben werden.",
+      "C": "Er darf Samstag arbeiten, erhält dafür aber einfach 25% mehr Vergütung ohne Freizeitausgleich.",
+      "D": "Jugendliche dürfen ohne Ersatzruhetag an 6 Tagen pro Woche beschäftigt werden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Jugendliche sollen nur an 5 Tagen in der Woche beschäftigt werden. Die beiden Ruhetage sollen nach Möglichkeit aufeinanderfolgen (Wochenende). Bei Samstagsarbeit ist ein Ersatzruhetag zwingend.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Ab welcher Uhrzeit beginnt für die meisten Jugendlichen laut Gesetz die Nachtruhe, in der sie nicht beschäftigt werden dürfen?",
+    "answers": {
+      "A": "Ab 18:00 Uhr.",
+      "B": "Ab 20:00 Uhr.",
+      "C": "Ab 22:00 Uhr.",
+      "D": "Ab Mitternacht."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Jugendliche dürfen grundsätzlich nur in der Zeit von 6 bis 20 Uhr beschäftigt werden. Es gibt Ausnahmen für bestimmte Branchen (z.B. Gastronomie oder Bäckereien).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender steht kurz vor seiner Abschlussprüfung. Er ist 17 Jahre alt. Muss er am Tag direkt vor der schriftlichen Prüfung im Betrieb arbeiten?",
+    "answers": {
+      "A": "Ja, er kann sich nach der Arbeit zu Hause vorbereiten.",
+      "B": "Nein, der Arbeitgeber muss ihn am Arbeitstag, der der schriftlichen Abschlussprüfung unmittelbar vorgeht, freistellen.",
+      "C": "Nur wenn er für diesen Tag Urlaub nimmt.",
+      "D": "Das gilt nur, wenn die Prüfung länger als 5 Stunden dauert."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Arbeitgeber ist verpflichtet, Jugendliche am Tag vor der schriftlichen Prüfung freizustellen. Die Vergütung muss weitergezahlt werden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Bewerber für einen Ausbildungsplatz ist 16 Jahre alt. Welche medizinische Voraussetzung muss laut JArbSchG erfüllt sein, bevor er die Ausbildung beginnen darf?",
+    "answers": {
+      "A": "Er muss einen aktuellen Erste-Hilfe-Kurs vorweisen.",
+      "B": "Er muss innerhalb der letzten 14 Monate von einem Arzt untersucht worden sein (Erstuntersuchung) und die Bescheinigung dem Arbeitgeber vorlegen.",
+      "C": "Er muss lediglich eine Kopie seines Impfpasses abgeben.",
+      "D": "Medizinische Untersuchungen sind nur in Pflegeberufen vorgeschrieben."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach dem JArbSchG darf ein Jugendlicher nur beschäftigt werden, wenn er dem Arbeitgeber eine Bescheinigung über eine ärztliche Erstuntersuchung vorlegt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ihr Betrieb möchte einen 17-jährigen Azubi im Akkord an einer Maschine einsetzen, um die Stückzahlen zu erhöhen. Wie beurteilen Sie das rechtlich?",
+    "answers": {
+      "A": "Das ist zulässig, wenn der Azubi besonders geschickt ist.",
+      "B": "Akkordarbeit und sonstige tempoabhängige Arbeiten sind für Jugendliche verboten.",
+      "C": "Das ist nur erlaubt, wenn ein erfahrener Geselle danebensteht.",
+      "D": "Akkord ist erlaubt, aber nur für maximal 4 Stunden am Tag."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Jugendliche dürfen nicht mit Akkordarbeit oder tempoabhängigen Arbeiten beschäftigt werden, da dies ihre Gesundheit und Sicherheit gefährden könnte.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein minderjähriger Azubi arbeitet in Ihrer Bäckerei. Die Backstube möchte, dass er bereits um 04:00 Uhr morgens beginnt. Ist das erlaubt?",
+    "answers": {
+      "A": "Nein, vor 06:00 Uhr ist keine Arbeit für Jugendliche erlaubt.",
+      "B": "Ja, in Bäckereien dürfen Jugendliche über 16 Jahre bereits ab 04:00 Uhr morgens beschäftigt werden.",
+      "C": "Nur mit einer Sondergenehmigung des Gewerbeaufsichtsamtes.",
+      "D": "Ja, aber nur wenn er dafür um 10:00 Uhr Feierabend macht."
+    },
+    "correct_answer": ["B"],
+    "explanation": "In Bäckereien und Konditoreien dürfen Jugendliche über 16 bereits ab 04:00 Uhr morgens eingesetzt werden (Ausnahmeregelung zur Nachtruhe).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Nach einem Jahr Ausbildung steht bei einem minderjährigen Azubi die erste Nachuntersuchung an. Der Azubi meint, das sei seine Privatsache. Was sagen Sie?",
+    "answers": {
+      "A": "Er hat recht, es ist seine Freizeit.",
+      "B": "Er muss die Bescheinigung über die Nachuntersuchung dem Arbeitgeber vorlegen. Ohne diese darf er nach Ablauf von 14 Monaten nicht weiterbeschäftigt werden.",
+      "C": "Die Untersuchung ist nur fällig, wenn er krank war.",
+      "D": "Der Arbeitgeber kann die Untersuchung durch eine interne Befragung ersetzen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Ein Jahr nach Aufnahme der ersten Beschäftigung muss eine Nachuntersuchung erfolgen. Der Arbeitgeber ist verpflichtet, die Bescheinigung einzufordern.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Wie lange muss die ununterbrochene Freizeit zwischen zwei Arbeitstagen bei Jugendlichen mindestens sein?",
+    "answers": {
+      "A": "Mindestens 10 Stunden.",
+      "B": "Mindestens 11 Stunden.",
+      "C": "Mindestens 12 Stunden.",
+      "D": "Mindestens 8 Stunden."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Nach Beendigung der täglichen Arbeitszeit müssen Jugendliche eine ununterbrochene Freizeit von mindestens 12 Stunden haben.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "In welcher Zeitspanne soll der Urlaub für Jugendliche laut Gesetz vorzugsweise gewährt werden?",
+    "answers": {
+      "A": "Immer im Dezember.",
+      "B": "Während der Berufsschulferien.",
+      "C": "Das ganze Jahr über gleichmäßig verteilt.",
+      "D": "Nur nach bestandener Zwischenprüfung."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Urlaub soll in der Zeit der Berufsschulferien gegeben werden. Geschieht dies nicht, muss für jeden Berufsschultag, an dem während des Urlaubs Unterricht stattfindet, ein weiterer Urlaubstag gewährt werden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 16-jähriger Auszubildender im Hotelgewerbe soll am Sonntag arbeiten. Welche Bedingung muss erfüllt sein?",
+    "answers": {
+      "A": "Er muss am Montag darauf 50% Zuschlag erhalten.",
+      "B": "Jeder zweite Sonntag soll arbeitsfrei bleiben, mindestens aber müssen zwei Sonntage im Monat beschäftigungsfrei sein.",
+      "C": "Sonntagsarbeit ist für Jugendliche nur im Notfall erlaubt.",
+      "D": "Er darf jeden Sonntag arbeiten, wenn er dafür unter der Woche frei hat."
+    },
+    "correct_answer": ["B"],
+    "explanation": "In Branchen, in denen Sonntagsarbeit erlaubt ist (wie Gastronomie), müssen für Jugendliche mindestens zwei Sonntage im Monat frei bleiben.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Wer überwacht im Betrieb die Einhaltung der Vorschriften des Jugendarbeitsschutzgesetzes?",
+    "answers": {
+      "A": "Ausschließlich die Geschäftsleitung.",
+      "B": "Der Betriebsrat und die Jugend- und Auszubildendenvertretung (JAV).",
+      "C": "Die örtliche Polizei.",
+      "D": "Das Finanzamt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Es gehört zu den Aufgaben der JAV und des Betriebsrats, die Einhaltung der zugunsten der Arbeitnehmer geltenden Gesetze (wie das JArbSchG) zu überwachen.",
+    "question_type": "normal"
   }
   
 ];
