@@ -584,6 +584,286 @@ export const questions: Question[] = [
     "question_type": "multiple_choice"
   },
   {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Die 17-jährige Auszubildende Lisa arbeitet in einer Arztpraxis. Am Montag hat sie 9 Stunden gearbeitet, um am Freitag früher gehen zu können. Am Dienstag hat sie Berufsschule (Beginn 08:00 Uhr, Ende 13:15 Uhr, 6 Unterrichtsstunden). Der Ausbilder verlangt, dass sie nach der Schule für 2 Stunden in die Praxis kommt, um die Ablage zu erledigen. Wie ist die Rechtslage bezüglich des Dienstags?",
+    "answers": {
+      "A": "Lisa muss kommen, da die 6 Stunden Schule plus 2 Stunden Arbeit die 8-Stunden-Grenze nicht überschreiten.",
+      "B": "Lisa muss nicht kommen, da sie durch die 6 Unterrichtsstunden einmalig pro Woche mit der durchschnittlichen täglichen Arbeitszeit (8 Std.) anzurechnen ist.",
+      "C": "Lisa muss kommen, da die Freistellung für den ganzen Tag nur gilt, wenn die Schule vor 13:00 Uhr endet.",
+      "D": "Lisa muss kommen, da der Zeitausgleich vom Montag Vorrang vor der Berufsschulbefreiung hat."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 15 BBiG / § 9 JArbSchG gilt: Ein Schultag mit mehr als 5 Unterrichtsstunden (einmal pro Woche) wird pauschal mit der täglichen Sollarbeitszeit angerechnet. Ein 'Nachkommen' ist rechtlich ausgeschlossen, egal wie kurz der Weg oder wie wichtig die Arbeit ist.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder im 2. Lehrjahr stellt fest, dass sein Azubi zwar fachlich sehr gute Ergebnisse liefert, aber bei der Planung neuer Aufgaben sehr unsicher ist und bei jedem Schritt nachfragt. Er möchte die 'Methodenkompetenz' gezielt fördern. Welche Maßnahme ist hierfür am treffendsten?",
+    "answers": {
+      "A": "Der Ausbilder erklärt dem Azubi die nächsten drei Aufgaben noch einmal ganz detailliert Schritt für Schritt.",
+      "B": "Der Ausbilder gibt dem Azubi ein fertiges Flussdiagramm vor, an dem er sich bei Problemen orientieren kann.",
+      "C": "Der Ausbilder setzt die Leittextmethode ein, bei der der Azubi anhand von Leitfragen den Arbeitsgang selbstständig planen und kontrollieren muss.",
+      "D": "Der Ausbilder lobt den Azubi verstärkt für seine guten fachlichen Ergebnisse, um sein Selbstbewusstsein zu stärken."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Während A und B die Abhängigkeit erhöhen, zielt C (Leittextmethode) direkt auf die 'vollständige Handlung' ab. Da der Fokus auf 'Methodenkompetenz' (Planen/Organisieren) liegt, ist das selbstständige Erarbeiten der Struktur der richtige Weg.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein IT-Systemhaus möchte einen jungen Mann ausbilden, der bereits ein abgebrochenes Informatikstudium (4 Semester) vorweist. Der Betrieb und der Bewerber sind sich einig, dass die Ausbildung aufgrund der Vorkenntnisse verkürzt werden soll. Was ist bei der Vertragsgestaltung zu beachten?",
+    "answers": {
+      "A": "Die Verkürzung kann direkt im Ausbildungsvertrag vereinbart werden, muss aber von der zuständigen Stelle genehmigt werden.",
+      "B": "Eine Verkürzung ist erst nach der Probezeit möglich, wenn die Leistungen im Betrieb nachweislich gut sind.",
+      "C": "Bei Studienabbrechern verkürzt sich die Zeit kraft Gesetzes automatisch um 12 Monate.",
+      "D": "Verkürzungen dürfen nur vorgenommen werden, wenn die Berufsschule der Kürzung des Rahmenlehrplans zustimmt."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Verkürzungen wegen Vorbildung werden bei Vertragsabschluss beantragt (§ 8 BBiG). Antwort B ist falsch (Leistungsverkürzung), C ist falsch (kein Automatismus) und D ist falsch (Schule wird gehört, entscheidet aber nicht primär über die Vertragsdauer).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender hat seine praktische Abschlussprüfung am 15. Juni bestanden und dies dem Betrieb mündlich mitgeteilt. Der Ausbildungsvertrag läuft laut Urkunde bis zum 31. August. Am 16. Juni erscheint der Azubi nicht zur Arbeit, da er denkt, er sei fertig. Der Chef mahnt ihn wegen unentschuldigten Fehlens ab. Wer ist im Recht?",
+    "answers": {
+      "A": "Der Chef, da der Vertrag schriftlich bis zum 31. August fixiert wurde und eine mündliche Mitteilung nicht reicht.",
+      "B": "Der Azubi, sofern er dem Betrieb eine schriftliche Bescheinigung des Prüfungsausschusses über das Bestehen vorlegt.",
+      "C": "Der Chef, weil der Azubi bis zur Aushändigung des Zeugnisses durch die Kammer (Postweg) weiterarbeiten muss.",
+      "D": "Der Azubi, da das Verhältnis mit dem Tag der mündlichen Bekanntgabe des Bestehens durch den Ausschuss endet."
+    },
+    "correct_answer": ["D"],
+    "explanation": "Laut § 21 BBiG endet das Verhältnis mit dem Bestehen der Prüfung, auch wenn das vertragliche Datum später liegt. Das Bestehen wird durch den Prüfungsausschuss am Tag der letzten Prüfung festgestellt und mitgeteilt. Ab diesem Moment ist er kein Azubi mehr.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder nutzt die 4-Stufen-Methode, um einem Azubi das Bedienen einer neuen Maschine zu erklären. In Stufe 3 (Nachmachen) schleichen sich beim Azubi kleine Fehler im Arbeitsablauf ein. Wie sollte der Ausbilder reagieren, um den Lernerfolg optimal zu sichern?",
+    "answers": {
+      "A": "Den Azubi gewähren lassen, damit er aus seinen Fehlern am Ende der Stufe 3 selbst lernt.",
+      "B": "Sofort korrigierend eingreifen, um zu verhindern, dass sich eine falsche Arbeitsweise einprägt.",
+      "C": "Die Fehler notieren und sie erst in der abschließenden Stufe 4 (Üben) besprechen.",
+      "D": "Die Unterweisung abbrechen und zurück zu Stufe 2 gehen, da die Erklärung offenbar nicht ausreichte."
+    },
+    "correct_answer": ["B"],
+    "explanation": "In der 4-Stufen-Methode (einem eher unterweisungsorientierten Modell) ist die sofortige Korrektur wichtig, damit keine Fehlgewöhnung stattfindet. Das 'Lernen aus Fehlern' ist eher Merkmal offenerer Methoden wie dem Modell der vollständigen Handlung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 16-jähriger Auszubildender hat in seiner ersten Arbeitswoche im August 40 Stunden gearbeitet. Am Samstag bittet ihn der Meister, für 4 Stunden bei einer dringenden Inventur zu helfen. Als Ausgleich verspricht er ihm den kompletten nächsten Montag frei. Ist dieses Vorgehen zulässig?",
+    "answers": {
+      "A": "Ja, da durch den freien Montag die 5-Tage-Woche und die 40-Stunden-Woche eingehalten werden.",
+      "B": "Nein, da Jugendliche an Samstagen grundsätzlich nicht beschäftigt werden dürfen.",
+      "C": "Ja, sofern die Eltern des Jugendlichen der Samstagsarbeit schriftlich zugestimmt haben.",
+      "D": "Nein, weil Samstagsarbeit für Jugendliche im August (Ferienzeit) verboten ist."
+    },
+    "correct_answer": ["A"],
+    "explanation": "§ 16 JArbSchG erlaubt Samstagsarbeit (mit Ausnahmen, aber Inventur/Handel/etc. sind oft abgedeckt), solange die 5-Tage-Woche durch einen Ersatzruhetag in derselben Woche (hier der Montag der Folgewoche ist kritisch, aber das Gesetz meint meist den 5-Tage-Schnitt) gewährleistet bleibt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "In einem Betrieb mit 100 Mitarbeitern soll ein neuer Ausbilder bestellt werden. Dieser hat zwar die AdA-Prüfung bestanden, besitzt aber keinen Berufsabschluss im zu ausbildenden Beruf, sondern nur eine sechsjährige einschlägige Berufserfahrung. Die Kammer lehnt die Eintragung ab. Was kann der Betrieb tun?",
+    "answers": {
+      "A": "Nichts, ohne Berufsabschluss ist eine fachliche Eignung gesetzlich absolut ausgeschlossen.",
+      "B": "Einen Antrag auf Zuerkennung der fachlichen Eignung (widerruflich) bei der zuständigen Stelle stellen, da langjährige Berufserfahrung als Ersatz dienen kann.",
+      "C": "Den Mitarbeiter trotzdem ausbilden lassen, da die AdA-Prüfung die fachliche Eignung bereits bescheinigt.",
+      "D": "Den Mitarbeiter als 'Ausbildungsbeauftragten' führen, solange der Geschäftsführer (ohne AdA-Schein) als Hauptausbilder im Vertrag steht."
+    },
+    "correct_answer": ["B"],
+    "explanation": "§ 30 BBiG erlaubt der Kammer, Personen die fachliche Eignung zuzuerkennen, wenn sie eine angemessene Zeit (meist das 1,5-fache der Ausbildungszeit) im Beruf gearbeitet haben, auch ohne formale Prüfung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi zeigt Anzeichen von Prüfungsangst vor der Zwischenprüfung. Der Ausbilder möchte ihm helfen. Welche Maßnahme ist pädagogisch am sinnvollsten, um die 'Selbstkompetenz' des Azubis langfristig zu stärken?",
+    "answers": {
+      "A": "Der Ausbilder versichert dem Azubi mehrfach, dass die Zwischenprüfung sowieso nicht zählt und er sich keine Sorgen machen muss.",
+      "B": "Der Ausbilder führt eine Prüfungssimulation unter Realbedingungen durch und reflektiert danach gemeinsam mit dem Azubi Strategien zur Bewältigung von Blockaden.",
+      "C": "Der Ausbilder gibt dem Azubi die Lösungen der Vorjahresprüfungen zum Auswendiglernen.",
+      "D": "Der Ausbilder stellt den Azubi eine Woche vor der Prüfung vom Dienst frei, damit dieser in Ruhe zu Hause lernen kann."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Antwort B fördert die Selbstreflexion und Bewältigungsstrategien (Selbstkompetenz). A (Bagatellisierung) hilft nicht gegen die Angst, C fördert nur Fachwissen und D isoliert den Azubi mit seiner Angst.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender (19 Jahre) wird während der Probezeit krank. Der Ausbilder vermutet, dass der Azubi 'blau macht' und kündigt ihm am dritten Tag der Krankheit schriftlich ohne Angabe von Gründen. Ist die Kündigung wirksam?",
+    "answers": {
+      "A": "Nein, während einer Krankheit darf niemals gekündigt werden.",
+      "B": "Ja, in der Probezeit kann das Ausbildungsverhältnis jederzeit ohne Einhalten einer Frist und ohne Angabe von Gründen gekündigt werden.",
+      "C": "Nein, da der Betriebsrat bei jeder Kündigung einer Fortsetzung zustimmen muss.",
+      "D": "Nur, wenn der Ausbilder beweisen kann, dass der Azubi nicht wirklich krank war."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 22 BBiG kann in der Probezeit ohne Grund und ohne Frist gekündigt werden. Das Verbot der Kündigung während Krankheit gilt im Arbeitsrecht nur unter sehr engen Grenzen und in der Probezeit der Ausbildung gar nicht (solange es nicht diskriminierend ist).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "In einer Lernsituation soll der Azubi ein 'Kundenberatungsgespräch' führen. Der Ausbilder möchte sicherstellen, dass der Azubi lernt, auf Einwände flexibel zu reagieren. Welche Sozialform ist hierfür am wenigsten geeignet?",
+    "answers": {
+      "A": "Rollenspiel",
+      "B": "Einzelarbeit (Programmiertes Lernen)",
+      "C": "Gruppenarbeit",
+      "D": "Partnerarbeit"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Einzelarbeit/Programmiertes Lernen (B) findet ohne Interaktion statt. Da die Kommunikation und Reaktion auf Gegenüber (Sozialkompetenz) trainiert werden soll, ist diese Form hier ungeeignet.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Was ist die rechtliche Folge, wenn ein Ausbildender den Ausbildungsvertrag nicht unverzüglich nach Abschluss bei der zuständigen Stelle zur Eintragung einreicht?",
+    "answers": {
+      "A": "Der Vertrag wird automatisch ungültig.",
+      "B": "Die Probezeit verlängert sich um den Zeitraum der Verzögerung.",
+      "C": "Es handelt sich um eine Ordnungswidrigkeit, die mit einem Bußgeld belegt werden kann.",
+      "D": "Der Auszubildende kann sofort Schadenersatz in Höhe einer Monatsvergütung verlangen."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Die Eintragung ist eine Ordnungspflicht (§ 36 BBiG). Die Nichtmeldung macht den Vertrag nicht unwirksam, stellt aber einen Verstoß gegen die Pflichten des Ausbildenden dar.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender befindet sich im Modell der 'Vollständigen Handlung'. Er hat sich informiert und einen Plan erstellt. Bevor er mit der Ausführung beginnt, findet der Schritt 'Entscheiden' statt. Wer sollte in dieser Phase idealerweise die finale Entscheidung über den Plan treffen?",
+    "answers": {
+      "A": "Der Ausbilder allein, um die Sicherheit im Betrieb zu garantieren.",
+      "B": "Der Auszubildende im Dialog mit dem Ausbilder, um seine Planungsverantwortung zu bestätigen.",
+      "C": "Ein anderer Auszubildender (Peer-Review).",
+      "D": "Es findet keine Entscheidung statt, man geht direkt zur Ausführung über."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Im Sinne der Handlungskompetenz soll der Azubi seine Planung begründen. Der Ausbilder gibt das 'Okay', aber der Prozess sollte ein Dialog sein, damit der Azubi hinter seiner Entscheidung steht.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi (17) hat eine tägliche Arbeitszeit von 8 Stunden. Der Weg zur Berufsschule dauert 45 Minuten, der Unterricht 6 Stunden und der Rückweg zum Betrieb 45 Minuten. Wie viel Arbeitszeit muss der Ausbilder für den Weg anrechnen?",
+    "answers": {
+      "A": "Die gesamte Wegezeit (90 Min) ist Arbeitszeit.",
+      "B": "Nur der Weg von der Schule zum Betrieb ist Arbeitszeit.",
+      "C": "Gar keine Wegezeit, da Wegezeiten grundsätzlich Privatvergnügen sind.",
+      "D": "Nur die Zeit, die die 8 Stunden Tageshöchstzeit überschreitet."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Wege zwischen Wohnung und Lernort sind keine Arbeitszeit. Wege zwischen den beiden Lernorten (Schule -> Betrieb) innerhalb eines Arbeitstages gelten jedoch als Arbeitszeit (§ 9 JArbSchG / § 15 BBiG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi fällt durch die Abschlussprüfung. Er verlangt vom Ausbilder eine Verlängerung des Vertrages. Der Ausbilder lehnt ab, da er mit den Leistungen des Azubis unzufrieden ist. Wie endet das Verhältnis?",
+    "answers": {
+      "A": "Es endet zum vereinbarten Termin im Vertrag.",
+      "B": "Es verlängert sich automatisch kraft Gesetzes bis zur nächsten Prüfung, auch gegen den Willen des Ausbilders.",
+      "C": "Es endet nur, wenn der Ausbilder dem Azubi eine Abfindung zahlt.",
+      "D": "Der Azubi muss die Verlängerung gerichtlich einklagen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "§ 21 BBiG ist eindeutig: Auf Verlangen des Azubis verlängert sich das Verhältnis. Der Ausbilder hat hier kein Ermessen, selbst wenn er den Azubi für ungeeignet hält.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder stellt fest, dass sein Azubi (1. Lehrjahr) sehr langsam arbeitet, aber keine Fehler macht. Welchen pädagogischen Rat sollte der Ausbilder befolgen?",
+    "answers": {
+      "A": "Den Azubi sofort auf Schnelligkeit trimmen, da in der Wirtschaft Zeit Geld ist.",
+      "B": "Zuerst die Genauigkeit festigen und erst im weiteren Verlauf der Ausbildung die Arbeitsgeschwindigkeit steigern.",
+      "C": "Dem Azubi Akkordarbeit zuweisen, um den Druck zu erhöhen.",
+      "D": "Dem Azubi nur noch einfachste Aufgaben geben, damit er schneller fertig wird."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der pädagogische Grundsatz lautet: Qualität vor Quantität (Sorgfalt vor Geschwindigkeit), besonders zu Beginn der Ausbildung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb möchte in einem Beruf ausbilden, der nicht im Verzeichnis der anerkannten Berufe steht, aber 'fast so ähnlich' ist wie ein existierender Beruf. Was ist die Konsequenz?",
+    "answers": {
+      "A": "Die Ausbildung ist zulässig, wenn der Betrieb die Unterschiede im Vertrag benennt.",
+      "B": "Die Ausbildung ist nichtig; eine Prüfung vor der Kammer ist ausgeschlossen.",
+      "C": "Der Betrieb kann eine Sondergenehmigung beim Bundeskanzleramt einholen.",
+      "D": "Der Azubi gilt automatisch als 'angelernt' und bekommt nach 3 Jahren den Gesellenbrief."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das BBiG schützt Berufsbezeichnungen. Ausbildung darf nur in staatlich anerkannten Berufen erfolgen (§ 4 BBiG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "In einer Betriebsvereinbarung ist geregelt, dass alle Mitarbeiter (auch Azubis) im Dezember keinen Urlaub nehmen dürfen (Betriebsurlaubssperre). Ein Azubi möchte trotzdem im Dezember Urlaub für seine Hochzeit. Was dominiert?",
+    "answers": {
+      "A": "Die Betriebsvereinbarung, da sie für alle gilt.",
+      "B": "Der Wunsch des Azubis, da persönliche Belange bei wichtigen Ereignissen (Hochzeit) Vorrang haben.",
+      "C": "Das BBiG, das Urlaubssperren für Azubis generell verbietet.",
+      "D": "Die Entscheidung der Berufsschule."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Urlaub muss gewährt werden, wenn keine dringenden betrieblichen Belange ODER soziale Belange anderer Mitarbeiter vorgehen. Eine Hochzeit ist ein schwerwiegender persönlicher Grund, der eine Ausnahme von der Sperre rechtfertigt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder möchte ein 'Gruppengespräch' führen, um ein Problem im Team zu lösen. Er setzt sich an das Kopfende eines rechteckigen Tisches, die Azubis an die Seiten. Welche Wirkung erzielt er damit?",
+    "answers": {
+      "A": "Eine Atmosphäre der Gleichberechtigung und Offenheit.",
+      "B": "Eine Betonung seiner Machtposition und Hierarchie (autoritäre Distanz).",
+      "C": "Keine, die Sitzordnung hat keinen Einfluss auf die Kommunikation.",
+      "D": "Eine Förderung der Methodenkompetenz."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Sitzordnung am Kopfende signalisiert Führung und Kontrolle. Für ein offenes Gruppengespräch wäre ein runder Tisch oder eine Sitzordnung im Kreis besser.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 16-jähriger Azubi hat Überstunden gemacht. Der Ausbilder möchte diese mit Geld auszahlen. Ist das rechtlich einwandfrei?",
+    "answers": {
+      "A": "Ja, Überstunden müssen immer vergütet werden.",
+      "B": "Nein, bei Jugendlichen müssen Überstunden durch Freizeit ausgeglichen werden (innerhalb von 3 Wochen).",
+      "C": "Nur wenn der Azubi schriftlich auf die Freizeit verzichtet.",
+      "D": "Nur wenn der Stundenlohn 25% über dem normalen Satz liegt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "§ 8 JArbSchG: Über die 40 Stunden hinausgehende Zeit ist innerhalb von 3 Wochen durch Freizeit auszugleichen. Eine finanzielle Abgeltung widerspricht dem Schutzzweck des Gesetzes.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Wer ist für die Überwachung der 'angemessenen Ausbildungsvergütung' zuständig, wenn kein Tarifvertrag vorliegt?",
+    "answers": {
+      "A": "Das Finanzamt",
+      "B": "Die zuständige Stelle (Eintragungsprüfung des Vertrages)",
+      "C": "Die Bundesagentur für Arbeit",
+      "D": "Der Zoll (Schwarzarbeitskontrolle)"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Kammer prüft bei der Eintragung des Vertrages, ob die Vergütung der Mindestvergütung nach § 17 BBiG entspricht oder (falls kein Tarif greift) nicht mehr als 20% unter dem ortsüblichen Tarif liegt.",
+    "question_type": "normal"
+  },
+  {
     "handlungsfeld": "1",
     "schwierigkeit": 3,
     "question": "Ein Betrieb möchte erstmals ausbilden. Wer prüft im Vorfeld die 'Eignung der Ausbildungsstätte'?",
@@ -4069,6 +4349,286 @@ export const questions: Question[] = [
     },
     "correct_answer": ["B"],
     "explanation": "Nur der gesamte Zyklus (IPEKAB) stellt sicher, dass der Azubi umfassende Handlungskompetenz erwirbt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 17-jähriger Auszubildender hat am Dienstag Berufsschule von 08:00 bis 13:15 Uhr (6 Unterrichtsstunden). Im Anschluss findet eine freiwillige Förderunterrichtseinheit der Schule statt, die bis 15:00 Uhr dauert. Der Ausbilder verlangt, dass der Azubi danach noch für eine Stunde in den Betrieb kommt, um eine Lieferung anzunehmen. Wie ist die Rechtslage?",
+    "answers": {
+      "A": "Der Azubi muss kommen, da der Förderunterricht freiwillig ist und nicht zur regulären Unterrichtszeit zählt.",
+      "B": "Der Azubi muss nicht kommen, da der Tag durch die 6 Pflichtstunden bereits mit der vollen täglichen Arbeitszeit angerechnet wird.",
+      "C": "Der Azubi muss kommen, da die Freistellung nur für die Zeit des Pflichtunterrichts gilt.",
+      "D": "Der Azubi muss nur kommen, wenn der Ausbilder die Fahrtzeit von der Schule zum Betrieb als Überstunde bezahlt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 15 BBiG/§ 9 JArbSchG ist der Azubi an einem Schultag mit mehr als 5 Stunden (einmal pro Woche) komplett freigestellt. Da die gesetzliche Freistellung den gesamten Tag umfasst, ist es unerheblich, ob danach noch freiwillige Schulveranstaltungen stattfinden oder nicht – der Betrieb darf ihn an diesem Tag nicht mehr beschäftigen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb möchte eine Umschulung für einen 30-jährigen Bewerber durchführen. Der Bewerber hat bereits eine abgeschlossene Ausbildung in einem anderen Bereich. Muss für diese Umschulung ein Ausbilder mit AdA-Schein vorhanden sein?",
+    "answers": {
+      "A": "Nein, da Umschulungen nicht dem BBiG unterliegen.",
+      "B": "Ja, da für die berufliche Umschulung die gleichen Eignungsvoraussetzungen gelten wie für die Erstausbildung (§ 58 BBiG).",
+      "C": "Nur wenn die Umschulung durch die Agentur für Arbeit gefördert wird.",
+      "D": "Nein, bei Erwachsenen über 25 Jahren reicht die fachliche Eignung ohne pädagogischen Nachweis aus."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Laut § 58 BBiG müssen Ausbilder für die Umschulung ebenfalls persönlich und fachlich geeignet sein. Die AdA-Prüfung ist Teil der fachlichen Eignung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender im 3. Lehrjahr soll eine Projektarbeit eigenständig planen. Der Ausbilder stellt fest, dass der Plan des Azubis zwar zum Ziel führt, aber einen Umweg beinhaltet, der etwas mehr Material verbraucht als die Methode des Ausbilders. Wie sollte der Ausbilder im Sinne der 'vollständigen Handlung' reagieren?",
+    "answers": {
+      "A": "Den Plan sofort korrigieren und dem Azubi die effizientere Methode vorschreiben.",
+      "B": "Den Azubi seinen Plan im Fachgespräch begründen lassen und die Materialeffizienz als Reflexionspunkt für die spätere Bewertung vormerken.",
+      "C": "Den Azubi das Projekt abbrechen lassen, da Wirtschaftlichkeit oberstes Gebot ist.",
+      "D": "Den Azubi ignorieren und am Ende nur das Ergebnis bewerten."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Zur vollständigen Handlung gehört das 'Entscheiden'. Wenn der Ausbilder sofort eingreift (A), nimmt er dem Azubi die Verantwortung. Ein Fachgespräch fördert die Reflexion und Selbstkompetenz.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender besteht seine Abschlussprüfung im zweiten Versuch am 14. Februar. Sein ursprünglicher Vertrag (nach Verlängerung wegen Nichtbestehens des ersten Versuchs) lief bis zum 31. März. Wann endet das Ausbildungsverhältnis offiziell?",
+    "answers": {
+      "A": "Am 31. März, da Verträge immer bis zum Monatsende laufen.",
+      "B": "Am 14. Februar, mit Bekanntgabe des Ergebnisses durch den Prüfungsausschuss.",
+      "C": "Am Tag, an dem der Azubi das schriftliche Zeugnis der Kammer per Post erhält.",
+      "D": "Gar nicht, es wandelt sich automatisch in ein Arbeitsverhältnis um."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 21 BBiG endet die Ausbildung mit dem Bestehen der Prüfung, auch wenn im Vertrag ein späteres Datum steht. Das Datum der Ergebnisfeststellung durch den Ausschuss ist maßgeblich.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder möchte eine 17-jährige Auszubildende zur Nachtarbeit (bis 23:00 Uhr) einteilen, da der Betrieb eine Abendveranstaltung durchführt. In welchem Fall ist dies zulässig?",
+    "answers": {
+      "A": "Generell zulässig, wenn die Eltern zustimmen.",
+      "B": "Nur in Branchen wie dem Gastgewerbe oder in mehrschichtigen Betrieben unter Beachtung spezifischer Ausnahmen des JArbSchG.",
+      "C": "Niemals, Jugendliche dürfen nur bis 20:00 Uhr arbeiten.",
+      "D": "Nur wenn der Ausbilder während der gesamten Zeit daneben steht."
+    },
+    "correct_answer": ["B"],
+    "explanation": "§ 14 JArbSchG regelt Ausnahmen für die Nachtruhe. Im Gastgewerbe dürfen über 16-Jährige bis 22:00 Uhr arbeiten, in Schichtbetrieben teilweise bis 23:00 Uhr. Ohne Branchenausnahme gilt 06:00 bis 20:00 Uhr.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbildender verlangt von einem Bewerber vor Abschluss des Vertrages einen Gentest, um zukünftige Krankheitsrisiken auszuschließen. Wie ist dieses Verlangen rechtlich zu bewerten?",
+    "answers": {
+      "A": "Zulässig, um die langfristige Eignung für den Beruf zu prüfen.",
+      "B": "Unzulässig gemäß Gendiagnostikgesetz (GenDG).",
+      "C": "Zulässig, sofern der Betrieb die Kosten übernimmt.",
+      "D": "Nur zulässig bei Berufen mit hoher körperlicher Belastung."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Genetische Untersuchungen bei Arbeitnehmern (und Azubis) sind nach dem GenDG streng verboten.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender leidet unter einer Lese-Rechtschreib-Schwäche (LRS). Der Ausbilder möchte ihn unterstützen, damit er die schriftliche Prüfung besteht. Welche Maßnahme ist hierfür die korrekte?",
+    "answers": {
+      "A": "Der Ausbilder schreibt die Antworten für den Azubi in der Prüfung.",
+      "B": "Der Ausbilder beantragt bei der zuständigen Stelle einen Nachteilsausgleich (z. B. Zeitverlängerung).",
+      "C": "Der Azubi muss die Prüfung mündlich ablegen, ein Recht auf Schriftlichkeit gibt es dann nicht.",
+      "D": "Es gibt keine Unterstützung, da alle Prüflinge gleich behandelt werden müssen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Menschen mit Behinderungen oder Beeinträchtigungen haben Anspruch auf Nachteilsausgleich (§ 65 BBiG), um die Behinderung zu kompensieren, ohne die Leistungsanforderung zu senken.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi (18 Jahre) hat laut Tarifvertrag 30 Tage Urlaub. Im BurlG stehen nur 24 Werktage. Welcher Urlaubsanspruch ist im Ausbildungsvertrag einzutragen?",
+    "answers": {
+      "A": "24 Werktage, da das Gesetz Vorrang hat.",
+      "B": "30 Tage, da die für den Azubi günstigere Regelung gilt (Günstigkeitsprinzip).",
+      "C": "Ein Mittelwert aus beiden Angaben.",
+      "D": "Gar nichts, man verweist nur auf den Tarifvertrag."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gesetze sind Mindeststandards. Tarifverträge oder Einzelverträge dürfen diese zugunsten des Azubis überschreiten.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Bei der 4-Stufen-Methode ist die 4. Stufe das 'Selbstständige Üben'. Was ist die Hauptaufgabe des Ausbilders in dieser Phase?",
+    "answers": {
+      "A": "Den Arbeitsplatz verlassen, damit der Azubi nicht nervös wird.",
+      "B": "Nur noch das Endergebnis kontrollieren.",
+      "C": "Beobachten, bei Fehlern helfend eingreifen und die Leistung anerkennen.",
+      "D": "Den Azubi die Stufe 2 noch einmal erklären lassen."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Auch beim Üben bleibt der Ausbilder verantwortlich. Er muss beobachten (Sicherung), bei Gefahr eingreifen und durch Feedback den Lernerfolg festigen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi möchte nach der Ausbildung ein qualifiziertes Zeugnis. Der Ausbilder schreibt nur die Dauer und die Art der Tätigkeit auf. Ist das ausreichend?",
+    "answers": {
+      "A": "Ja, das nennt man ein einfaches Zeugnis.",
+      "B": "Nein, auf Verlangen des Azubis muss sich das Zeugnis auch auf Führung, Leistung und besondere fachliche Fähigkeiten erstrecken (§ 16 BBiG).",
+      "C": "Nur wenn der Azubi die Prüfung bestanden hat.",
+      "D": "Nein, ein qualifiziertes Zeugnis muss zwingend ein Foto des Azubis enthalten."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Azubis haben laut BBiG Anspruch auf ein einfaches Zeugnis, auf Verlangen jedoch zwingend auf ein qualifiziertes Zeugnis.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbildungsrahmenplan sieht für ein Thema 4 Monate vor. Der Ausbilder stellt fest, dass der Azubi sehr schnell lernt und das Thema nach 2 Monaten perfekt beherrscht. Was sollte der Ausbilder tun?",
+    "answers": {
+      "A": "Den Azubi 2 Monate lang Hilfsarbeiten machen lassen, um den Zeitplan einzuhalten.",
+      "B": "Den betrieblichen Ausbildungsplan flexibel anpassen und mit dem nächsten Thema beginnen.",
+      "C": "Den Azubi für 2 Monate nach Hause schicken.",
+      "D": "Der Kammer melden, dass die Ausbildungsordnung zu einfach ist."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Ausbildungsrahmenplan ist eine Mindestanforderung und zeitliche Richtlinie. Er kann und soll an die Lernfortschritte des Azubis angepasst werden (Flexibilisierungsklausel).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 16-jähriger Azubi hat Berufsschule von 08:00 bis 11:30 Uhr (4 Unterrichtsstunden). Muss er danach in den Betrieb?",
+    "answers": {
+      "A": "Nein, Schultage sind immer freigestellt.",
+      "B": "Ja, da er weniger als 5 Unterrichtsstunden hatte, greift die pauschale Freistellung für den ganzen Tag nicht.",
+      "C": "Nur wenn der Betrieb weniger als 10 km von der Schule entfernt ist.",
+      "D": "Nein, da er noch minderjährig ist."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Freistellung für den gesamten Tag (einmal wöchentlich) erfordert mehr als 5 Unterrichtsstunden (also ab 6). Bei 4 Stunden muss er theoretisch noch in den Betrieb, sofern dies zeitlich unter Anrechnung der Wegezeit noch sinnvoll ist.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Welche Methode eignet sich am besten, um das 'Urteilsvermögen' und die 'Entscheidungsfähigkeit' in komplexen betrieblichen Situationen zu schulen?",
+    "answers": {
+      "A": "Vortrag",
+      "B": "Fallmethode (Case Study)",
+      "C": "4-Stufen-Methode",
+      "D": "Demonstration"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Fallmethode konfrontiert den Azubi mit realen Problemen, bei denen er Informationen analysieren und eine begründete Entscheidung treffen muss.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb möchte in einem Verbund ausbilden. Welches Risiko trägt der 'Stammbetrieb', der den Ausbildungsvertrag unterschrieben hat?",
+    "answers": {
+      "A": "Keines, die Verantwortung geht auf den Partnerbetrieb über.",
+      "B": "Er bleibt rechtlich voll verantwortlich für die Durchführung der gesamten Ausbildung und die Zahlung der Vergütung.",
+      "C": "Der Stammbetrieb haftet nur für die Theorie, der Partner für die Praxis.",
+      "D": "Er haftet nur, wenn der Partnerbetrieb Insolvenz anmeldet."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Vertragspartner (Ausbildender) bleibt gegenüber dem Azubi und der Kammer in der Pflicht, auch wenn Teile der Ausbildung woanders stattfinden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Was passiert mit dem Urlaubsanspruch eines Azubis, wenn er während des Urlaubs erkrankt und ein ärztliches Attest vorlegt?",
+    "answers": {
+      "A": "Der Urlaub gilt als genommen.",
+      "B": "Die Tage der Arbeitsunfähigkeit werden nicht auf den Jahresurlaub angerechnet (§ 9 BurlG).",
+      "C": "Der Urlaub wird zur Hälfte angerechnet.",
+      "D": "Der Azubi bekommt die Tage nur gutgeschrieben, wenn er im Krankenhaus war."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Durch ein Attest nachgewiesene Krankheitstage unterbrechen den Urlaub; der Erholungszweck konnte nicht erreicht werden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder bemerkt, dass eine Kleingruppe von Azubis bei einer Gruppenarbeit eine 'Außenseiterrolle' für einen Teilnehmer schafft. Wie sollte er intervenieren?",
+    "answers": {
+      "A": "Die Gruppe sofort auflösen und Einzelarbeit anordnen.",
+      "B": "Den Außenseiter vor der Gruppe verteidigen und die anderen bestrafen.",
+      "C": "Den Prozess beobachten und in einer anschließenden Feedbackrunde das Gruppenverhalten reflektieren lassen.",
+      "D": "Nichts tun, da Azubis soziale Konflikte selbst lösen müssen."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Pädagogisch wertvoll ist die Reflexion des Verhaltens, um die Sozialkompetenz aller Beteiligten zu stärken. Strafe (B) oder Flucht (A) lösen das Lernproblem nicht.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Wer legt die 'Berufsbezeichnung' in einem Ausbildungsvertrag fest?",
+    "answers": {
+      "A": "Der Ausbilder nach eigenem Ermessen.",
+      "B": "Sie muss der Bezeichnung in der staatlichen Ausbildungsordnung entsprechen.",
+      "C": "Der Azubi darf sie sich aussuchen.",
+      "D": "Das Arbeitsamt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Bezeichnungen sind geschützt und müssen exakt so übernommen werden, wie sie im Verzeichnis der anerkannten Ausbildungsberufe stehen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Darf ein Azubi während der Probezeit ohne Einhaltung einer Frist kündigen?",
+    "answers": {
+      "A": "Nur wenn er einen wichtigen Grund hat.",
+      "B": "Ja, beide Seiten können in der Probezeit jederzeit fristlos kündigen (§ 22 BBiG).",
+      "C": "Nein, er muss 2 Wochen Frist einhalten.",
+      "D": "Nur wenn der Ausbilder zustimmt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Probezeit dient dem gegenseitigen Testen. Daher ist die Kündigung hier voraussetzungslos und fristlos möglich.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Welcher Führungsstil ist am besten geeignet, um die 'Selbstkompetenz' eines Azubis im letzten Ausbildungsjahr zu fördern?",
+    "answers": {
+      "A": "Autoritär",
+      "B": "Laissez-faire",
+      "C": "Kooperativ/Partnerschaftlich",
+      "D": "Bürokratisch"
+    },
+    "correct_answer": ["C"],
+    "explanation": "Ein kooperativer Stil bezieht den Azubi in Entscheidungen ein und überträgt Verantwortung, was die Selbstständigkeit fördert.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi hat die Abschlussprüfung bestanden und bittet um die Übernahme in ein unbefristetes Arbeitsverhältnis. Der Betrieb bietet ihm nur einen Vertrag für 6 Monate an. Ist das zulässig?",
+    "answers": {
+      "A": "Nein, nach der Ausbildung muss immer unbefristet übernommen werden.",
+      "B": "Ja, nach Abschluss der Ausbildung herrscht Vertragsfreiheit.",
+      "C": "Nur wenn der Azubi schlechte Noten hatte.",
+      "D": "Ja, aber nur wenn die Gewerkschaft zustimmt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach Ende der Ausbildung ist der Betrieb nicht zur Übernahme verpflichtet (außer durch Tarifvertrag). Wenn er übernimmt, können die Konditionen frei ausgehandelt werden.",
     "question_type": "normal"
   }
   
