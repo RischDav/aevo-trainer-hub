@@ -90,7 +90,7 @@ export default function SetupPage() {
             <CardContent>
               <Slider min={1} max={100} step={1} value={[count]} onValueChange={([v]) => setCount(v)} />
               <div className="flex justify-between text-xs text-muted-foreground mt-1">
-                <span>1</span><span>20</span>
+                <span>1</span><span>100</span>
               </div>
             </CardContent>
           </Card>
