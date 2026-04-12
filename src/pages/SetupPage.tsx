@@ -101,9 +101,9 @@ export default function SetupPage() {
               <CardTitle className="text-lg">Zeit: {time} Minute{time !== 1 ? "n" : ""}</CardTitle>
             </CardHeader>
             <CardContent>
-              <Slider min={1} max={30} step={1} value={[time]} onValueChange={([v]) => setTime(v)} />
+              <Slider min={1} max={180} step={1} value={[time]} onValueChange={([v]) => setTime(v)} />
               <div className="flex justify-between text-xs text-muted-foreground mt-1">
-                <span>1 Min</span><span>30 Min</span>
+                <span>1 Min</span><span>180 Min</span>
               </div>
             </CardContent>
           </Card>
