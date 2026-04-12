@@ -36,6 +36,7 @@ export default function DisclaimerModal({ open, onAccept }: Props) {
             <ul className="list-disc pl-5 space-y-2">
               <li>Die Fragen sind <strong>KI-generiert</strong> und können in der Formulierung und bei den Antwortmöglichkeiten Fehler enthalten.</li>
               <li>Dieses Projekt steht in <strong>keiner Verbindung zur IHK oder HWK</strong> und ist ein rein privates Projekt.</li>
+              <li>Es können Fragen vorkommen, die nicht prüfungsrelevant sind.</li>
               <li>Falls dir Fehler auffallen, schreibe mir unter www.davidsblog.eu/kontakt</li>
             </ul>
           </DialogDescription>

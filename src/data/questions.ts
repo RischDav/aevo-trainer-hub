@@ -2797,6 +2797,216 @@ export const questions: Question[] = [
   explanation: "Lernstile berücksichtigen, aber Theorie bleibt notwendig.",
   question_type: "multiple_choice",
 },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Die Geschäftsleitung möchte expandieren und in einem neuen Beruf ausbilden. Sie werden beauftragt zu prüfen, welche Mindestinhalte vermittelt werden müssen. Welcher Bestandteil der Ausbildungsordnung gibt hierüber detailliert Auskunft?",
+    "answers": {
+      "A": "Das Berufsbildungsgesetz.",
+      "B": "Der Ausbildungsrahmenplan.",
+      "C": "Das Zeugnis der Zwischenprüfung.",
+      "D": "Der betriebliche Urlaubsplan."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Ausbildungsrahmenplan ist Bestandteil der Ausbildungsordnung und listet die sachliche und zeitliche Gliederung der zu vermittelnden Fertigkeiten, Kenntnisse und Fähigkeiten auf.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "In einer Ausbilderkonferenz diskutieren Sie über die Planung einer Unterweisung. Ein Kollege fragt, wie man das Lernziel nennt, das die kleinste Stufe der Planung darstellt und direkt beobachtbares Verhalten beschreibt. Wie antworten Sie?",
+    "answers": {
+      "A": "Richtlernziel.",
+      "B": "Groblernziel.",
+      "C": "Feinlernziel.",
+      "D": "Globalziel."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Das Feinlernziel beschreibt eine konkret beobachtbare Handlung, die am Ende einer Lerneinheit (z. B. einer Unterweisung) erreicht werden soll.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Sie sollen für einen Azubi Lernziele formulieren, die sich auf seine Einstellung und sein Verhalten gegenüber Kunden beziehen (z. B. Höflichkeit). Welchem Lernzielbereich ordnen Sie dies zu?",
+    "answers": {
+      "A": "Kognitiver Lernzielbereich.",
+      "B": "Psychomotorischer Lernzielbereich.",
+      "C": "Affektiver Lernzielbereich.",
+      "D": "Manueller Lernzielbereich."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Der affektive Bereich umfasst Einstellungen, Werte, Normen und Gefühle (z. B. Kundenorientierung, Sorgfalt).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 2,
+    "question": "Ein Kollege behauptet, die Ausbildungsordnung sei für jeden Betrieb individuell anpassbar. Was entgegnen Sie ihm als Profi?",
+    "answers": {
+      "A": "Das stimmt, jeder Betrieb darf sich seine eigenen Berufe ausdenken.",
+      "B": "Falsch, die Ausbildungsordnung ist eine bundeseinheitliche Rechtsverordnung und gibt die Mindeststandards vor.",
+      "C": "Die Ordnung gilt nur für Industriebetriebe, nicht für das Handwerk.",
+      "D": "Man darf die Ordnung ignorieren, wenn der Azubi bereits Vorkenntnisse hat."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Ausbildungsordnungen sind staatlich anerkannt und sichern ein einheitliches Qualitätsniveau der Berufsausbildung in ganz Deutschland.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Sie planen eine komplexe Aufgabe, bei der der Azubi eine Maschine eigenständig programmieren soll. Welchem Lernzielbereich ist das primäre 'Denken und Wissen' hierbei zuzuordnen?",
+    "answers": {
+      "A": "Kognitiver Lernzielbereich.",
+      "B": "Affektiver Lernzielbereich.",
+      "C": "Psychomotorischer Lernzielbereich.",
+      "D": "Reaktiver Lernzielbereich."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Der kognitive Bereich umfasst alles, was mit dem Verstand, dem Wissen und dem intellektuellen Verständnis zu tun hat.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Beim Erstellen eines betrieblichen Ausbildungsplans stellen Sie fest, dass das 'Richtlernziel' sehr allgemein formuliert ist. Woher stammt diese Formulierung üblicherweise?",
+    "answers": {
+      "A": "Aus dem persönlichen Notizbuch des Ausbilders.",
+      "B": "Aus dem Berufsbild (Teil der Ausbildungsordnung).",
+      "C": "Aus der Tageszeitung.",
+      "D": "Vom Azubi selbst."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Richtlernziele geben die allgemeine Richtung der Ausbildung an und finden sich im Berufsbild der jeweiligen Ausbildungsordnung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Fachausbilder möchte, dass der Azubi 'das Feilen beherrscht'. Sie erklären ihm, dass ein Lernziel 'operationalisiert' sein muss. Welche Komponente fehlt in seiner Formulierung?",
+    "answers": {
+      "A": "Der Name des Azubis.",
+      "B": "Die Angabe der Endbedingung und des Beurteilungsmaßstabes.",
+      "C": "Das Datum der Prüfung.",
+      "D": "Die Unterschrift der Geschäftsleitung."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Ein gut formuliertes Feinlernziel (operationalisiert) benötigt eine Zeitangabe, Hilfsmittel (Endbedingungen) und einen Maßstab für den Erfolg (z. B. 'auf 0,1 mm genau').",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Der Azubi soll lernen, wie man ein Werkstück sicher einspannt. Da es sich um eine körperliche Handhabung handelt, sprechen wir von welchem Lernzielbereich?",
+    "answers": {
+      "A": "Kognitiv.",
+      "B": "Affektiv.",
+      "C": "Psychomotorisch.",
+      "D": "Kreativ."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Der psychomotorische Bereich bezieht sich auf manuelle Fertigkeiten und Bewegungsabläufe.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 2,
+    "question": "Die Geschäftsleitung fragt, ob man die Ausbildung verkürzen kann, nur weil der Betrieb sehr modern ist. Was ist die rechtliche Basis für die Dauer der Ausbildung?",
+    "answers": {
+      "A": "Die Ausbildungsordnung des jeweiligen Berufs.",
+      "B": "Die mündliche Absprache mit der Berufsschule.",
+      "C": "Der Mietvertrag des Betriebs.",
+      "D": "Die Anzahl der Mitarbeiter im Betrieb."
+    },
+    "correct_answer": ["A"],
+    "explanation": "In der Ausbildungsordnung ist die Regelausbildungszeit (z. B. 3 oder 3,5 Jahre) festgeschrieben.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Sie sitzen mit anderen Ausbildern zusammen und planen das erste Ausbildungsjahr. Wie nennt man die Lernziele, die in der Ausbildungsordnung für die einzelnen Berufsbildpositionen stehen?",
+    "answers": {
+      "A": "Feinlernziele.",
+      "B": "Groblernziele.",
+      "C": "Hauslernziele.",
+      "D": "Prüfungsfragen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Groblernziele sind in der Ausbildungsordnung verankert und müssen vom Betrieb im Ausbildungsplan zu Feinlernzielen konkretisiert werden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi kann Informationen nicht nur wiedergeben, sondern sie auch auf neue Situationen übertragen. Welche Stufe der kognitiven Lernziele hat er damit erreicht?",
+    "answers": {
+      "A": "Wissen (Erinnern).",
+      "B": "Anwenden.",
+      "C": "Nur Verstehen.",
+      "D": "Reines Auswendiglernen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Lernzieltaxonomie unterscheidet Stufen. 'Anwenden' bedeutet, Gelerntes in einer neuen, konkreten Situation erfolgreich einzusetzen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "In einem Gespräch mit der IHK geht es um die 'Prüfungsanforderungen'. Wo finden Sie die Informationen darüber, welche Inhalte in der Gesellen- oder Abschlussprüfung drankommen?",
+    "answers": {
+      "A": "In der Ausbildungsordnung.",
+      "B": "Im Arbeitszeitgesetz.",
+      "C": "Im Grundgesetz.",
+      "D": "Im Lebenslauf des Azubis."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Die Ausbildungsordnung enthält neben dem Rahmenplan auch die Prüfungsanforderungen für die Zwischen- und Abschlussprüfungen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Sie wollen sicherstellen, dass ein Lernziel 'SMART' formuliert ist. Wofür steht das 'M' in diesem Zusammenhang?",
+    "answers": {
+      "A": "Motivierend.",
+      "B": "Messbar.",
+      "C": "Menschlich.",
+      "D": "Minimalistisch."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Lernziele sollten Messbar sein, damit man eindeutig feststellen kann, ob der Azubi das Ziel erreicht hat (Soll-Ist-Vergleich).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein erfahrener Kollege meint: 'Wir bilden nach dem Prinzip der vollständigen Handlung aus.' Welches Ziel verfolgen Sie damit primär bei der Lernzielgestaltung?",
+    "answers": {
+      "A": "Dass der Azubi nur noch Anweisungen befolgt.",
+      "B": "Die Förderung der umfassenden Handlungskompetenz.",
+      "C": "Dass der Azubi weniger Pausen macht.",
+      "D": "Die Einsparung von Materialkosten."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Handlungskompetenz setzt sich aus Fach-, Methoden-, Sozial- und Selbstkompetenz zusammen. Das Modell der vollständigen Handlung unterstützt dies.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Sie stellen fest, dass Ihr Betrieb eine bestimmte Maschine aus dem Ausbildungsrahmenplan nicht besitzt. Wie können Sie die Ausbildung dennoch sicherstellen?",
+    "answers": {
+      "A": "Dieses Thema einfach weglassen.",
+      "B": "Durch eine überbetriebliche Ausbildung oder Kooperation mit einem Partnerbetrieb (Verbundausbildung).",
+      "C": "Der Azubi soll sich das bei YouTube anschauen.",
+      "D": "Man lügt im Berichtsheft einfach."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Wenn ein Betrieb nicht alle Inhalte der Ausbildungsordnung selbst vermitteln kann, muss er Teile extern (Verbund/ÜBL) sicherstellen, um die Eignung der Stätte zu wahren.",
+    "question_type": "normal"
+  },
 {
   handlungsfeld: "2",
   schwierigkeit: 3,
