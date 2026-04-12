@@ -289,7 +289,12 @@ export default function QuizPage() {
             <span>Schwierigkeit {q.schwierigkeit}/3</span>
           </div>
 
-          <h2 className="text-xl font-bold mb-6">{q.question}</h2>
+          <h2 className="text-xl font-bold mb-6">
+            {q.question}{" "}
+            <span className="text-muted-foreground font-normal text-base">
+              ({q.correct_answer.length} richtige {q.correct_answer.length === 1 ? "Antwort" : "Antworten"})
+            </span>
+          </h2>
 
           <div className="space-y-3">
             {Object.entries(q.answers).map(([key, text]) => {
