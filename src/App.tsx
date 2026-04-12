@@ -17,7 +17,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/aevotrainer">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/setup" element={<SetupPage />} />
