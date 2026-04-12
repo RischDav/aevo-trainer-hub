@@ -83,20 +83,21 @@ export default function SetupPage() {
           </Card>
 
           {/* Anzahl */}
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-lg">Anzahl der Fragen: {count}</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <Slider min={1} max={100} step={1} value={[count]} onValueChange={([v]) => setCount(v)} />
-              <div className="flex justify-between text-xs text-muted-foreground mt-1">
-                <span>1</span><span>100</span>
-                <p className="mt-4 text-xs text-muted-foreground italic">
-  Hinweis: Je nach Filtereinstellung kann die tatsächliche Fragenanzahl geringer ausfallem, falls nicht genügend Fragen in der Datenbank verfügbar sind.
-</p>
-              </div>
-            </CardContent>
-          </Card>
+<Card>
+  <CardHeader>
+    <CardTitle className="text-lg">Anzahl der Fragen: {count}</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <Slider min={1} max={100} step={1} value={[count]} onValueChange={([v]) => setCount(v)} />
+    <div className="flex justify-between text-xs text-muted-foreground mt-1">
+      <span>1</span>
+      <span>100</span>
+    </div>
+    <p className="mt-4 text-xs text-muted-foreground italic">
+      Hinweis: Je nach Filtereinstellung kann die tatsächliche Fragenanzahl geringer ausfallen, falls nicht genügend Fragen in der Datenbank verfügbar sind.
+    </p>
+  </CardContent>
+</Card>
 
           {/* Zeit */}
           <Card>
