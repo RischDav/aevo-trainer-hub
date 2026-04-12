@@ -63,7 +63,7 @@ export default function LandingPage() {
       </section>
 
       {/* Unterstützer */}
-      <section className="py-16 border-y bg-muted/30">
+      {/* <section className="py-16 border-y bg-muted/30">
         <div className="container mx-auto px-4 text-center max-w-2xl space-y-6">
           <h2 className="text-2xl md:text-3xl font-bold">Unterstützer</h2>
           <p className="text-muted-foreground leading-relaxed">
@@ -78,7 +78,7 @@ export default function LandingPage() {
             </a>
           </Button>
         </div>
-      </section>
+      </section> */}
 
       {/* Info */}
       <section className="py-16 bg-card border-b">
