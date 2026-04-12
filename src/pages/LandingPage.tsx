@@ -129,30 +129,23 @@ export default function LandingPage() {
       <section className="py-16 bg-card border-y">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Über dieses Projekt</h2>
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-            <img
-              src="https://davidsblog.eu/wp-content/uploads/2026/03/Adobe-Express-file1.png"
-              alt="David – Ersteller des AEVO KI Trainers"
-              className="w-48 md:w-56 rounded-2xl shadow-md object-contain shrink-0"
-            />
-            <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>
-                Hi, ich bin <span className="font-semibold text-foreground">David</span>. Ich habe selbst die
-                AEVO-Prüfung abgelegt und weiß, wie die Vorbereitung aussieht: Man kann Prüfungsbögen kaufen,
-                Kurse besuchen oder andere Wege finden, um sich vorzubereiten.
-              </p>
-              <p>
-                Ich habe es etwas anders gemacht. Ich habe ein Fachbuch zur AEVO durchgelesen und dann mit
-                einer KI geübt. Warum? Weil es bei der AEVO keinen festen Fragenkatalog gibt — die Prüfungsfragen
-                variieren. Eine KI ist daher der perfekte Übungspartner, weil sie immer neue Fragen generieren
-                kann, auch wenn die Antworten manchmal nicht zu 100&nbsp;% stimmen.
-              </p>
-              <p>
-                Nachdem ich das Tool für mich selbst genutzt habe, habe ich beschlossen, es als
-                Open-Source-Projekt auf GitHub zu veröffentlichen, damit auch andere davon profitieren können.
-                Dieses Projekt ist rein privat, nicht kommerziell und steht in keiner Verbindung zur IHK oder HWK.
-              </p>
-            </div>
+          <div className="max-w-2xl mx-auto space-y-4 text-muted-foreground leading-relaxed text-center">
+            <p>
+              Hi, ich bin <span className="font-semibold text-foreground">David</span>. Ich habe selbst die
+              AEVO-Prüfung abgelegt und weiß, wie die Vorbereitung aussieht: Man kann Prüfungsbögen kaufen,
+              Kurse besuchen oder andere Wege finden, um sich vorzubereiten.
+            </p>
+            <p>
+              Ich habe es etwas anders gemacht. Ich habe ein Fachbuch zur AEVO durchgelesen und dann mit
+              einer KI geübt. Warum? Weil es bei der AEVO keinen festen Fragenkatalog gibt — die Prüfungsfragen
+              variieren. Eine KI ist daher der perfekte Übungspartner, weil sie immer neue Fragen generieren
+              kann, auch wenn die Antworten manchmal nicht zu 100&nbsp;% stimmen.
+            </p>
+            <p>
+              Nachdem ich das Tool für mich selbst genutzt habe, habe ich beschlossen, es als
+              Open-Source-Projekt auf GitHub zu veröffentlichen, damit auch andere davon profitieren können.
+              Dieses Projekt ist rein privat, nicht kommerziell und steht in keiner Verbindung zur IHK oder HWK.
+            </p>
           </div>
         </div>
       </section>
