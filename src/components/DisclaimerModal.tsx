@@ -34,8 +34,9 @@ export default function DisclaimerModal({ open, onAccept }: Props) {
           <DialogDescription className="text-left space-y-3 pt-2">
             <p>Bitte beachte folgende Punkte, bevor du fortfährst:</p>
             <ul className="list-disc pl-5 space-y-2">
-              <li>Die Fragen sind <strong>KI-generiert</strong> und können Fehler enthalten.</li>
-              <li>Dieses Projekt steht in <strong>keiner Verbindung zur IHK</strong> und ist ein rein privates Projekt.</li>
+              <li>Die Fragen sind <strong>KI-generiert</strong> und können in der Formulierung und bei den Antwortmöglichkeiten Fehler enthalten.</li>
+              <li>Dieses Projekt steht in <strong>keiner Verbindung zur IHK oder HWK</strong> und ist ein rein privates Projekt.</li>
+              <li>Falls dir Fehler auffallen, schreibe mir unter www.davidsblog.eu/kontakt</li>
             </ul>
           </DialogDescription>
         </DialogHeader>
