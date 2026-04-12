@@ -4338,6 +4338,566 @@ export const questions: Question[] = [
     "question_type": "normal"
   },
   {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Die Geschäftsleitung bittet Sie um eine Einschätzung, ob der Betrieb künftig auch in einem völlig neuen Berufsbild ausbilden darf. Sie besprechen dies im Kreis der erfahrenen Ausbilder. Welches Dokument ist die rechtlich bindende Grundlage, um die sachliche und zeitliche Gliederung für die Planung der Eignung zu prüfen?",
+    "answers": {
+      "A": "Der betriebliche Ausbildungsplan des Vorjahres.",
+      "B": "Die jeweilige Ausbildungsordnung inklusive des Ausbildungsrahmenplans.",
+      "C": "Das aktuelle Kursverzeichnis der örtlichen Berufsschule.",
+      "D": "Das Arbeitsschutzgesetz in Verbindung mit den DGUV-Vorschriften."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nur die staatlich anerkannte Ausbildungsordnung (§ 5 BBiG) definiert das Berufsbild und den Ausbildungsrahmenplan. Ohne diesen Abgleich kann die fachliche Eignung der Stätte nicht festgestellt werden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "In einem Strategiemeeting der Ausbilder wird diskutiert, wie die Qualität der Ausbildung gesteigert werden kann. Ein Kollege schlägt vor, die Ausbildungsinhalte deutlich über die Ausbildungsordnung hinaus zu erweitern. Was müssen Sie dabei beachten?",
+    "answers": {
+      "A": "Das ist unzulässig, da die Ausbildungsordnung eine abschließende Liste darstellt.",
+      "B": "Das ist zulässig, sofern die Vermittlung der im Ausbildungsrahmenplan vorgeschriebenen Inhalte dadurch nicht gefährdet wird.",
+      "C": "Zusatzqualifikationen dürfen nur vermittelt werden, wenn der Azubi bereits volljährig ist.",
+      "D": "Erweiterungen müssen vorab von der Agentur für Arbeit genehmigt werden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Ausbildungsordnung definiert Mindeststandards. Eine Übererfüllung ist im Sinne der Begabtenförderung oder betrieblicher Spezialisierung erwünscht, solange die Pflichtziele erreicht werden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Die Geschäftsleitung beauftragt Sie, ein Konzept zur Vermeidung von Ausbildungsabbrüchen zu erstellen. In einem Gespräch mit einem erfahrenen Ausbildungsberater der Kammer erfahren Sie, dass die 'Probezeit' hier ein kritisches Instrument ist. Welche gesetzliche Vorgabe zur Dauer müssen Sie der Geschäftsleitung zwingend melden?",
+    "answers": {
+      "A": "Die Probezeit muss mindestens 1 Monat und darf höchstens 4 Monate betragen.",
+      "B": "Die Probezeit kann frei vereinbart werden, sollte aber 6 Monate nicht überschreiten.",
+      "C": "Die Probezeit beträgt für Minderjährige immer 3 Monate.",
+      "D": "Eine Probezeit ist optional und kann bei Studienabbrechern entfallen."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Gemäß § 20 BBiG ist die Spanne von 1 bis 4 Monaten zwingend vorgeschrieben. Kürzere oder längere Zeiträume im Vertrag machen diesen in diesem Punkt unwirksam.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Fachabteilungsleiter (Fachausbilder) berichtet Ihnen, dass ein Azubi zwar handwerklich begabt ist, aber bei Problemen sofort die Arbeit einstellt. Sie schlagen vor, das 'Modell der vollständigen Handlung' konsequenter umzusetzen. Bei welchem Schritt in diesem Modell soll der Azubi lernen, die Qualität seiner Arbeit selbst einzuschätzen?",
+    "answers": {
+      "A": "Beim Schritt 'Ausführen'.",
+      "B": "Beim Schritt 'Kontrollieren'.",
+      "C": "Beim Schritt 'Informieren'.",
+      "D": "Nur im abschließenden Beurteilungsgespräch durch den Ausbilder."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Im Modell der vollständigen Handlung folgt auf das Ausführen das 'Kontrollieren' durch den Azubi selbst (Soll-Ist-Vergleich), gefolgt vom gemeinsamen Bewerten.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Sie bereiten mit anderen Ausbildern die Anmeldung zur Abschlussprüfung vor. Ein Azubi hat in der Berufsschule schlechte Noten, aber die betriebliche Ausbildung fast abgeschlossen. Der Chef fragt, ob man die Zulassung zur Prüfung verweigern kann. Wie argumentieren Sie fachlich richtig?",
+    "answers": {
+      "A": "Ja, bei einem Notenschnitt schlechter als 4,0 in der Berufsschule ist die Zulassung ausgeschlossen.",
+      "B": "Nein, über die Zulassung entscheidet die zuständige Stelle (Kammer); der Betrieb muss lediglich die ordnungsgemäße Ausbildung und das Berichtsheft bestätigen.",
+      "C": "Der Betrieb kann die Zulassung verweigern, wenn der Azubi mehr als 5 Fehltage hatte.",
+      "D": "Die Zulassung erfolgt nur, wenn der Ausbilder eine positive Prognose unterschreibt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Zulassung zur Prüfung ist ein Verwaltungsakt der Kammer (§ 43 BBiG). Der Betrieb meldet an, entscheidet aber nicht eigenmächtig über die Zulassung basierend auf Schulnoten.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Die Geschäftsleitung möchte Kosten sparen und schlägt vor, Azubis künftig nur noch als 'billige' Unterstützung in der Versandabteilung einzusetzen, ohne festen Durchlaufplan. Was entgegnen Sie unter Verweis auf die Eignung der Ausbildungsstätte?",
+    "answers": {
+      "A": "Das ist möglich, solange die Azubis 40 Stunden pro Woche arbeiten.",
+      "B": "Die Ausbildungsstätte ist nur geeignet, wenn sie die Gewähr bietet, dass die für die Berufsausbildung erforderlichen Fertigkeiten, Kenntnisse und Fähigkeiten vermittelt werden können (§ 27 BBiG).",
+      "C": "Die Azubis müssen dann aber eine höhere Vergütung erhalten.",
+      "D": "Das muss lediglich im Ausbildungsvertrag so vermerkt werden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die sachliche Eignung (§ 27 BBiG) setzt voraus, dass der Betrieb die Inhalte laut Ausbildungsordnung vermitteln kann. Eine reine Nutzung als Hilfskraft widerspricht dem Erziehungs- und Ausbildungsauftrag.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Sie diskutieren mit Kollegen über die Unterzeichnung von Ausbildungsverträgen. Ein Kollege behauptet, dass bei einem 17-jährigen Azubi die Unterschrift des Azubis ausreicht, da er ja den Beruf lernen will. Wie korrigieren Sie ihn?",
+    "answers": {
+      "A": "Er hat recht, ab 16 Jahren sind Jugendliche eingeschränkt geschäftsfähig für Arbeitsverträge.",
+      "B": "Da der Azubi minderjährig ist, ist der Vertrag erst durch die Unterschrift der gesetzlichen Vertreter (i. d. R. beide Elternteile) wirksam.",
+      "C": "Es reicht die Unterschrift eines Zeugen, der bei Vertragsabschluss dabei war.",
+      "D": "Der Vertrag ist auch ohne Unterschrift der Eltern gültig, muss aber von der Berufsschule gestempelt werden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Minderjährige benötigen für den Abschluss eines Ausbildungsvertrags die Zustimmung der gesetzlichen Vertreter (§§ 107, 108 BGB).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder aus der Produktion bittet Sie um Rat: Er möchte eine komplexe neue Montage-Technik vermitteln und schwankt zwischen 4-Stufen-Methode und Lehrgespräch. Wann raten Sie ihm zum Lehrgespräch?",
+    "answers": {
+      "A": "Wenn es darum geht, rein motorische Abläufe durch Nachmachen zu trainieren.",
+      "B": "Wenn theoretische Zusammenhänge oder Erfahrungen des Azubis aktiv erarbeitet und in den Lernprozess integriert werden sollen.",
+      "C": "Wenn der Ausbilder keine Zeit hat und der Azubi allein lesen soll.",
+      "D": "Wenn der Azubi die Aufgabe bereits perfekt beherrscht."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das Lehrgespräch (entwickelnd) dient dazu, durch gezielte Fragen Wissen aufzubauen oder zu verknüpfen, während die 4-Stufen-Methode primär auf manuelle Fertigkeiten abzielt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Die Personalabteilung überträgt Ihnen die Aufgabe, die 'angemessene Vergütung' für das neue Lehrjahr festzulegen. Es gibt keinen Tarifvertrag. Woran müssen Sie sich orientieren, um eine Ablehnung durch die Kammer zu vermeiden?",
+    "answers": {
+      "A": "An der gesetzlichen Mindestausbildungsvergütung (§ 17 BBiG).",
+      "B": "Am Taschengeldparagraph des BGB.",
+      "C": "An der Vergütung von Werkstudenten im selben Betrieb.",
+      "D": "An den durchschnittlichen Mietpreisen am Ausbildungsort."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Seit 2020 gibt es eine gesetzliche Mindestvergütung für Azubis (§ 17 BBiG), die jährlich angepasst wird. Sie darf nur unterschritten werden, wenn ein Tarifvertrag dies explizit vorsieht.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Im Rahmen einer Ausbilderkonferenz wird über das Zeugnisrecht gesprochen. Ein Fachausbilder möchte einem Azubi, der oft unpünktlich war, dies 'so richtig deutlich' ins Zeugnis schreiben. Was geben Sie ihm als Experten-Hinweis mit?",
+    "answers": {
+      "A": "Das ist sein gutes Recht, Zeugnisse müssen 'schonungslos ehrlich' sein.",
+      "B": "Zeugnisse müssen zwar wahr sein, aber auch wohlwollend formuliert werden, um das weitere Fortkommen des Azubis nicht unbillig zu erschweren.",
+      "C": "Kritik darf nur in Form von Noten (1-6) geäußert werden, nicht in Textform.",
+      "D": "Unpünktlichkeit darf im Zeugnis gar nicht erwähnt werden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Grundsatz der Zeugniswahrheit und Zeugniswohlwollen ist arbeitsrechtlich fest verankert. Negative Vorfälle müssen in eine wertschätzende Sprache übersetzt oder bei Geringfügigkeit weggelassen werden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Sie unterhalten sich mit einem Prüfer der IHK über das Thema 'persönliche Eignung'. Der Prüfer fragt Sie, in welchem Fall ein Ausbilder seine persönliche Eignung kraft Gesetzes verliert.",
+    "answers": {
+      "A": "Wenn er seine Fachkenntnisse nicht durch Fortbildungen auffrischt.",
+      "B": "Wenn er wegen eines Verbrechens zu einer Haftstrafe von mindestens einem Jahr verurteilt wurde oder gegen das Betäubungsmittelgesetz verstoßen hat.",
+      "C": "Wenn er das 67. Lebensjahr vollendet hat.",
+      "D": "Wenn er aus der Kirche austritt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "§ 29 BBiG regelt den Ausschluss der persönlichen Eignung bei schweren Straftaten oder Verstößen gegen Jugendschutzgesetze.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Die Geschäftsleitung möchte, dass Azubis vermehrt in Projekten arbeiten. Sie sollen ein Briefing für die Projektleiter (Fachausbilder) halten. Was ist das Kernziel der 'Projektmethode' im Vergleich zur Unterweisung?",
+    "answers": {
+      "A": "Dass der Projektleiter die Arbeit schneller delegieren kann.",
+      "B": "Die Förderung der Handlungskompetenz durch selbstständiges Planen, Durchführen und Prüfen einer komplexen Aufgabe.",
+      "C": "Dass am Ende des Tages ein verkaufsfähiges Produkt entsteht.",
+      "D": "Die Einsparung von Ausbildungsmaterial."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Projektmethode ist eine handlungsorientierte Methode, die alle Stufen der vollständigen Handlung umfasst und die Selbstständigkeit maximiert.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Fachausbilder fragt Sie, ob er einen 17-jährigen Azubi während der Berufsschulferien für 45 Stunden pro Woche einplanen darf, um einen Engpass abzufangen. Was ist Ihre fachliche Antwort?",
+    "answers": {
+      "A": "Ja, solange er die Überstunden mit 25% Zuschlag bezahlt.",
+      "B": "Nein, Jugendliche dürfen auch in den Ferien maximal 40 Stunden wöchentlich beschäftigt werden (§ 8 JArbSchG).",
+      "C": "Ja, Jugendliche haben in den Ferien keine Arbeitszeitbeschränkung.",
+      "D": "Nur wenn der Azubi freiwillig unterschreibt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das JArbSchG gilt auch in den Schulferien. Die 40-Stunden-Woche ist für Jugendliche eine absolute Grenze (mit sehr wenigen Ausnahmen).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Kollege nutzt bei der Beurteilung seiner Azubis immer nur sein 'Bauchgefühl'. Sie erklären ihm im Gespräch die Bedeutung von 'Beurteilungsfehlern'. Welcher Fehler liegt vor, wenn ein Ausbilder von einem guten Merkmal (z.B. Pünktlichkeit) auf alle anderen Leistungen schließt?",
+    "answers": {
+      "A": "Nikolaus-Effekt",
+      "B": "Halo-Effekt (Hof-Effekt)",
+      "C": "Milde-Effekt",
+      "D": "Tendenz zur Mitte"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Halo-Effekt beschreibt das Überstrahlen anderer Merkmale durch ein einzelnes, markantes Merkmal des Beurteilten.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Azubi hat die Abschlussprüfung nicht bestanden. In einer Sitzung mit der Geschäftsleitung müssen Sie das weitere Vorgehen klären. Der Chef will den Azubi 'loswerden'. Welche rechtliche Hürde müssen Sie ihm erklären?",
+    "answers": {
+      "A": "Der Azubi hat einen Anspruch auf Verlängerung des Ausbildungsverhältnisses bis zur nächsten Wiederholungsprüfung, maximal um ein Jahr (§ 21 BBiG).",
+      "B": "Der Betrieb muss dem Azubi die Prüfungsgebühr für den Zweitversuch vom Gehalt abziehen.",
+      "C": "Der Azubi muss sofort einen neuen Ausbildungsvertrag in einem anderen Betrieb unterschreiben.",
+      "D": "Es gibt keine Hürde, der Vertrag endet automatisch am im Vertrag genannten Datum."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Wenn der Azubi die Verlängerung verlangt, verlängert sich der Vertrag kraft Gesetzes (§ 21 Abs. 3 BBiG), um ihm den Abschluss zu ermöglichen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "In einem Netzwerk-Treffen mit anderen Ausbildern geht es um das 'Berichtsheft' (Ausbildungsnachweis). Ein Kollege meint, das sei nur Schikane. Wie begründen Sie die Wichtigkeit gegenüber der Geschäftsleitung?",
+    "answers": {
+      "A": "Es dient primär dazu, die Schriftart des Azubis zu prüfen.",
+      "B": "Es ist eine Zulassungsvoraussetzung zur Abschlussprüfung und dokumentiert die ordnungsgemäße Vermittlung der Inhalte.",
+      "C": "Man kann damit bei der Steuererklärung Ausbildungskosten absetzen.",
+      "D": "Es ist die Grundlage für die Gehaltsabrechnung."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Ohne ordnungsgemäß geführtes Berichtsheft erfolgt keine Zulassung zur Prüfung (§ 43 BBiG). Zudem ist es ein Beweismittel für die Vermittlung der Inhalte.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Sie moderieren einen Workshop für neue Fachausbilder zum Thema 'Motivation'. Welcher Faktor zählt nach Herzberg zu den 'Motivatoren' (die echte Zufriedenheit erzeugen), nicht nur zu den Hygienefaktoren?",
+    "answers": {
+      "A": "Pünktliche Gehaltszahlung",
+      "B": "Sicherheit des Arbeitsplatzes",
+      "C": "Verantwortung und Anerkennung der Leistung",
+      "D": "Angenehmes Raumklima"
+    },
+    "correct_answer": ["C"],
+    "explanation": "Nach Herzberg sind Gehalt und Klima lediglich Hygienefaktoren (verhindern Unzufriedenheit). Echte Motivation entsteht durch die Aufgabe selbst, Verantwortung und Erfolgserlebnisse.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Die JAV bittet Sie um ein Gespräch, weil Azubis sich über Samstagsarbeit beschweren. Ein Fachausbilder behauptet, er dürfe 16-Jährige samstags einsetzen, wenn er ihnen dafür am Sonntag frei gibt. Was korrigieren Sie?",
+    "answers": {
+      "A": "Das ist richtig so.",
+      "B": "Falsch, der Ersatzruhetag für Samstagsarbeit muss in derselben Woche an einem anderen Werktag (Mo-Fr) gewährt werden (§ 16 JArbSchG).",
+      "C": "Samstagsarbeit ist für 16-Jährige generell unzulässig, auch mit Ausgleich.",
+      "D": "Der Ausgleich muss finanziell erfolgen, nicht durch Freizeit."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das JArbSchG schreibt bei Samstagsarbeit in erlaubten Branchen zwingend die 5-Tage-Woche vor; der freie Tag muss also ein Schultag oder ein betrieblicher Arbeitstag sein.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Kooperationsbetrieb bietet an, Teile der Ausbildung zu übernehmen (Verbundausbildung). Die Geschäftsleitung fragt Sie, wer in diesem Fall die Eintragung in das Verzeichnis der Berufsausbildungsverhältnisse vornehmen muss.",
+    "answers": {
+      "A": "Beide Betriebe jeweils für ihre Anteile.",
+      "B": "Der Stammbetrieb, der den Ausbildungsvertrag mit dem Azubi schließt.",
+      "C": "Die Berufsschule.",
+      "D": "Der Azubi selbst muss den Antrag bei der Kammer stellen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Verantwortlich für alle Formalitäten (Eintragung, Anmeldung zur Prüfung) ist immer der Ausbildende (Stammbetrieb), der im Vertrag steht.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Nach der Abschlussprüfung Teil 1 (Zwischenprüfung) stellen Sie fest, dass ein Azubi weit hinter den Erwartungen zurückbleibt. In der Ausbilderkonferenz wird über eine 'vorzeitige Zulassung' zur Abschlussprüfung gesprochen. Wie reagieren Sie professionell?",
+    "answers": {
+      "A": "Sie schlagen die vorzeitige Zulassung vor, um den Azubi schneller loszuwerden.",
+      "B": "Sie lehnen dies ab, da eine vorzeitige Zulassung überdurchschnittliche Leistungen im Betrieb und in der Schule voraussetzt (§ 45 BBiG).",
+      "C": "Sie sagen, dass jeder Azubi das Recht hat, vorzeitig abzuschließen, wenn er das möchte.",
+      "D": "Sie schlagen vor, die Ausbildung um ein Jahr zu verkürzen, um Druck aufzubauen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Eine vorzeitige Zulassung ist eine Belohnung für Spitzenleistungen (besser als Note 2,0/gut). Bei Defiziten kommt eher eine Verlängerung oder gezielte Förderung in Betracht.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Unter welcher Voraussetzung kann in einem Betrieb eine Jugend- und Auszubildendenvertretung (JAV) errichtet werden?",
+    "answers": {
+      "A": "Es müssen mindestens 5 Auszubildende vorhanden sein.",
+      "B": "Es müssen mindestens 5 Jugendliche (unter 18) oder Auszubildende (unter 25) vorhanden sein und es muss ein Betriebsrat bestehen.",
+      "C": "Die Errichtung ist in jedem Ausbildungsbetrieb ab 20 Mitarbeitern gesetzlich Pflicht.",
+      "D": "Es müssen mindestens 3 Auszubildende vorhanden sein, unabhängig von einem Betriebsrat."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 60 BetrVG ist ein bestehender Betriebsrat zwingende Voraussetzung für die Wahl einer JAV.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Wer ist bei der Wahl der Jugend- und Auszubildendenvertretung aktiv wahlberechtigt?",
+    "answers": {
+      "A": "Alle Auszubildenden, unabhängig vom Alter.",
+      "B": "Alle Arbeitnehmer unter 18 Jahren sowie alle Auszubildenden unter 25 Jahren.",
+      "C": "Nur Auszubildende, die die Probezeit bereits bestanden haben.",
+      "D": "Alle Mitarbeiter unter 30 Jahren, die sich in einer Fortbildung befinden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Wahlberechtigt sind Jugendliche unter 18 und Auszubildende bis zum vollendeten 25. Lebensjahr.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein JAV-Mitglied möchte an einer Betriebsratssitzung teilnehmen. Wie ist die gesetzliche Regelung?",
+    "answers": {
+      "A": "Die JAV darf nur teilnehmen, wenn der Arbeitgeber zustimmt.",
+      "B": "Die JAV darf zu jedem Tagesordnungspunkt einen Vertreter entsenden.",
+      "C": "Die JAV darf nur teilnehmen, wenn Themen besprochen werden, die ausschließlich Auszubildende betreffen.",
+      "D": "Mitglieder der JAV haben generell kein Zutrittsrecht zu Betriebsratssitzungen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 67 BetrVG kann die JAV zu jeder Sitzung einen Vertreter entsenden. Werden Themen besprochen, die besonders die Gruppe der Jugendlichen/Azubis betreffen, hat die gesamte JAV ein Teilnahmerecht.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Wie lange dauert die regelmäßige Amtszeit der Jugend- und Auszubildendenvertretung?",
+    "answers": {
+      "A": "1 Jahr",
+      "B": "2 Jahre",
+      "C": "4 Jahre",
+      "D": "Für die Dauer der jeweiligen Ausbildung"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Während die Amtszeit des Betriebsrats 4 Jahre beträgt, wird die JAV alle 2 Jahre gewählt (§ 64 BetrVG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "In welcher Angelegenheit hat der Betriebsrat ein echtes Mitbestimmungsrecht gemäß § 87 BetrVG?",
+    "answers": {
+      "A": "Bei der Auswahl der Bewerber für einen Ausbildungsplatz.",
+      "B": "Bei der Festlegung von Beginn und Ende der täglichen Arbeitszeit sowie der Pausen.",
+      "C": "Bei der Entscheidung über die Höhe der Ausbildungsvergütung.",
+      "D": "Bei der Erstellung des betrieblichen Ausbildungsplans."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Ordnung des Betriebs und Arbeitszeiten sind zwingend mitbestimmungspflichtig. Die Vergütung ist meist tariflich geregelt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Was versteht man unter dem 'besonderen Kündigungsschutz' für Mitglieder der JAV?",
+    "answers": {
+      "A": "Sie können während ihrer gesamten Amtszeit niemals gekündigt werden.",
+      "B": "Die ordentliche Kündigung ist während der Amtszeit und 1 Jahr danach unzulässig.",
+      "C": "Sie dürfen nach der Ausbildung nicht übernommen werden.",
+      "D": "Sie haben nur während der Probezeit Kündigungsschutz."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 15 KSchG ist die ordentliche Kündigung während der Amtszeit und ein Jahr danach ausgeschlossen; eine außerordentliche Kündigung bedarf der Zustimmung des Betriebsrats.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Welche Aufgabe nimmt die JAV primär wahr?",
+    "answers": {
+      "A": "Sie schließt Verträge mit den Auszubildenden ab.",
+      "B": "Sie beantragt Maßnahmen beim Betriebsrat, die den Auszubildenden dienen (z.B. Verbesserung der Ausstattung).",
+      "C": "Sie führt die Abschlussprüfungen durch.",
+      "D": "Sie legt die Kriterien für die fachliche Eignung der Ausbilder fest."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die JAV hat ein Vorschlagsrecht gegenüber dem Betriebsrat (§ 70 BetrVG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Wie oft muss die JAV eine Jugend- und Auszubildendenversammlung einberufen?",
+    "answers": {
+      "A": "Einmal pro Monat.",
+      "B": "Einmal pro Kalendervierteljahr.",
+      "C": "Einmal im Jahr (im Anschluss an die Betriebsversammlung).",
+      "D": "Nur bei Bedarf, wenn 50% der Azubis dies fordern."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Gemäß § 71 BetrVG ist einmal jährlich eine solche Versammlung durchzuführen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender fühlt sich vom Ausbilder ungerecht behandelt. An wen kann er sich im Betrieb wenden, um sein Beschwerderecht auszuüben?",
+    "answers": {
+      "A": "Ausschließlich an die Kammer (IHK/HWK).",
+      "B": "An den Betriebsrat oder direkt an die JAV.",
+      "C": "Nur an das Arbeitsgericht.",
+      "D": "An die Agentur für Arbeit."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Betriebsrat hat die Aufgabe, Beschwerden von Arbeitnehmern (auch Azubis) entgegenzunehmen (§ 84, 85 BetrVG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Wer trägt die Kosten für die Arbeit der Jugend- und Auszubildendenvertretung (z.B. Schulungen, Büromaterial)?",
+    "answers": {
+      "A": "Die Auszubildenden durch Umlagen.",
+      "B": "Die Gewerkschaft.",
+      "C": "Der Arbeitgeber.",
+      "D": "Die Bundesagentur für Arbeit."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Nach § 40 i.V.m. § 65 BetrVG trägt der Arbeitgeber die durch die Tätigkeit der JAV entstehenden Kosten.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Hat die JAV ein Stimmrecht bei Abstimmungen im Betriebsrat?",
+    "answers": {
+      "A": "Ja, sie stimmt bei allen Themen voll mit ab.",
+      "B": "Nur bei Themen, die überwiegend Jugendliche und Auszubildende betreffen.",
+      "C": "Nein, sie hat grundsätzlich nur ein Beratungsrecht.",
+      "D": "Nur wenn der Betriebsratsvorsitzende es erlaubt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das Stimmrecht der JAV im Betriebsrat ist auf Angelegenheiten beschränkt, die Jugendliche und Azubis besonders betreffen (§ 67 Abs. 2 BetrVG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein JAV-Mitglied beendet seine Ausbildung. Was muss geschehen, damit es in ein unbefristetes Arbeitsverhältnis übernommen wird?",
+    "answers": {
+      "A": "Es wird automatisch übernommen, es muss nichts getan werden.",
+      "B": "Es muss innerhalb der letzten 3 Monate vor Ausbildungsende schriftlich die Weiterbeschäftigung verlangen (§ 78a BetrVG).",
+      "C": "Es muss eine neue Abschlussprüfung ablegen.",
+      "D": "Es gibt keinen Anspruch auf Übernahme für JAV-Mitglieder."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Verlangt ein JAV-Mitglied innerhalb der letzten drei Monate vor Beendigung schriftlich die Weiterbeschäftigung, gilt ein Arbeitsverhältnis als begründet.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Welche Maßnahme zur Berufsbildung unterliegt der Mitbestimmung des Betriebsrats nach § 98 BetrVG?",
+    "answers": {
+      "A": "Die Auswahl der Berufsschule.",
+      "B": "Die Bestellung und Abberufung von Ausbildern.",
+      "C": "Die Höhe der Prüfungsgebühren.",
+      "D": "Die Entscheidung über die Verkürzung der Lehrzeit."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Betriebsrat kann der Bestellung eines Ausbilders widersprechen, wenn dieser persönlich oder fachlich ungeeignet ist.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Wie viele Arbeitnehmer müssen in einem Betrieb mindestens 'ständig wahlberechtigt' sein, um einen Betriebsrat wählen zu können?",
+    "answers": {
+      "A": "Mindestens 5.",
+      "B": "Mindestens 20.",
+      "C": "Mindestens 50.",
+      "D": "Mindestens 2."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Nach § 1 BetrVG sind 5 ständig wahlberechtigte Arbeitnehmer erforderlich, von denen 3 wählbar sein müssen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Darf der Arbeitgeber an den Sitzungen der JAV teilnehmen?",
+    "answers": {
+      "A": "Ja, er leitet die Sitzungen.",
+      "B": "Nur wenn er ausdrücklich von der JAV eingeladen wurde.",
+      "C": "Immer, um die Einhaltung der Gesetze zu überwachen.",
+      "D": "Nur wenn der Betriebsrat nicht anwesend ist."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die JAV-Sitzungen sind nicht öffentlich. Der Arbeitgeber nimmt nur teil, wenn er eingeladen wird.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "In welchem Gesetz sind die Rechte und Pflichten des Betriebsrats und der JAV primär geregelt?",
+    "answers": {
+      "A": "Berufsbildungsgesetz (BBiG)",
+      "B": "Betriebsverfassungsgesetz (BetrVG)",
+      "C": "Arbeitszeitgesetz (ArbZG)",
+      "D": "Bürgerliches Gesetzbuch (BGB)"
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das BetrVG ist die Grundlage für die betriebliche Mitbestimmung in der Privatwirtschaft.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Kann ein Auszubildender, der 26 Jahre alt ist, in die JAV gewählt werden (passives Wahlrecht)?",
+    "answers": {
+      "A": "Ja, für das passive Wahlrecht gibt es keine Altersgrenze für Auszubildende.",
+      "B": "Nein, man darf höchstens 25 Jahre alt sein.",
+      "C": "Nur wenn er im ersten Lehrjahr ist.",
+      "D": "Nur wenn der Betriebsrat zustimmt."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Seit der Reform 2021 gibt es für die Wählbarkeit (passives Wahlrecht) von Auszubildenden in die JAV keine Altershöchstgrenze mehr.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Was muss der Arbeitgeber tun, bevor er einen Auszubildenden nach der Probezeit kündigt?",
+    "answers": {
+      "A": "Er muss die Kammer um Erlaubnis bitten.",
+      "B": "Er muss den Betriebsrat anhören (§ 102 BetrVG).",
+      "C": "Er muss die JAV kündigen lassen.",
+      "D": "Er muss die Eltern informieren."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Jede Kündigung ohne Anhörung des Betriebsrats ist unwirksam.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Welches Ziel verfolgt die JAV bei der Überwachung der Gesetze?",
+    "answers": {
+      "A": "Dass der Arbeitgeber keine Gewinne macht.",
+      "B": "Dass zugunsten der Auszubildenden geltende Gesetze, Verordnungen und Unfallverhütungsvorschriften eingehalten werden.",
+      "C": "Dass die Auszubildenden keine Pausen machen.",
+      "D": "Dass die Berufsschule keine Noten vergibt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Dies ist eine der allgemeinen Aufgaben nach § 70 BetrVG.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 2,
+    "question": "Wer entscheidet bei Streitigkeiten zwischen Betriebsrat und Arbeitgeber in Mitbestimmungsfragen?",
+    "answers": {
+      "A": "Die Einigungsstelle.",
+      "B": "Der Ausbildungsberater der Kammer.",
+      "C": "Das Bundesbildungsministerium.",
+      "D": "Die JAV."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Die Einigungsstelle dient der Beilegung von Meinungsverschiedenheiten zwischen Arbeitgeber und Betriebsrat (§ 76 BetrVG).",
+    "question_type": "normal"
+  },
+  {
     "handlungsfeld": "3",
     "schwierigkeit": 3,
     "question": "Das 'Modell der vollständigen Handlung' zielt darauf ab, alle Kompetenzbereiche zu fördern. Welche Reihenfolge ist korrekt?",
