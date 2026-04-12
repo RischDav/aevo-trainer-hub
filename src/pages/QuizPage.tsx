@@ -151,12 +151,7 @@ export default function QuizPage() {
               </div>
             ))}
           </div>
-
-          <div className="flex gap-4 mt-8">
-            <Button onClick={() => navigate("/setup")} variant="outline" className="flex-1">Neues Training</Button>
-            <Button onClick={() => navigate("/")} variant="ghost" className="flex-1">Startseite</Button>
-          </div>
-
+          
           {/* Question details */}
           <h2 className="text-xl font-bold mb-4">Detailauswertung</h2>
           <div className="space-y-4">
