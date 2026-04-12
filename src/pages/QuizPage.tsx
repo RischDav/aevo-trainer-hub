@@ -284,6 +284,8 @@ export default function QuizPage() {
             <span>·</span>
             <span>{q.question_type === "multiple_choice" ? "Mehrfachauswahl" : "Einfachauswahl"}</span>
             <span>·</span>
+            <span>{q.correct_answer.length} richtige {q.correct_answer.length === 1 ? "Antwort" : "Antworten"}</span>
+            <span>·</span>
             <span>Schwierigkeit {q.schwierigkeit}/3</span>
           </div>
 
