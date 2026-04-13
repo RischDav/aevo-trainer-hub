@@ -3148,6 +3148,636 @@ export const questions: Question[] = [
     question_type: "multiple_choice",
   },
   {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Der Ausbilder Stefan bemerkt, dass seine Auszubildende Lara (17 Jahre) in der letzten Zeit sehr erschöpft wirkt. Ein Blick in die Schichtpläne zeigt, dass Lara im Gastronomiebetrieb oft bis 22:00 Uhr eingesetzt wird und am nächsten Morgen bereits wieder um 08:00 Uhr mit dem Eindecken der Tische beginnt. Wie sollte Stefan die Situation im Hinblick auf das Jugendarbeitsschutzgesetz rechtlich bewerten?",
+    "answers": {
+      "A": "Stefan muss den Plan sofort ändern, da Jugendliche nach Beendigung der täglichen Arbeitszeit eine ununterbrochene Freizeit von mindestens 12 Stunden haben müssen. Die Zeitspanne von 10 Stunden zwischen den Schichten ist somit rechtswidrig.",
+      "B": "Da es sich um einen Betrieb im Gastgewerbe handelt, ist die Verkürzung der Ruhezeit auf 10 Stunden zulässig, sofern Lara an einem anderen Tag der Woche eine entsprechend längere Ruhepause von mindestens 14 Stunden erhält.",
+      "C": "Stefan kann die Schichteinteilung so beibehalten, da für Auszubildende im Gastgewerbe generell Sonderregelungen gelten, die eine Ruhepause von 10 Stunden erlauben, sofern die wöchentliche Höchstarbeitszeit von 40 Stunden nicht überschritten wird.",
+      "D": "Stefan sollte Lara lediglich fragen, ob sie sich der Belastung gewachsen fühlt. Da sie fast 18 Jahre alt ist, greifen die strengen Ruhezeitregelungen nur noch eingeschränkt, und eine 10-stündige Pause wird in der Praxis als ausreichend angesehen."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Das JArbSchG ist hier eindeutig: Jugendliche müssen zwischen zwei Arbeitstagen mindestens 12 Stunden ununterbrochene Freizeit haben. Ausnahmen für das Gastgewerbe beziehen sich oft auf die Uhrzeit (bis 22 Uhr), nicht aber auf die Verkürzung der 12-stündigen Ruhezeit.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Der Auszubildende Tim hat seine Abschlussprüfung zum Mechatroniker leider nicht bestanden. Sein Ausbilder Herr Wagner ist unsicher, wie es nun weitergeht. Der aktuelle Ausbildungsvertrag endet laut Urkunde in zwei Wochen. Herr Wagner möchte Tim zwar unterstützen, aber die Geschäftsleitung scheut weitere Kosten. Welche rechtlichen Schritte sind nun einzuleiten?",
+    "answers": {
+      "A": "Das Ausbildungsverhältnis endet automatisch zum vereinbarten Datum im Vertrag. Wenn Tim die Prüfung wiederholen möchte, muss Herr Wagner einen komplett neuen Arbeitsvertrag als 'Ungelernte Hilfskraft' aufsetzen, bis zum nächsten Prüfungstermin.",
+      "B": "Sofern Tim dies verlangt, verlängert sich sein Ausbildungsverhältnis rechtlich verbindlich bis zur nächstfolgenden Wiederholungsprüfung, jedoch insgesamt maximal um ein Jahr. Herr Wagner kann diesen Anspruch des Auszubildenden nicht einseitig ablehnen.",
+      "C": "Herr Wagner muss bei der zuständigen Kammer einen Antrag auf Ausnahmegenhmigung stellen. Nur wenn die Kammer zustimmt und der Betrieb die fachliche Eignung erneut nachweist, darf Tim für weitere sechs Monate im Betrieb verbleiben.",
+      "D": "Das Ausbildungsverhältnis verlängert sich kraft Gesetzes automatisch für alle Auszubildenden, die durchgefallen sind, um genau sechs Monate, ohne dass Tim oder Herr Wagner hierfür eine schriftliche Erklärung abgeben müssen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Laut BBiG hat der Azubi bei Nichtbestehen einen Rechtsanspruch auf Verlängerung bis zur nächsten Prüfung (max. 1 Jahr). Er muss dieses Verlangen aber aktiv gegenüber dem Ausbildenden äußern.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Die Ausbilderin Frau Schmidt möchte ein Feinlernziel für ihren Auszubildenden im Bereich Lagerlogistik formulieren. Der Azubi soll lernen, Pakete fachgerecht für den Versand vorzubereiten. Frau Schmidt schreibt auf: 'Der Auszubildende soll Pakete sicher verpacken können.' Warum ist dieses Lernziel didaktisch noch nicht ausreichend operationalisiert?",
+    "answers": {
+      "A": "Das Lernziel ist falsch formuliert, weil es den kognitiven Bereich anspricht, obwohl das Verpacken von Paketen ausschließlich dem affektiven Lernzielbereich (Einstellung zur Arbeit) zuzuordnen ist.",
+      "B": "Es fehlen die Angaben zu den genauen Bedingungen (z.B. unter Verwendung welcher Hilfsmittel) sowie ein eindeutiger Beurteilungsmaßstab, woran die 'Sicherheit' der Verpackung objektiv gemessen wird (z.B. Falltest aus 1 Meter Höhe).",
+      "C": "Ein Feinlernziel darf niemals mit dem Hilfsverb 'können' enden, da dies einen Zustand beschreibt und keine beobachtbare Handlung. Frau Schmidt müsste stattdessen das Wort 'verstehen' am Ende des Satzes verwenden.",
+      "D": "Das Lernziel ist zu kleinteilig. In der modernen Ausbildung sollten nur noch Richtlernziele verwendet werden, um dem Auszubildenden die volle Freiheit bei der Gestaltung seines individuellen Lernprozesses zu lassen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Ein operationalisiertes Feinlernziel benötigt drei Komponenten: Das beobachtbare Endverhalten, die Bedingungen (Hilfsmittel) und den Beurteilungsmaßstab (Qualität/Zeit). 'Sicher verpacken' ist zu vage.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "In einem mittelständischen Betrieb wird zum ersten Mal ausgebildet. Der Inhaber Herr Meyer stellt fest, dass sein Betrieb laut dem Ausbildungsrahmenplan für den Beruf 'Kaufmann für Büromanagement' nicht alle Inhalte vermitteln kann, da die Abteilung 'Personalwesen' komplett an einen externen Dienstleister ausgelagert wurde. Wie sollte Herr Meyer vorgehen, um trotzdem rechtssicher auszubilden?",
+    "answers": {
+      "A": "Er kann den Ausbildungsplan einseitig kürzen und die fehlenden Inhalte durch zusätzliche Aufgaben in der Buchhaltung ersetzen, da Betriebe eine 20-prozentige Abweichung vom Rahmenplan ohne Genehmigung vornehmen dürfen.",
+      "B": "Herr Meyer muss die Ausbildung in diesem Beruf komplett absagen, da ein Betrieb nur dann ausbilden darf, wenn er zu 100 % alle im Ausbildungsrahmenplan aufgeführten Fertigkeiten und Kenntnisse selbst im eigenen Haus vermittelt.",
+      "C": "Er sollte die Ausbildung im Rahmen eines Ausbildungsverbundes oder durch überbetriebliche Maßnahmen organisieren. Dabei werden die fehlenden Inhalte (Personalwesen) in einem Partnerbetrieb oder einer externen Bildungseinrichtung vermittelt.",
+      "D": "Es reicht aus, wenn Herr Meyer dem Auszubildenden Fachliteratur zum Thema Personalwesen zur Verfügung stellt, damit dieser sich die Inhalte im Selbststudium während der Arbeitszeit aneignen kann, um die Prüfung zu bestehen."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Die Ausbildungsordnung ist bindend. Wenn ein Betrieb nicht alles selbst abdecken kann, ist die Verbundausbildung (§ 10 BBiG) die rechtlich vorgesehene Lösung, um die Eignung der Ausbildungsstätte sicherzustellen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Der Auszubildende Lukas (18 Jahre) ist im zweiten Lehrjahr. Sein Ausbilder bemerkt, dass Lukas seit Wochen seine Ausbildungsnachweise nicht mehr zur Unterschrift vorgelegt hat. Auf Nachfrage gibt Lukas an, dass er seine Berichte lieber am Wochenende zu Hause schreibt, dafür aber im Moment keine Zeit findet. Welche rechtliche Pflicht hat der Ausbilder in dieser Situation?",
+    "answers": {
+      "A": "Der Ausbilder muss Lukas anweisen, die Berichte während der Ausbildungszeit im Betrieb zu führen, und ihm dafür die nötige Zeit einräumen. Zudem muss er Lukas dazu anhalten, die Nachweise regelmäßig (mindestens monatlich) vorzulegen.",
+      "B": "Da Lukas volljährig ist, unterliegt das Führen der Berichte seiner privaten Eigenverantwortung. Der Ausbilder ist lediglich am Ende der Ausbildung dazu verpflichtet, die Vollständigkeit für die Prüfungsanmeldung stichprobenartig zu prüfen.",
+      "C": "Der Ausbilder sollte Lukas klarmachen, dass er bei fehlenden Berichten die Ausbildungsvergütung anteilig einbehalten darf, da die Berichte eine Teilleistung der vertraglich vereinbarten Arbeitszeit darstellen.",
+      "D": "Der Ausbilder ist verpflichtet, die Berichte für Lukas vorzuformulieren, falls dieser durch betriebliche Überlastung nicht dazu kommt, da die Dokumentationspflicht letztlich beim ausbildenden Unternehmen liegt."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Gemäß BBiG und den Empfehlungen des Hauptausschusses des BIBB ist dem Azubi Zeit im Betrieb zu geben. Der Ausbilder hat eine Überwachungspflicht und muss die Berichte regelmäßig kontrollieren (Erziehungspflicht).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Die Ausbilderin Frau Berger stellt fest, dass ihr Auszubildender Marc (17 Jahre) während seiner Probezeit für drei Wochen aufgrund eines Sportunfalls im Krankenhaus lag. Da die Probezeit in vier Tagen ausläuft, möchte Frau Berger diese um die Zeit des Ausfalls verlängern, um Marcs Eignung besser beurteilen zu können. Wie ist die Rechtslage?",
+    "answers": {
+      "A": "Eine Verlängerung der Probezeit ist im Ausbildungsverhältnis absolut ausgeschlossen, da die gesetzliche Höchstdauer von vier Monaten ein starres Ende markiert, unabhängig von Krankheitszeiten.",
+      "B": "Frau Berger kann die Probezeit einseitig um die drei Wochen der Abwesenheit verlängern, muss dies aber dem zuständigen Gewerbeaufsichtsamt melden, damit der Versicherungsschutz für Marc bestehen bleibt.",
+      "C": "Die Probezeit kann nur dann um die Dauer der Unterbrechung verlängert werden, wenn dies bereits im ursprünglichen Berufsausbildungsvertrag für den Fall einer längeren Unterbrechung ausdrücklich vereinbart wurde.",
+      "D": "Frau Berger darf die Probezeit gar nicht verlängern, kann Marc aber am letzten Tag der regulären Probezeit ohne Angabe von Gründen kündigen und ihm sofort einen neuen Vertrag mit einer erneuten Probezeit anbieten."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Gemäß BBiG kann die Probezeit nur verlängert werden, wenn die Ausbildung während der Probezeit um mehr als ein Drittel unterbrochen wird und eine entsprechende Klausel im Vertrag die Verlängerung um die Zeit der Unterbrechung vorsieht.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Der Ausbilder Herr Müller hat im Ausbildungsvertrag mit seiner Auszubildenden (17 Jahre) eine Probezeit von vier Monaten vereinbart. Nach drei Monaten stellt er fest, dass sie zwei Wochen wegen einer Grippe fehlte und er sie noch nicht ausreichend beurteilen kann. Er schlägt ihr vor, die Probezeit schriftlich um diese zwei Wochen zu verlängern. Wie ist die rechtliche Lage nach dem BBiG?",
+    "answers": {
+      "A": "Die Verlängerung ist wirksam, da die gesetzliche Höchstdauer von vier Monaten nur für die tatsächliche Anwesenheitszeit gilt und Ausfallzeiten durch Krankheit grundsätzlich angehängt werden dürfen.",
+      "B": "Eine Verlängerung über vier Monate hinaus ist grundsätzlich nichtig, es sei denn, die Ausbildung wurde während der Probezeit um mehr als ein Drittel der Zeit unterbrochen und eine entsprechende Klausel ist im Vertrag enthalten.",
+      "C": "Herr Müller kann die Probezeit einseitig verlängern, muss dies aber der zuständigen Kammer melden, damit die Eintragung im Verzeichnis der Berufsausbildungsverhältnisse korrigiert wird.",
+      "D": "Die Vereinbarung ist zulässig, sofern die Auszubildende und deren gesetzliche Vertreter ausdrücklich zustimmen und die Verlängerung maximal einen Monat beträgt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 20 BBiG darf die Probezeit maximal vier Monate betragen. Eine Verlängerung ist nur bei einer Unterbrechung von mehr als einem Drittel der Zeit möglich, sofern dies vertraglich vereinbart wurde.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Die Auszubildende Sarah (16 Jahre) arbeitet in einer Arztpraxis. Aufgrund eines hohen Patientenaufkommens bittet der Ausbilder sie, am Montag und Dienstag jeweils 8,5 Stunden zu arbeiten. Er verspricht ihr, dass sie dafür am Freitag bereits nach 7 Stunden gehen darf. Darf der Ausbilder diese Arbeitszeitregelung so treffen?",
+    "answers": {
+      "A": "Ja, das JArbSchG erlaubt eine tägliche Arbeitszeit von bis zu 8,5 Stunden, sofern die durchschnittliche wöchentliche Arbeitszeit von 40 Stunden in derselben Woche nicht überschritten wird.",
+      "B": "Nein, für Jugendliche unter 18 Jahren gilt eine strikte tägliche Höchstgrenze von 8 Stunden, die unter keinen Umständen für operative Tätigkeiten überschritten werden darf.",
+      "C": "Nur wenn die Auszubildende schriftlich bestätigt, dass die Mehrarbeit freiwillig erfolgt und sie einen Zuschlag von 25 % auf ihre Vergütung für diese zwei Stunden erhält.",
+      "D": "Ja, aber nur wenn der Ausbilder nachweisen kann, dass keine volljährigen Fachkräfte zur Verfügung standen, um die Patientenversorgung sicherzustellen."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Laut § 8 JArbSchG darf die tägliche Arbeitszeit auf 8,5 Stunden verlängert werden, wenn sie an anderen Tagen derselben Woche auf 40 Stunden insgesamt ausgeglichen wird.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ausbilder Jörg möchte die Selbstständigkeit seiner Auszubildenden fördern und nutzt die 'Leittextmethode'. Er händigt den Auszubildenden die Leitfragen und das Material aus, zieht sich dann aber für den Rest des Tages komplett in sein Büro zurück. Welchen entscheidenden Schritt der Methode vernachlässigt Jörg hierbei?",
+    "answers": {
+      "A": "Er vernachlässigt die Phase des 'Vormachens', da die Leittextmethode darauf basiert, dass der Ausbilder jeden Schritt zuerst visuell präsentiert, bevor die Leitfragen beantwortet werden.",
+      "B": "Er missachtet seine Rolle als Lernbegleiter, da er insbesondere in der Phase der 'Kontrolle' (Soll-Ist-Vergleich) und beim abschließenden Fachgespräch zur 'Bewertung' persönlich anwesend sein muss.",
+      "C": "Die Leittextmethode ist für die Gruppenarbeit konzipiert; Jörg hätte zwingend moderierend eingreifen müssen, um die soziale Dynamik zwischen den Auszubildenden zu steuern.",
+      "D": "Er hätte die Leitfragen gemeinsam mit den Auszubildenden im Plenum erarbeiten müssen, statt sie fertig gedruckt auszuhändigen, da sonst der kognitive Lerneffekt verloren geht."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Leittextmethode sieht vor, dass der Ausbilder als Coach fungiert. Besonders beim Vergleich der Ergebnisse und dem abschließenden Gespräch ist seine Expertise und Rückmeldung essenziell.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbildungsbetrieb stellt für die Sicherheit in der Werkstatt spezielle Sicherheitsschuhe vor. Der Ausbilder verlangt von den Auszubildenden, dass sie sich an den Kosten mit 50 % beteiligen, da sie die Schuhe auch privat (z. B. bei der Gartenarbeit) nutzen können. Wie ist dies nach dem BBiG zu bewerten?",
+    "answers": {
+      "A": "Das ist zulässig, da es sich um Kleidung handelt, die in den persönlichen Besitz der Auszubildenden übergeht und somit nicht allein dem Ausbildungszweck dient.",
+      "B": "Der Ausbildende ist verpflichtet, Werkzeuge und Werkstoffe, die zur Ausbildung erforderlich sind, kostenlos zur Verfügung zu stellen. Dazu gehört auch die vorgeschriebene Schutzausrüstung.",
+      "C": "Eine Kostenbeteiligung ist nur dann rechtmäßig, wenn der Auszubildende volljährig ist und die Beteiligung 20 Euro pro Halbjahr nicht überschreitet.",
+      "D": "Der Betrieb darf die Kosten nur dann umlegen, wenn im Gegenzug die jährliche Ausbildungsvergütung um einen entsprechenden Betrag über dem Tarifdurchschnitt liegt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 14 Abs. 1 Nr. 3 BBiG müssen Ausbildungsmittel kostenlos gestellt werden. Schutzkleidung, die für die Arbeit vorgeschrieben ist, fällt unter diese Pflicht.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 17-jähriger Auszubildender soll im Rahmen seiner Ausbildung zum Chemielaboranten mit hochgiftigen Substanzen arbeiten. Der Ausbilder ist sich unsicher, ob er dies anordnen darf. Welche Bedingung muss laut JArbSchG erfüllt sein, damit der Jugendliche diese Tätigkeit ausüben darf?",
+    "answers": {
+      "A": "Die Tätigkeit ist für Minderjährige grundsätzlich verboten, es sei denn, der Jugendliche wird während der Arbeit von einem Arzt per Videoüberwachung beobachtet.",
+      "B": "Die Arbeit ist zulässig, wenn sie zur Erreichung des Ausbildungsziels erforderlich ist und der Schutz des Jugendlichen durch die Aufsicht eines Fachkundigen gewährleistet wird.",
+      "C": "Es ist eine Ausnahmegenehmigung der Berufsgenossenschaft erforderlich, die alle sechs Monate neu beantragt und durch eine Blutuntersuchung des Jugendlichen begründet werden muss.",
+      "D": "Der Jugendliche darf diese Arbeiten nur ausführen, wenn er zuvor eine theoretische Prüfung mit der Note 'sehr gut' abgelegt hat und mindestens 17,5 Jahre alt ist."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 22 JArbSchG sind gefährliche Arbeiten für Jugendliche verboten, außer sie sind für das Ausbildungsziel notwendig und finden unter fachkundiger Aufsicht statt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbildungsbetrieb möchte von seinem üblichen Ausbildungsplan abweichen, da ein wichtiger Großkunde ein spezielles Projekt anfordert, bei dem der Auszubildende wertvolle Kenntnisse erwerben könnte, die aber erst für das dritte Lehrjahr vorgesehen sind. Der Auszubildende ist erst im ersten Jahr. Was sollte der Ausbilder tun?",
+    "answers": {
+      "A": "Er muss strikt beim Ausbildungsplan bleiben, da jede zeitliche Abweichung zum Erlöschen des Versicherungsschutzes durch die Berufsgenossenschaft führt.",
+      "B": "Er darf die zeitliche Abfolge anpassen, sofern die sachliche Gliederung gewahrt bleibt und die Abweichung aus betrieblichen Gründen gerechtfertigt sowie pädagogisch sinnvoll ist.",
+      "C": "Er muss eine schriftliche Genehmigung der Berufsschule einholen, da der schulische Rahmenlehrplan exakt mit der betrieblichen zeitlichen Gliederung synchronisiert sein muss.",
+      "D": "Er kann die Abfolge ändern, muss aber dem Auszubildenden für die Zeit des Projekts die Vergütung des dritten Lehrjahres zahlen, da er Inhalte dieses Jahres vermittelt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der betriebliche Ausbildungsplan ist eine Richtlinie. Zeitliche und sachliche Abweichungen sind aus betrieblichen Gründen zulässig, solange das Ausbildungsziel erreicht wird.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ausbilder Sven nutzt für eine Unterweisung die 'Vier-Stufen-Methode'. In der dritten Stufe ('Nachmachen') unterlaufen dem Auszubildenden mehrere Fehler. Sven greift sofort lautstark ein und korrigiert jeden Handgriff im Moment des Geschehens. Warum ist Svens Verhalten aus pädagogischer Sicht kritisch zu hinterfragen?",
+    "answers": {
+      "A": "In der dritten Stufe darf der Ausbilder gar nicht sprechen; er muss den Auszubildenden alle Fehler machen lassen, bis das Werkstück komplett unbrauchbar ist.",
+      "B": "Svens Eingreifen stört den Lernprozess und das Selbstvertrauen; er sollte den Auszubildenden ausführen lassen und Fehler erst im anschließenden Gespräch (Stufe 4) gemeinsam analysieren.",
+      "C": "Der Ausbilder sollte in Stufe 3 nur dann eingreifen, wenn Gefahr für Leib und Leben besteht oder die Maschine beschädigt wird, um den Azubi nicht zu entmutigen und die Selbstkorrektur zu fördern.",
+      "D": "Sven hätte den Auszubildenden nach dem ersten Fehler sofort in die Pause schicken müssen, da Fehler in Stufe 3 zeigen, dass die Konzentrationsspanne des Jugendlichen erschöpft ist."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Zu frühes und zu harsches Eingreifen verhindert die Fehlerlernkultur. Nur bei Gefahr oder Sachbeschädigung ist ein sofortiger Abbruch nötig, ansonsten fördert man die Selbstkontrolle.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb beauftragt seinen Auszubildenden, für zwei Wochen an einem externen Lehrgang teilzunehmen, der 50 Kilometer vom Betrieb entfernt stattfindet. Der Ausbilder teilt mit, dass der Azubi die Fahrtkosten selbst tragen müsse, da der Lehrgang eine 'Zusatzqualifikation' sei. Wie ist die Rechtslage?",
+    "answers": {
+      "A": "Wenn die Maßnahme zur Erreichung des Ausbildungsziels notwendig ist (z. B. weil der Betrieb die Inhalte nicht selbst vermitteln kann), muss der Ausbildende die Kosten für Fahrt und Unterbringung tragen.",
+      "B": "Fahrtkosten sind grundsätzlich immer vom Auszubildenden zu tragen, da der Weg zur Ausbildung (ähnlich dem Weg zur Arbeit) in die private Lebensführung fällt.",
+      "C": "Der Betrieb muss die Kosten nur dann übernehmen, wenn der Auszubildende nachweisen kann, dass er kein eigenes Auto besitzt und auf den öffentlichen Nahverkehr angewiesen ist.",
+      "D": "Nur bei Minderjährigen besteht eine Kostenerstattungspflicht; volljährige Auszubildende müssen die Kosten im Rahmen ihrer Werbungskosten steuerlich geltend machen."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Maßnahmen außerhalb der Ausbildungsstätte, die Teil der Ausbildung sind, müssen vom Betrieb finanziert werden. Das umfasst auch die notwendigen Reisekosten.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Die Auszubildende Mia ist 17 Jahre alt und hat ihre Ausbildung vor 13 Monaten begonnen. Der Ausbilder stellt fest, dass die Bescheinigung über die ärztliche Nachuntersuchung noch fehlt. Mia weigert sich, einen Termin zu vereinbaren. Welche Konsequenz muss der Ausbilder ziehen?",
+    "answers": {
+      "A": "Er kann Mia normal weiterbeschäftigen, muss aber im Berichtsheft vermerken, dass sie die Untersuchung verweigert hat, um sich rechtlich abzusichern.",
+      "B": "Er darf Mia nach Ablauf von 14 Monaten nach Beginn der Ausbildung nicht mehr weiterbeschäftigen, bis sie die ärztliche Bescheinigung über die Nachuntersuchung vorlegt.",
+      "C": "Er muss Mia fristlos kündigen, da die fehlende Untersuchung die fachliche Eignung des Betriebs gefährdet und die Eintragung im Ausbildungsverzeichnis gelöscht wird.",
+      "D": "Er muss Mia für die Zeit bis zum Arztbesuch unbezahlt freistellen, darf sie danach aber ohne weitere Bedingungen wieder an den Arbeitsplatz lassen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Laut § 33 JArbSchG darf ein Jugendlicher nach Ablauf eines Jahres nicht weiterbeschäftigt werden, wenn die Nachuntersuchung (innerhalb der letzten 3 Monate des ersten Jahres) nicht erfolgt ist.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender hat den schriftlichen Teil seiner Abschlussprüfung bestanden, scheitert jedoch im mündlichen Fachgespräch. Er möchte die Prüfung wiederholen. Wie lange läuft sein Ausbildungsverhältnis unter welchen Bedingungen weiter?",
+    "answers": {
+      "A": "Das Verhältnis endet zum ursprünglich vereinbarten Termin; für die Wiederholungsprüfung muss er sich als externer Prüfling ohne Unterstützung des Betriebs anmelden.",
+      "B": "Das Ausbildungsverhältnis verlängert sich auf Verlangen des Auszubildenden bis zur nächstmöglichen Wiederholungsprüfung, maximal jedoch um ein Jahr.",
+      "C": "Das Verhältnis verlängert sich automatisch um genau sechs Monate, wobei der Betrieb die Vergütung auf 50 % kürzen darf, da keine neuen Ausbildungsinhalte mehr vermittelt werden.",
+      "D": "Es endet sofort mit dem Tag des Nichtbestehens; der Auszubildende hat lediglich einen Anspruch auf ein Zeugnis über die bisherige Ausbildungszeit."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 21 Abs. 3 BBiG verlängert sich das Verhältnis auf Verlangen des Azubis bis zur nächsten Prüfung (max. 1 Jahr). Die Initiative muss vom Azubi kommen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb hat einen Auszubildenden unter Vertrag genommen, vergisst jedoch, den Vertrag bei der zuständigen Kammer (z. B. IHK) zur Eintragung anzumelden. Welchen Einfluss hat dies auf die Wirksamkeit des Ausbildungsverhältnisses?",
+    "answers": {
+      "A": "Der Ausbildungsvertrag ist schwebend unwirksam; der Auszubildende hat keinen Anspruch auf Vergütung, solange die Eintragung nicht erfolgt ist.",
+      "B": "Der Vertrag bleibt zwischen Betrieb und Azubi wirksam, aber der Betrieb begeht eine Ordnungswidrigkeit und der Azubi könnte Probleme bei der Zulassung zur Prüfung bekommen.",
+      "C": "Ohne Eintragung gilt das Verhältnis automatisch als normales Arbeitsverhältnis nach dem BGB, wodurch der Kündigungsschutz der Probezeit entfällt.",
+      "D": "Die Kammer löscht den Betrieb automatisch aus der Liste der Ausbildungsbetriebe, wodurch alle anderen bestehenden Ausbildungsverträge ebenfalls nichtig werden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Eintragung ist eine Ordnungsvorschrift (§ 36 BBiG). Der Vertrag ist gültig, aber der Ausbildende handelt pflichtwidrig. Die Eintragung ist Zulassungsvoraussetzung zur Prüfung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "In einem Beurteilungsgespräch möchte der Ausbilder seinem Auszubildenden mitteilen, dass dessen Pünktlichkeit stark nachgelassen hat. Er beginnt das Gespräch direkt mit der Kritik. Warum ist dies kommunikativ ungeschickt?",
+    "answers": {
+      "A": "Man sollte immer mit dem schlimmsten Punkt beginnen, damit der Auszubildende für den Rest des Gesprächs 'wachgerüttelt' ist und aufmerksamer zuhört.",
+      "B": "Kritikgespräche sollten nach der 'Sandwich-Methode' (Positiv - Kritik - Positiv) aufgebaut sein, um die Aufnahmebereitschaft und Motivation des Auszubildenden zu erhalten.",
+      "C": "Der Ausbilder muss zuerst die Geschäftsleitung hinzuziehen, da Kritikgespräche ohne Zeugen rechtlich nicht verwertbar für eine spätere Kündigung sind.",
+      "D": "Man sollte die Pünktlichkeit gar nicht ansprechen, sondern stattdessen über die fachlichen Leistungen reden, in der Hoffnung, dass sich die Disziplin von selbst bessert."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Sandwich-Methode ist ein bewährtes pädagogisches Werkzeug, um Feedback konstruktiv zu gestalten und Abwehrhaltungen zu minimieren.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbildungsbetrieb in der Landwirtschaft beschäftigt einen 17-jährigen Jugendlichen. Während der Erntezeit soll dieser auch nach 21:00 Uhr noch auf dem Feld helfen. Wie beurteilen Sie dies nach dem JArbSchG?",
+    "answers": {
+      "A": "Dies ist absolut verboten, da die Nachtruhe für alle Jugendlichen spätestens um 20:00 Uhr beginnt.",
+      "B": "In der Landwirtschaft dürfen Jugendliche über 16 Jahre während der Erntezeit bis 21:00 Uhr beschäftigt werden; eine Beschäftigung nach 21:00 Uhr bleibt jedoch unzulässig.",
+      "C": "In der Landwirtschaft gibt es keine Nachtruhe-Beschränkungen für Jugendliche, solange die wöchentliche Arbeitszeit von 40 Stunden nicht überschritten wird.",
+      "D": "Nach 21:00 Uhr ist die Arbeit nur erlaubt, wenn der Jugendliche eine schriftliche Erlaubnis seiner Eltern und eine Bestätigung des Hausarztes vorlegt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Laut § 14 JArbSchG gibt es Ausnahmen für die Landwirtschaft (über 16-Jährige bis 21 Uhr während der Erntezeit). 21 Uhr ist hier die Obergrenze.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder formuliert folgendes Lernziel: 'Der Auszubildende soll eine Kundenanfrage innerhalb von 10 Minuten unter Verwendung des CRM-Systems fehlerfrei bearbeiten.' Welche Komponenten eines operationalisierten Feinlernziels sind hier enthalten?",
+    "answers": {
+      "A": "Nur das Endverhalten (Bearbeiten) und der Zeitrahmen (10 Minuten).",
+      "B": "Das Endverhalten (Bearbeiten), die Bedingung (CRM-System) und der Beurteilungsmaßstab (10 Minuten, fehlerfrei).",
+      "C": "Lediglich die Bedingung und das Globalziel der Kundenorientierung.",
+      "D": "Das Richtlernziel der Datenverarbeitung und die psychomotorische Komponente des Tippens."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Ein vollständig operationalisiertes Lernziel enthält das beobachtbare Verhalten, die Hilfsmittel/Bedingungen und die Qualitäts- oder Zeitnorm.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender (18 Jahre) ist seit zwei Tagen krank. Er hat sich am ersten Tag telefonisch abgemeldet. Der Ausbilder verlangt bereits für den ersten Tag eine ärztliche Bescheinigung. Der Auszubildende verweist darauf, dass man laut Gesetz erst ab dem dritten Tag ein Attest brauche. Wer hat recht?",
+    "answers": {
+      "A": "Der Auszubildende, da das Entgeltfortzahlungsgesetz eine bundeseinheitliche Regelung von drei Tagen vorschreibt, die nicht durch den Arbeitgeber verschärft werden darf.",
+      "B": "Der Ausbilder, da er laut Gesetz (und bestätigt durch Rechtsprechung) berechtigt ist, die Vorlage einer ärztlichen Bescheinigung auch früher (ab dem ersten Tag) zu verlangen.",
+      "C": "Niemand, da im Ausbildungsverhältnis Krankmeldungen grundsätzlich erst nach einer Woche schriftlich belegt werden müssen, um den Azubi nicht unnötig zu stressen.",
+      "D": "Der Auszubildende, sofern er Mitglied einer Gewerkschaft ist; ansonsten darf der Ausbilder die Regelung individuell festlegen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Arbeitgeber ist berechtigt, die Vorlage des ärztlichen Attests früher als nach dem dritten Tag zu verlangen (§ 5 EntgFG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender zeigt Anzeichen einer Lernblockade bei komplexen mathematischen Berechnungen. Der Ausbilder möchte intervenieren. Welche Maßnahme ist pädagogisch am sinnvollsten?",
+    "answers": {
+      "A": "Den Schwierigkeitsgrad sofort drastisch erhöhen, damit der Auszubildende gezwungen ist, seine Blockade durch 'puren Stress' zu überwinden.",
+      "B": "Die komplexen Aufgaben in kleinere, überschaubare Teilschritte zerlegen und durch Erfolgserlebnisse bei den einfachen Schritten das Selbstvertrauen wieder aufbauen.",
+      "C": "Dem Auszubildenden klarmachen, dass er ohne diese Berechnungen die Prüfung nicht bestehen wird, und ihn für den Rest der Woche vom Unterricht ausschließen.",
+      "D": "Die Berechnungen für den Auszubildenden übernehmen und ihm nur die Endergebnisse zum Auswendiglernen geben."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Lernblockaden begegnet man am besten durch Reduzierung der Komplexität und den Aufbau von Erfolgserlebnissen (Teillernziele).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein 17-jähriger Auszubildender arbeitet täglich 7 Stunden. Der Ausbilder gewährt ihm eine Mittagspause von 20 Minuten. Ist dies nach dem JArbSchG zulässig?",
+    "answers": {
+      "A": "Ja, bei einer Arbeitszeit von unter 8 Stunden reichen 15 Minuten Pause völlig aus.",
+      "B": "Nein, Jugendliche müssen bei einer Arbeitszeit von mehr als 6 Stunden eine Pause von insgesamt mindestens 60 Minuten erhalten.",
+      "C": "Nein, bei einer Arbeitszeit von mehr als 4,5 bis 6 Stunden stehen Jugendlichen 30 Minuten Pause zu; bei mehr als 6 Stunden sind es 60 Minuten.",
+      "D": "Ja, sofern der Jugendliche die restlichen 40 Minuten Pause am Ende des Arbeitstages früher nach Hause gehen darf."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Laut § 11 JArbSchG beträgt die Ruhepause bei mehr als 6 Stunden Arbeitszeit für Jugendliche 60 Minuten.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb und eine Berufsschule stellen fest, dass sie unterschiedliche Begriffe für dieselbe Tätigkeit verwenden. Der Ausbilder möchte die Kooperation verbessern. Was ist das wichtigste Ziel der Lernortkooperation?",
+    "answers": {
+      "A": "Dass die Berufsschullehrer im Betrieb mitarbeiten, um die Praxis kennenzulernen, während die Ausbilder den theoretischen Unterricht in der Schule übernehmen.",
+      "B": "Die inhaltliche und zeitliche Abstimmung der Lerninhalte zwischen Betrieb und Schule, um eine Verzahnung von Theorie und Praxis zu gewährleisten (Duales System).",
+      "C": "Die gemeinsame Festlegung der Urlaubszeiten, damit der Betrieb während der Ferien der Berufsschule ebenfalls schließen kann.",
+      "D": "Dass der Betrieb die Noten der Berufsschule korrigieren darf, wenn diese nicht den praktischen Leistungen des Auszubildenden entsprechen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Lernortkooperation zielt auf die Abstimmung der Ausbildungsinhalte ab, um das Ausbildungsziel effizient zu erreichen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "In einem qualifizierten Arbeitszeugnis für einen Auszubildenden steht der Satz: 'Er bemühte sich stets, die ihm übertragenen Aufgaben zur Zufriedenheit zu erledigen.' Wie ist dieser Satz zu deuten?",
+    "answers": {
+      "A": "Dies ist eine sehr gute Bewertung, da das Wort 'stets' eine dauerhafte Höchstleistung impliziert.",
+      "B": "Dies ist eine verschlüsselte negative Bewertung (Note 5 oder 6), da 'bemühte sich' bedeutet, dass er die Aufgaben eben nicht erfolgreich erledigt hat.",
+      "C": "Es handelt sich um eine neutrale Bewertung, die besagt, dass der Auszubildende ein durchschnittlicher Mitarbeiter war.",
+      "D": "Dieser Satz ist in Ausbildungszeugnissen verboten, da er eine persönliche Meinung des Ausbilders wiedergibt, die nicht belegbar ist."
+    },
+    "correct_answer": ["B"],
+    "explanation": "In der Zeugnissprache bedeutet 'er bemühte sich', dass der Erfolg ausblieb. Es ist eine klassische negative Formulierung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein junger Mann mit einer leichten Lernbehinderung bewirbt sich um einen Ausbildungsplatz. Der Ausbilder möchte ihn einstellen, befürchtet aber, dass er die normale Abschlussprüfung nicht schafft. Welche Möglichkeit bietet das BBiG hier?",
+    "answers": {
+      "A": "Es gibt keine Sonderregelungen; jeder Auszubildende muss exakt dieselben Prüfungsanforderungen erfüllen, um die Qualität des Berufsabschlusses zu wahren.",
+      "B": "Es kann eine Ausbildung in einem sogenannten 'Fachpraktiker-Beruf' (Theorie-reduzierte Ausbildung gemäß § 66 BBiG) vereinbart werden, die speziell auf Menschen mit Behinderung zugeschnitten ist.",
+      "C": "Der Ausbilder kann den Lehrplan selbst umschreiben und die schwierigen Teile einfach streichen, solange er dem Azubi am Ende ein hausinternes Zertifikat ausstellt.",
+      "D": "Der Auszubildende darf die Prüfung so oft wiederholen, bis er sie besteht, wobei die Prüfungsgebühren ab dem dritten Versuch vom Staat übernommen werden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "§ 66 BBiG ermöglicht besondere Regelungen für Menschen mit Behinderung, oft in Form von Werker- oder Fachpraktiker-Ausbildungen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Der Ausbilder Herr Jansen betreut eine Gruppe von Auszubildenden im Hotelgewerbe. Der 16-jährige Jan soll an einem Berufsschultag, der von 08:00 bis 13:15 Uhr dauert (insgesamt 6 Unterrichtsstunden à 45 Minuten), nachmittags im Betrieb bei einer Veranstaltung aushelfen. Wie muss Herr Jansen Jan für diesen Tag rechtlich korrekt einplanen?",
+    "answers": {
+      "A": "Da Jan mehr als fünf Unterrichtsstunden absolviert hat, muss Herr Jansen ihn für den Rest des Tages inklusive der Wegezeit komplett freistellen. Der Tag wird mit der durchschnittlichen täglichen Arbeitszeit auf sein Stundenkonto angerechnet.",
+      "B": "Herr Jansen darf Jan noch für zwei Stunden im Betrieb einsetzen, sofern die Gesamtarbeitszeit inklusive der Schulzeit und der Pausen die tägliche Höchstgrenze von acht Stunden nicht überschreitet.",
+      "C": "Jan muss nach der Schule in den Betrieb kommen, da die gesetzliche Freistellungspflicht nur für die reine Unterrichtszeit gilt. Die Wegezeit zwischen Schule und Betrieb zählt dabei jedoch als unbezahlte Pause.",
+      "D": "Herr Jansen kann Jan zur Arbeit verpflichten, muss ihm aber einen finanziellen Bonus zahlen, da die Doppelbelastung durch Schule und Betrieb an einem Tag als Mehrarbeit im Sinne des Jugendarbeitsschutzgesetzes gilt."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Laut JArbSchG dürfen Jugendliche an einem Berufsschultag mit mehr als fünf Unterrichtsstunden (einmal pro Woche) nicht mehr im Betrieb beschäftigt werden. Die Freistellung umfasst den gesamten restlichen Tag.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ausbilder Thomas plant eine Unterweisung für seine Auszubildende im Bereich Mediengestaltung. Er möchte, dass sie lernt, ein Logo nach den Prinzipien des Goldenen Schnitts eigenständig zu entwerfen und ihre Design-Entscheidungen im Anschluss vor dem Team fachlich zu begründen. Welchen Lernzielbereichen lassen sich diese Anforderungen primär zuordnen?",
+    "answers": {
+      "A": "Der Entwurf des Logos ist rein psychomotorisch, während die Begründung vor dem Team ausschließlich den affektiven Bereich anspricht, da es hierbei nur um das Selbstbewusstsein der Auszubildenden geht.",
+      "B": "Es handelt sich hierbei um eine rein kognitive Aufgabe, da sowohl das Design als auch die Präsentation auf theoretischem Wissen basieren und manuelle Fertigkeiten in der Mediengestaltung heute keine Rolle mehr spielen.",
+      "C": "Die Aufgabe kombiniert kognitive Aspekte (Anwendung des Wissens zum Goldenen Schnitt) mit affektiven Aspekten (Kommunikation und Vertreten der eigenen Meinung) sowie psychomotorischen Anteilen (Handhabung der Grafiksoftware).",
+      "D": "Da die Auszubildende das Logo selbstständig erstellt, handelt es sich um ein Globalziel, bei dem die einzelnen Lernzielbereiche rechtlich nicht mehr unterschieden werden müssen, solange das Ergebnis den Kundenwünschen entspricht."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Komplexe Aufgaben in der Ausbildung sprechen fast immer mehrere Bereiche an: Das Verständnis der Regeln (kognitiv), die technische Umsetzung (psychomotorisch) und das Verhalten/Präsentieren (affektiv).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Im Betrieb von Herrn Lorenz hat ein Auszubildender (19 Jahre) im Lager absichtlich und wiederholt Sicherheitsvorschriften missachtet, was beinahe zu einem schweren Unfall führte. Herr Lorenz möchte das Ausbildungsverhältnis nach der Probezeit nun fristlos kündigen. Was muss er dabei beachten?",
+    "answers": {
+      "A": "Eine fristlose Kündigung ist bei Auszubildenden nach der Probezeit gesetzlich verboten. Herr Lorenz kann den Auszubildenden lediglich für zwei Wochen suspendieren und die Kammer um eine Schlichtung bitten.",
+      "B": "Herr Lorenz kann die Kündigung mündlich im Beisein von Zeugen aussprechen, muss aber innerhalb von zwei Monaten eine schriftliche Bestätigung nachreichen, in der die Verfehlungen detailliert aufgelistet sind.",
+      "C": "Die Kündigung muss schriftlich erfolgen und die Kündigungsgründe präzise benennen. Zudem darf der Vorfall, der zur Kündigung führt, zum Zeitpunkt des Kündigungsausspruchs nicht länger als zwei Wochen bekannt sein.",
+      "D": "Da es sich um einen Verstoß gegen Sicherheitsvorschriften handelt, endet das Ausbildungsverhältnis automatisch durch 'höhere Gewalt', sobald Herr Lorenz den Vorfall der Berufsgenossenschaft gemeldet hat."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Nach der Probezeit ist eine Kündigung durch den Ausbildenden nur aus wichtigem Grund ohne Einhalten einer Frist möglich (§ 22 BBiG). Die 2-Wochen-Ausschlussfrist nach Bekanntwerden des Grundes ist dabei zwingend.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Die Geschäftsführung der 'Modern-Tech GmbH' möchte die Ausbildung attraktiver gestalten und schlägt vor, die Ausbildungsinhalte komplett digital per Virtual Reality zu vermitteln, um Werkstattkosten zu sparen. Als Ausbildungsleiter sollen Sie prüfen, ob dies mit der Ausbildungsordnung vereinbar ist. Wie lautet Ihre Empfehlung?",
+    "answers": {
+      "A": "Dies ist uneingeschränkt möglich, da moderne Ausbildungsordnungen keine festen Lernorte mehr vorschreiben und die Digitalisierung der Ausbildung vom Bundesministerium ausdrücklich gefordert wird.",
+      "B": "Eine rein virtuelle Vermittlung ist unzulässig, da die Ausbildungsordnung praktische Fertigkeiten vorsieht, die realitätsnah an echten Maschinen und mit realen Werkstoffen geübt werden müssen, um die berufliche Handlungsfähigkeit zu sichern.",
+      "C": "Virtual Reality darf nur für die Vermittlung der affektiven Lernziele genutzt werden, während kognitive Inhalte weiterhin ausschließlich in der Berufsschule durch Lehrkräfte vermittelt werden dürfen.",
+      "D": "Sofern die zuständige Kammer eine Sondergenehmigung erteilt, kann der Betrieb die Werkstatt komplett durch VR-Brillen ersetzen, vorausgesetzt, der Ausbilder verfügt über eine IT-Zusatzqualifikation."
+    },
+    "correct_answer": ["B"],
+    "explanation": "VR kann ergänzen, aber nicht ersetzen. Die Ausbildungsordnung und der Ausbildungsrahmenplan verlangen die Vermittlung von realen Fertigkeiten, Kenntnissen und Fähigkeiten in einer authentischen Arbeitsumgebung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ausbilderin Marina plant den Urlaub für ihre 16-jährige Auszubildende. Marina möchte, dass die Auszubildende ihren Urlaub im November nimmt, da im Sommer Hochbetrieb herrscht. Die Auszubildende möchte jedoch im August während der Berufsschulferien verreisen. Wer hat hier rechtlich den Vorrang?",
+    "answers": {
+      "A": "Marina hat das Direktionsrecht und kann den Urlaubszeitpunkt frei bestimmen, solange sie der Auszubildenden mindestens zwei Wochen Urlaub am Stück gewährt.",
+      "B": "Der Urlaub soll Jugendlichen während der Berufsschulferien gegeben werden. Wird er nicht in den Ferien gewährt, muss Marina für jeden Berufsschultag, an dem die Auszubildende während des Urlaubs die Schule besucht, einen zusätzlichen Urlaubstag gewähren.",
+      "C": "Die Auszubildende darf ihren Urlaub nur dann in den Schulferien nehmen, wenn sie nachweisen kann, dass ihre Erziehungsberechtigten im selben Zeitraum ebenfalls Urlaub haben.",
+      "D": "Da die Auszubildende minderjährig ist, muss der Urlaub zwingend hälftig auf die Sommerferien und hälftig auf die Weihnachtsferien aufgeteilt werden; eine andere Regelung ist nichtig."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß JArbSchG soll der Urlaub in den Berufsschulferien liegen. Ist dies nicht der Fall, greift die Regelung mit den Ersatztagen für Schulbesuche während der Urlaubszeit.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb zahlt seinem Auszubildenden im ersten Jahr eine Vergütung, die 15 % unter der im Tarifvertrag für diese Branche vorgesehenen Vergütung liegt. Der Betrieb ist nicht tarifgebunden. Der Ausbilder meint, dies sei zulässig, da man die 'angemessene Vergütung' frei verhandeln könne. Wie beurteilen Sie dies?",
+    "answers": {
+      "A": "Der Ausbilder hat recht, da die Tarifautonomie nur für Gewerkschaftsmitglieder gilt und im BBiG kein fester Euro-Betrag für die Angemessenheit genannt wird.",
+      "B": "Eine Vergütung gilt in der Regel als nicht mehr angemessen, wenn sie die geltenden Tariflöhne um mehr als 20 % unterschreitet oder die gesetzliche Mindestvergütung für Auszubildende nicht erreicht wird.",
+      "C": "Jede Unterschreitung eines Tarifvertrages ist grundsätzlich verboten, da Tarifverträge im Rahmen der Ausbildungsordnung als allgemeinverbindliche Gesetze für alle Betriebe der Branche gelten.",
+      "D": "Die Vergütung ist angemessen, solange sie jährlich um mindestens 100 Euro ansteigt, unabhängig davon, wie hoch der Startwert im Vergleich zum Tarifvertrag ist."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Angemessenheit orientiert sich an Tarifverträgen (max. 20 % Abweichung nach unten zulässig) und zwingend an der gesetzlichen Mindestvergütung für Auszubildende (§ 17 BBiG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ausbilder Klaus möchte die 'Projektmethode' einführen. Er gibt seinem Auszubildenden (3. Lehrjahr) das Thema 'Optimierung des Wareneingangs' vor. Der Auszubildende soll das Projekt von der Planung bis zur Präsentation selbst steuern. Klaus ist sich unsicher, wann er eingreifen sollte. Welches Verhalten fördert die Handlungskompetenz am besten?",
+    "answers": {
+      "A": "Klaus sollte jeden Morgen die Teilschritte für den Tag festlegen und die Ergebnisse am Abend kontrollieren, um sicherzustellen, dass der Auszubildende keine Zeit mit Fehlplanungen verschwendet.",
+      "B": "Klaus hält sich komplett zurück und bewertet lediglich das Endergebnis nach vier Wochen, da jede Einmischung während des Prozesses die Selbstständigkeit des Auszubildenden untergraben würde.",
+      "C": "Klaus fungiert als Berater und Lernbegleiter. Er greift nur ein, wenn der Auszubildende von sich aus um Unterstützung bittet oder wenn das Projektziel durch schwerwiegende Fehlentscheidungen massiv gefährdet ist.",
+      "D": "Klaus übernimmt die schwierigen kognitiven Planungsphasen selbst und lässt den Auszubildenden nur die psychomotorischen Ausführungsschritte machen, um die Fehlerquote gering zu halten."
+    },
+    "correct_answer": ["C"],
+    "explanation": "In der Projektmethode und beim Modell der vollständigen Handlung ist der Ausbilder Begleiter. Der Auszubildende soll aus eigenen Fehlern lernen können, solange der Erfolg des Projekts im Rahmen bleibt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Eine Auszubildende im chemischen Labor ist im zweiten Monat schwanger. Der Ausbilder Herr Schmidt ist besorgt wegen der Arbeit mit Gefahrstoffen. Er möchte sie vorsorglich bis zum Beginn des Mutterschutzes unbezahlt freistellen, um kein Risiko einzugehen. Was sagt das Recht dazu?",
+    "answers": {
+      "A": "Herr Schmidt kann die Freistellung anordnen, muss aber die volle Ausbildungsvergütung weiterzahlen, sofern die Auszubildende aufgrund eines Beschäftigungsverbots nach dem Mutterschutzgesetz nicht arbeiten darf.",
+      "B": "Schwangerschaft ist kein Grund für eine Änderung des Ausbildungsablaufs. Die Auszubildende muss weiterhin alle Tätigkeiten ausführen, da sie sonst das Ausbildungsziel nicht erreichen kann.",
+      "C": "Sobald eine Schwangerschaft vorliegt, endet das Ausbildungsverhältnis automatisch und wird nach der Elternzeit durch einen neuen Vertrag zu den dann gültigen Konditionen fortgesetzt.",
+      "D": "Herr Schmidt muss die Auszubildende fristlos kündigen, da die Arbeit im Labor eine unverantwortliche Gefährdung darstellt, die der Betrieb haftungstechnisch nicht absichern kann."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Das Mutterschutzgesetz (MuSchG) sieht bei Gefährdungen Beschäftigungsverbote vor. Der Arbeitgeber muss versuchen, den Arbeitsplatz umzugestalten. Ist dies nicht möglich, erfolgt eine Freistellung unter Lohnfortzahlung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender besteht seine Abschlussprüfung mit der Note 'Sehr gut'. Am nächsten Tag erscheint er wie gewohnt im Betrieb und beginnt mit der Arbeit. Der Ausbilder Herr Weber lässt ihn gewähren und teilt ihm Aufgaben für die nächste Woche zu. Welche rechtliche Konsequenz ergibt sich daraus?",
+    "answers": {
+      "A": "Es ergibt sich keine Konsequenz, da der Auszubildende lediglich seine restliche vertragliche Zeit bis zum Monatsende absitzt, um seinen Urlaubsanspruch abzugelten.",
+      "B": "Durch die Weiterbeschäftigung nach Bestehen der Prüfung gilt ein unbefristetes Arbeitsverhältnis als begründet, sofern dem Auszubildenden nicht unverzüglich widersprochen wurde.",
+      "C": "Der Auszubildende hat lediglich einen Anspruch auf eine einmalige Prämie für seine gute Leistung, bleibt aber rechtlich bis zum Ende der vertraglich vereinbarten Ausbildungszeit ein Auszubildender.",
+      "D": "Der Ausbilder macht sich strafbar, da man eine Person ohne gültigen Ausbildungsvertrag nicht beschäftigen darf; der Auszubildende muss den Betrieb sofort verlassen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß § 24 BBiG begründet die Weiterbeschäftigung eines Auszubildenden nach bestandener Prüfung ein unbefristetes Arbeitsverhältnis, wenn der Betrieb ihn wissentlich weiterarbeiten lässt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Die 17-jährige Auszubildende Sarah soll in ihrer Ausbildung zur Köchin an zwei Abenden pro Woche bis 23:00 Uhr arbeiten. Der Ausbilder Herr Koch meint, dies sei durch die Ausnahmeregelungen für das Gastgewerbe im Jugendarbeitsschutzgesetz abgedeckt. Wie prüfen Sie diese Aussage?",
+    "answers": {
+      "A": "Die Aussage ist falsch. Jugendliche dürfen unter keinen Umständen länger als bis 20:00 Uhr arbeiten, da die Nachtruhe im JArbSchG absolut geschützt ist.",
+      "B": "Herr Koch hat recht. Im Gastgewerbe dürfen Jugendliche über 16 Jahre bis 22:00 Uhr beschäftigt werden. Eine Beschäftigung bis 23:00 Uhr ist jedoch auch hier unzulässig.",
+      "C": "Die Arbeitszeit bis 23:00 Uhr ist zulässig, sofern Sarah am nächsten Morgen erst nach einer Ruhezeit von mindestens acht Stunden wieder mit der Arbeit beginnt.",
+      "D": "Jugendliche dürfen im Gastgewerbe unbegrenzt nachts arbeiten, solange sie dafür an einem anderen Tag der Woche komplett von der Arbeit freigestellt werden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Im Gastgewerbe dürfen Jugendliche über 16 bis 22 Uhr arbeiten. 23 Uhr überschreitet die Grenze der Nachtruhe für Minderjährige gemäß JArbSchG.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Bei einer Unterweisung zum Thema 'Qualitätskontrolle' bemerkt Ausbilder Frank, dass der Auszubildende zwar die Theorie perfekt beherrscht, aber bei der praktischen Messung mit der Mikrometerschraube immer wieder Ablesefehler macht. Welches didaktische Vorgehen ist nun am sinnvollsten?",
+    "answers": {
+      "A": "Frank sollte dem Auszubildenden eine schriftliche Hausaufgabe zum Thema 'Mathematische Grundlagen der Messtechnik' geben, um das kognitive Verständnis zu vertiefen.",
+      "B": "Frank sollte den psychomotorischen Ablauf erneut kleinschrittig vormachen und den Auszubildenden die Messung mehrfach unter Aufsicht wiederholen lassen, um die Auge-Hand-Koordination zu festigen.",
+      "C": "Da der Auszubildende die Theorie beherrscht, ist es ein Motivationsproblem. Frank sollte ein ernstes Gespräch über die Einstellung zur Sorgfalt (affektiver Bereich) führen.",
+      "D": "Frank sollte das Thema abbrechen und den Auszubildenden erst im nächsten Lehrjahr wieder damit konfrontieren, wenn seine allgemeine Reife für Präzisionsaufgaben höher ist."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Ablesefehler bei korrekter Theorie deuten auf mangelnde Übung im psychomotorischen Bereich hin. Hier hilft nur das praktische Training der Fertigkeit.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbildungsbetrieb für KFZ-Mechatroniker verlangt von seinen Auszubildenden, dass diese die Kosten für die digitale Lernplattform 'Auto-Pro' in Höhe von 15 Euro monatlich selbst tragen, da diese auch zur privaten Weiterbildung genutzt werden kann. Wie ist dies rechtlich zu werten?",
+    "answers": {
+      "A": "Dies ist zulässig, da digitale Medien nicht zu den klassischen Werkzeugen gehören, die ein Betrieb kostenlos zur Verfügung stellen muss.",
+      "B": "Eine solche Kostenbeteiligung ist unzulässig, da der Ausbildende verpflichtet ist, alle für die Ausbildung und das Ablegen von Prüfungen notwendigen Fachmittel kostenlos bereitzustellen.",
+      "C": "Die Kostenbeteiligung ist nur dann rechtens, wenn der Auszubildende im Gegenzug an zwei Samstagen im Jahr von der Arbeit freigestellt wird.",
+      "D": "Der Betrieb darf die Kosten nur dann verlangen, wenn der Auszubildende über 18 Jahre alt ist und ein monatliches Nettoeinkommen von über 800 Euro erzielt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Gemäß BBiG fallen Lernmittel unter die Bereitstellungspflicht des Ausbildenden. Eine Abwälzung auf den Azubi ist nichtig.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Herr Schulze ist Inhaber einer kleinen Schreinerei und möchte seinen Neffen ausbilden. Er selbst ist Meister, wurde aber vor zwei Jahren wegen einer vorsätzlichen Straftat zu einer Freiheitsstrafe von 14 Monaten verurteilt (auf Bewährung). Darf Herr Schulze persönlich ausbilden?",
+    "answers": {
+      "A": "Ja, solange die Freiheitsstrafe zur Bewährung ausgesetzt wurde, gilt er rechtlich weiterhin als persönlich geeignet.",
+      "B": "Nein, wer wegen einer vorsätzlichen Straftat zu einer Freiheitsstrafe von mindestens einem Jahr verurteilt wurde, besitzt die persönliche Eignung zum Ausbilden nicht mehr.",
+      "C": "Herr Schulze darf nur dann ausbilden, wenn er eine psychologische Zusatzprüfung bei der Handwerkskammer erfolgreich absolviert.",
+      "D": "Er darf ausbilden, sofern sein Neffe über 18 Jahre alt ist, da das Verbot nur für die Ausbildung von Jugendlichen unter 18 Jahren gilt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Laut § 29 BBiG ist persönlich nicht geeignet, wer wegen einer Straftat zu einer Freiheitsstrafe von mindestens einem Jahr verurteilt wurde. Die Bewährung ändert nichts am Verlust der Eignung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender im Verkauf soll lernen, Reklamationen von schwierigen Kunden souverän zu bearbeiten. Der Ausbilder nutzt hierfür ein Rollenspiel. Welches Ziel verfolgt er damit primär in Bezug auf die Lernzielhierarchie?",
+    "answers": {
+      "A": "Er möchte die psychomotorischen Fähigkeiten des Auszubildenden beim Ausfüllen der Reklamationsformulare unter Zeitdruck testen.",
+      "B": "Er zielt auf den affektiven Bereich ab, um das Verhalten, die Empathie und die Stressresistenz des Auszubildenden in einer künstlichen, aber realitätsnahen Situation zu schulen.",
+      "C": "Das Rollenspiel dient ausschließlich dazu, die kognitiven Kenntnisse über die gesetzlichen Gewährleistungsfristen abzufragen.",
+      "D": "Es geht darum, die hierarchische Stufe des 'Wissens' zu verlassen, um die Stufe der 'Reproduktion' von Standardsätzen aus dem Verkaufshandbuch zu festigen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Rollenspiele sind das klassische Werkzeug für affektive Lernziele (Verhalten, Kommunikation, Umgang mit Gefühlen/Konflikten).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein minderjähriger Auszubildender (17 Jahre) hat seine ärztliche Nachuntersuchung versäumt, obwohl er bereits seit 15 Monaten im Betrieb ist. Er weigert sich, zum Arzt zu gehen. Welche rechtliche Pflicht hat der Ausbilder nun?",
+    "answers": {
+      "A": "Der Ausbilder muss den Auszubildenden schriftlich abmahnen, darf ihn aber ganz normal weiterbeschäftigen, da medizinische Belange Privatsache sind.",
+      "B": "Der Ausbilder darf den Jugendlichen nicht weiterbeschäftigen, solange die Bescheinigung über die Nachuntersuchung nicht vorliegt. Eine Weiterbeschäftigung wäre ein Verstoß gegen das JArbSchG.",
+      "C": "Der Ausbilder muss den Jugendlichen fristlos kündigen, da die fehlende Untersuchung ein absolutes Beschäftigungsverbot zur Folge hat, das nicht heilbar ist.",
+      "D": "Der Ausbilder kann die ärztliche Untersuchung durch eine Sicherheitsunterweisung im Betrieb ersetzen und dies im Berichtsheft dokumentieren."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das JArbSchG verbietet die Weiterbeschäftigung Jugendlicher nach Ablauf des ersten Beschäftigungsjahres, wenn die Nachuntersuchung nicht erfolgt ist.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Nach Abschluss der Ausbildung bittet die Auszubildende um ein Zeugnis, das auch Angaben über ihre besonderen Erfolge bei einem Auslandspraktikum und ihre überdurchschnittliche Teamfähigkeit enthält. Der Ausbilder möchte jedoch nur ein einfaches Zeugnis ausstellen. Wie ist die Rechtslage?",
+    "answers": {
+      "A": "Der Ausbilder ist verpflichtet, auf Verlangen der Auszubildenden ein qualifiziertes Zeugnis auszustellen, das sich auch auf Führung, Leistung und besondere Fachkenntnisse erstreckt.",
+      "B": "Auszubildende haben grundsätzlich nur Anspruch auf ein einfaches Zeugnis (Art und Dauer); qualifizierte Zeugnisse sind eine freiwillige Leistung des Arbeitgebers.",
+      "C": "Ein qualifiziertes Zeugnis darf nur dann ausgestellt werden, wenn die Auszubildende die Abschlussprüfung mindestens mit der Note 'Gut' bestanden hat.",
+      "D": "Das qualifizierte Zeugnis muss von der Berufsschule erstellt werden, während der Betrieb nur die Fehlzeiten im einfachen Zeugnis dokumentieren darf."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Gemäß § 16 BBiG hat der Azubi einen Rechtsanspruch auf ein qualifiziertes Zeugnis, wenn er dies verlangt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Im Rahmen einer Unterweisung zur Arbeitssicherheit stellt der Ausbilder fest, dass der Auszubildende zwar weiß, dass er eine Schutzbrille tragen muss, dies aber 'uncool' findet und die Brille absetzt, sobald der Ausbilder den Raum verlässt. Welches pädagogische Problem liegt hier vor?",
+    "answers": {
+      "A": "Ein kognitives Defizit, da der Auszubildende die optischen Gesetze der Lichtbrechung auf der Hornhaut nicht verstanden hat.",
+      "B": "Ein psychomotorisches Problem, da der Auszubildende offensichtlich Schwierigkeiten hat, die Brille anatomisch korrekt auf seinem Nasenrücken zu platzieren.",
+      "C": "Ein affektives Defizit, da die notwendige innere Einstellung und Akzeptanz für die Sicherheitsvorschrift (Werte/Normen) nicht vorhanden ist.",
+      "D": "Ein Problem der zeitlichen Gliederung, da das Thema Arbeitssicherheit erst für das dritte Ausbildungsjahr vorgesehen ist und den Azubi jetzt überfordert."
+    },
+    "correct_answer": ["C"],
+    "explanation": "Wissen (kognitiv) ist da, Handeln (psychomotorisch) ist möglich, aber die Einstellung (affektiv) stimmt nicht. Das ist ein klassisches affektives Lernzielproblem.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Der Auszubildende Leo (18 Jahre) wird in seiner Ausbildung zum Bäcker regelmäßig ab 04:00 Uhr morgens eingesetzt. Eines Tages bittet sein Ausbilder ihn, bereits um 02:00 Uhr anzufangen, da drei Kollegen krank sind. Ist dies zulässig?",
+    "answers": {
+      "A": "Ja, da Leo bereits 18 Jahre alt ist, fällt er nicht mehr unter das Jugendarbeitsschutzgesetz, sondern unter das Arbeitszeitgesetz, das Nachtarbeit grundsätzlich zulässt.",
+      "B": "Nein, auch für Volljährige gilt in der Ausbildung eine absolute Sperrzeit von 23:00 bis 06:00 Uhr, um den Lernfortschritt nicht durch Schlafmangel zu gefährden.",
+      "C": "Ja, in Bäckereien dürfen auch 17-jährige Jugendliche ab 04:00 Uhr arbeiten, aber für Volljährige gibt es ab 18 Jahren gar keine speziellen Schutzzeiten mehr für die Nachtruhe.",
+      "D": "Nur wenn Leo dafür am Nachmittag vier Stunden früher Feierabend machen darf und der Betrieb ihm einen Nachtzuschlag von 50 % zahlt."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Sobald ein Azubi 18 ist, gilt das JArbSchG nicht mehr. Es gilt das Arbeitszeitgesetz, das weit weniger Einschränkungen für Nachtarbeit vorsieht, besonders in Berufen wie dem Bäckerhandwerk.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender hat die Abschlussprüfung bestanden und bekommt vom Betrieb ein Übernahmeangebot. Der Betrieb möchte ihn jedoch zunächst für weitere sechs Monate als 'Praktikant' beschäftigen, um seine Gehaltsansprüche niedrig zu halten. Was sagen Sie dazu?",
+    "answers": {
+      "A": "Das ist eine clevere Möglichkeit der Kostenersparnis, die rechtlich zulässig ist, solange der Praktikumsvertrag schriftlich fixiert wurde.",
+      "B": "Dies ist unzulässig. Nach bestandener Ausbildung ist eine Beschäftigung als Praktikant für denselben Beruf rechtlich nicht möglich, da der Ausbildungszweck bereits erreicht wurde.",
+      "C": "Es ist zulässig, sofern der Auszubildende freiwillig auf seine Rechte als Fachkraft verzichtet und dies notariell beglaubigen lässt.",
+      "D": "Praktika nach der Ausbildung sind nur in akademischen Berufen verboten, im Handwerk und in der Industrie sind sie zur 'Nachreifung' ausdrücklich vorgesehen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Wer ausgelernt hat, ist Fachkraft. Ein Praktikum dient dem Erwerb von Kenntnissen/Fertigkeiten – diese hat der Azubi bereits per Prüfung nachgewiesen. Ein solches Vorgehen würde als Umgehung von Arbeitsrecht gewertet.",
+    "question_type": "normal"
+  },
+  {
     handlungsfeld: "4",
     schwierigkeit: 3,
     question: "Ein Auszubildender möchte seine Abschlussprüfung wiederholen, nachdem er zum zweiten Mal durchgefallen ist. Was muss er beachten?",
@@ -5890,7 +6520,288 @@ export const questions: Question[] = [
     "correct_answer": ["B"],
     "explanation": "Es gehört zu den Aufgaben der JAV und des Betriebsrats, die Einhaltung der zugunsten der Arbeitnehmer geltenden Gesetze (wie das JArbSchG) zu überwachen.",
     "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ausbilder Frank plant die Übernahme eines Auszubildenden nach dessen Abschlussprüfung. Im Betrieb gibt es eine Jugend- und Auszubildendenvertretung (JAV). Der Auszubildende stellt drei Monate vor Ausbildungsende einen schriftlichen Antrag auf Weiterbeschäftigung. Frank möchte ihn jedoch aus betrieblichen Gründen nicht übernehmen. Welche Rolle spielt die JAV hier?",
+    "answers": {
+      "A": "Die JAV hat kein Mitspracherecht bei der Übernahme, da dies eine rein einzelvertragliche Angelegenheit zwischen der Geschäftsführung und dem Absolventen ist.",
+      "B": "Wenn ein JAV-Mitglied nach der Ausbildung übernommen werden will, muss es dies innerhalb der letzten drei Monate beantragen; der Arbeitgeber muss dann beim Arbeitsgericht die Feststellung beantragen, dass eine Übernahme unzumutbar ist.",
+      "C": "Die JAV entscheidet allein über die Übernahmequote im Betrieb und kann die Geschäftsführung dazu zwingen, mindestens 50 % eines Jahrgangs unbefristet einzustellen.",
+      "D": "Die JAV muss lediglich darüber informiert werden, dass der Auszubildende nicht übernommen wird, hat aber keinerlei rechtliche Handhabe, solange die Kündigungsfrist der Probezeit eingehalten wurde."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Für JAV-Mitglieder besteht ein besonderer Schutz nach § 78a BetrVG. Wenn sie die Weiterbeschäftigung verlangen, muss der Arbeitgeber gerichtlich nachweisen, dass dies unzumutbar ist.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Die Ausbilderin Julia möchte das Prinzip der 'Anschaulichkeit' in ihrer Unterweisung stärken. Sie zeigt einem angehenden Koch nicht nur ein Bild eines perfekt filetierten Fisches, sondern lässt ihn die Textur fühlen, den Geruch wahrnehmen und führt den Schnitt live an einem echten Objekt vor. Warum ist diese multisensorische Ansprache pädagogisch wertvoll?",
+    "answers": {
+      "A": "Weil der Gesetzgeber im Rahmen der Ausbildungsordnung vorschreibt, dass mindestens drei Sinne gleichzeitig angesprochen werden müssen, um die Prüfungssicherheit zu gewährleisten.",
+      "B": "Weil Informationen tiefer im Langzeitgedächtnis verankert werden, wenn mehrere Sinneskanäle (visuell, auditiv, haptisch) gleichzeitig aktiviert werden, was die Behaltensquote massiv steigert.",
+      "C": "Es dient primär der Zeitersparnis, da Julia so die theoretische Erklärung im Lehrbuch komplett weglassen kann, was den Ausbildungsablauf beschleunigt.",
+      "D": "Damit die Auszubildenden lernen, auch bei lauten Umgebungsgeräuschen konzentriert zu arbeiten, indem sie sich rein auf ihren Tastsinn verlassen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Das didaktische Prinzip der Anschaulichkeit nutzt die Erkenntnis, dass Lernen über mehrere Sinne (Multisensorik) die neuronale Vernetzung und damit den Lernerfolg optimiert.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbildungsbetrieb schließt während der Sommerferien für drei Wochen wegen Betriebsferien. Der Auszubildende (17 Jahre) hat jedoch bereits seinen gesamten Jahresurlaub verbraucht. Der Ausbilder verlangt, dass der Azubi in dieser Zeit unbezahlten Urlaub nimmt. Wie ist die Rechtslage?",
+    "answers": {
+      "A": "Dies ist zulässig, da Betriebsferien eine dringende betriebliche Notwendigkeit darstellen, der sich auch Auszubildende unterordnen müssen.",
+      "B": "Der Ausbilder muss dem Azubi für diese Zeit eine sinnvolle Beschäftigung im Betrieb ermöglichen oder ihn unter Fortzahlung der Vergütung freistellen, da das Risiko der Beschäftigungslosigkeit beim Betrieb liegt.",
+      "C": "Der Azubi muss die drei Wochen im darauffolgenden Jahr durch Mehrarbeit am Samstag ausgleichen, um die ausgefallene Ausbildungszeit nachzuholen.",
+      "D": "Der Betrieb darf den Urlaub des nächsten Jahres vorziehen, sofern der Azubi eine Verzichtserklärung unterschreibt, die ihn für das Folgejahr an die Betriebsferien bindet."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Auszubildende dürfen nicht durch Betriebsferien in unbezahlten Urlaub gezwungen werden. Kann der Betrieb keine Ausbildung anbieten, muss er die Vergütung fortzahlen (§ 19 BBiG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ausbilder Klaus möchte die 'Methodenkompetenz' seines Auszubildenden fördern. Was ist das Kernziel dieser Kompetenz im Sinne der beruflichen Handlungsfähigkeit?",
+    "answers": {
+      "A": "Dass der Auszubildende alle Fachbegriffe seines Berufs auswendig kennt und diese in der schriftlichen Prüfung fehlerfrei reproduzieren kann.",
+      "B": "Dass der Auszubildende in der Lage ist, sich eigenständig Informationen zu beschaffen, Arbeitsschritte sinnvoll zu planen und Probleme mit den richtigen Werkzeugen selbst zu lösen.",
+      "C": "Dass der Auszubildende sich pünktlich in das Zeiterfassungssystem einloggt und die Hierarchien im Betrieb ohne Rückfragen akzeptiert.",
+      "D": "Dass der Auszubildende in der Lage ist, körperlich schwere Arbeiten über einen Zeitraum von acht Stunden ohne Ermüdungserscheinungen durchzuführen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Methodenkompetenz bedeutet 'wissen, wie man sich hilft'. Es geht um die Fähigkeit zur Problemlösung und Selbstorganisation.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender erscheint wiederholt unentschuldigt nicht in der Berufsschule. Der Ausbilder erfährt dies erst durch den Zeugnistermin. Kann der Ausbilder den Azubi für das Fernbleiben von der Schule abmahnen, obwohl der Vorfall nicht im Betrieb stattfand?",
+    "answers": {
+      "A": "Nein, für die Überwachung des Schulbesuchs ist ausschließlich die Schulleitung zuständig; der Betrieb hat hier keine rechtliche Handhabe.",
+      "B": "Ja, da die Teilnahme am Berufsschulunterricht eine vertragliche Pflicht aus dem Ausbildungsverhältnis ist. Ein Verstoß hiergegen stellt eine Verletzung der Ausbildungspflicht dar.",
+      "C": "Nur wenn der Auszubildende im selben Monat auch im Betrieb unentschuldigt gefehlt hat, da Schule und Betrieb rechtlich als völlig getrennte Einheiten gelten.",
+      "D": "Abmahnungen sind nur bei Sachbeschädigung oder Diebstahl im Betrieb zulässig, nicht jedoch bei Fehlzeiten in einer externen Bildungseinrichtung."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Besuch der Berufsschule ist eine gesetzliche und vertragliche Pflicht (§ 13 BBiG). Schwänzen ist eine Pflichtverletzung, die abgemahnt werden kann.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Inhaber eines Handwerksbetriebs hat keinen Meisterbrief, möchte aber trotzdem ausbilden. Er stellt einen Gesellen ein, der die AEVO-Prüfung bestanden hat und über langjährige Berufserfahrung verfügt. Reicht dies aus, um die fachliche Eignung des Betriebs nachzuweisen?",
+    "answers": {
+      "A": "Ja, der Inhaber ist die 'ausbildende Person' (rechtlich), während der Geselle als 'bestellter Ausbilder' (fachlich/persönlich) fungiert. Das ist zulässig.",
+      "B": "Nein, im Handwerk muss der Inhaber des Betriebs zwingend selbst den Meistertitel tragen, um überhaupt Personal einstellen zu dürfen.",
+      "C": "Dies ist nur zulässig, wenn der Inhaber zusätzlich einen pädagogischen Fernkurs absolviert und der Geselle mindestens 10 Jahre im Betrieb ist.",
+      "D": "Nur wenn der Auszubildende bereits volljährig ist, darf ein Geselle ohne Meistertitel die alleinige Ausbildungsverantwortung übernehmen."
+    },
+    "correct_answer": ["A"],
+    "explanation": "Nach BBiG/HwO kann der Betriebsinhaber die Ausbildung auf einen geeigneten Ausbilder übertragen. Dieser muss fachlich und persönlich geeignet sein (z.B. durch AEVO + Berufserfahrung/Meister).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder nutzt die 'Moderationsmethode', um mit einer Gruppe von Auszubildenden Lösungen für ein technisches Problem zu erarbeiten. Er schreibt alle Ideen der Azubis unkommentiert auf Karten und pinnt diese an eine Wand. Warum bewertet er die Ideen in dieser Phase noch nicht?",
+    "answers": {
+      "A": "Weil er laut Moderationsregelwerk erst nach der Mittagspause sprechen darf, um die Autonomie der Gruppe nicht zu gefährden.",
+      "B": "Um den kreativen Fluss nicht zu stoppen und zu verhindern, dass sich Auszubildende aus Angst vor Kritik zurückziehen (Prinzip der Trennung von Ideensammlung und Bewertung).",
+      "C": "Weil er selbst noch keine Lösung für das Problem hat und hofft, dass die Auszubildenden die Arbeit für ihn erledigen.",
+      "D": "Um Zeit zu sparen, da die Bewertung der Karten rechtlich gesehen Aufgabe des Prüfungsausschusses der Kammer ist."
+    },
+    "correct_answer": ["B"],
+    "explanation": "In der Moderation und beim Brainstorming ist die Trennung von Findung und Bewertung essenziell, um die Beteiligung aller Teilnehmer zu fördern.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender (18 Jahre) verursacht durch grobe Fahrlässigkeit einen Schaden an einer teuren CNC-Maschine. Der Ausbilder möchte den Schaden vom nächsten Gehalt des Azubis abziehen. Was muss er beachten?",
+    "answers": {
+      "A": "Er darf den kompletten Betrag einbehalten, da Auszubildende für jeden Schaden, den sie im Betrieb verursachen, in voller Höhe privat haften.",
+      "B": "Abzüge von der Vergütung sind nur unter Beachtung der Pfändungsfreigrenzen zulässig. Zudem gilt in der Ausbildung oft eine beschränkte Haftung (Arbeitnehmerhaftung).",
+      "C": "Schadensersatzansprüche gegen Auszubildende sind gesetzlich generell verboten, da Lehrjahre keine Herrenjahre sind und der Betrieb das Risiko trägt.",
+      "D": "Der Abzug ist nur zulässig, wenn der Auszubildende keine Berufshaftpflichtversicherung über seine Eltern abgeschlossen hat."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Es gelten die Grundsätze der beschränkten Arbeitnehmerhaftung. Bei leichter Fahrlässigkeit haftet der Azubi gar nicht, bei grober anteilig. Pfändungsfreigrenzen müssen gewahrt bleiben.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Sie möchten eine Unterweisung zum Thema 'Umgang mit schwierigen Reklamationen' durchführen. Welche Sozialform ist hierfür am besten geeignet, um die Sozialkompetenz zu stärken?",
+    "answers": {
+      "A": "Der Frontalvortrag, da der Ausbilder hierbei als Vorbild für ruhiges Sprechen fungiert.",
+      "B": "Die Gruppenarbeit in Form eines Rollenspiels, da hier Interaktion stattfindet und die Perspektive des Kunden unmittelbar erlebt werden kann.",
+      "C": "Die Einzelarbeit, damit der Auszubildende in Ruhe über seine eigenen Fehler nachdenken kann, ohne von anderen beobachtet zu werden.",
+      "D": "Ein Lehrfilm, den sich der Auszubildende alleine im Pausenraum ansieht, um den Stressfaktor zu minimieren."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Rollenspiele in Gruppen fördern die Sozialkompetenz durch Perspektivwechsel und direktes Feedback der Mitauszubildenden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Eine Auszubildende zur Industriekauffrau möchte ein achtwöchiges Auslandspraktikum in Spanien absolvieren, das von der EU gefördert wird. Der Ausbilder lehnt dies ab, weil er sie in dieser Zeit als Arbeitskraft im Betrieb braucht. Wie ist die Rechtslage?",
+    "answers": {
+      "A": "Der Ausbilder hat das letzte Wort, da Ausbildungsverträge nur für den Lernort 'Betrieb' und 'Berufsschule' im Inland gelten.",
+      "B": "Laut BBiG sollen Auslandsaufenthalte bis zu einer Dauer von einem Viertel der Ausbildungszeit ermöglicht werden, sofern sie dem Ausbildungsziel dienen. Der Ausbilder sollte dies pädagogisch unterstützen.",
+      "C": "Auslandspraktika sind nur für volljährige Auszubildende im dritten Lehrjahr gesetzlich garantiert.",
+      "D": "Die Auszubildende muss für die Zeit des Praktikums kündigen und danach einen neuen Vertrag unterschreiben, um den Versicherungsschutz nicht zu gefährden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "§ 2 Abs. 3 BBiG sieht vor, dass Teile der Ausbildung im Ausland durchgeführt werden können. Es besteht zwar kein automatischer Rechtsanspruch gegen den Willen des Betriebs, aber eine starke gesetzliche Soll-Bestimmung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender wird nach bestandener Prüfung übernommen. Im Arbeitsvertrag steht nun eine erneute Probezeit von sechs Monaten. Ist diese Klausel rechtlich haltbar?",
+    "answers": {
+      "A": "Ja, da es sich um ein neues Arbeitsverhältnis handelt und der Absolvent nun andere Aufgaben als in der Ausbildung übernimmt.",
+      "B": "Nein, eine erneute Probezeit ist unwirksam, wenn die Tätigkeit im Wesentlichen derjenigen entspricht, die bereits in der Ausbildung ausgeübt wurde.",
+      "C": "Nur wenn das Gehalt während dieser zweiten Probezeit um mindestens 20 % höher ist als die letzte Ausbildungsvergütung.",
+      "D": "Ja, aber die Probezeit darf in diesem Fall maximal drei Monate betragen, um den Kündigungsschutz nicht unangemessen zu verzögern."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach ständiger Rechtsprechung ist eine erneute Probezeit unzulässig, wenn der Azubi im selben Bereich weiterarbeitet, da der Arbeitgeber seine Eignung bereits jahrelang prüfen konnte.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Was versteht man unter dem 'didaktischen Prinzip der sachlichen Richtigkeit'?",
+    "answers": {
+      "A": "Dass der Ausbilder im Gespräch mit dem Azubi immer recht behalten muss, um die Autorität nicht zu untergraben.",
+      "B": "Dass die vermittelten Inhalte dem aktuellen Stand der Wissenschaft und Technik sowie den geltenden Normen und Gesetzen entsprechen müssen.",
+      "C": "Dass der Ausbilder alle Arbeitsergebnisse des Azubis mit einem roten Stift korrigieren muss, um Fehler sichtbar zu machen.",
+      "D": "Dass nur Inhalte gelehrt werden dürfen, die auch eins zu eins so in der schriftlichen Abschlussprüfung abgefragt werden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Sachliche Richtigkeit bedeutet, dass keine veralteten oder falschen Methoden gelehrt werden dürfen. Der Ausbilder muss sich ständig fortbilden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder möchte eine 17-jährige Auszubildende am Sonntag in einer Bäckereifiliale einsetzen. Welche Ausgleichsregelung schreibt das Jugendarbeitsschutzgesetz zwingend vor?",
+    "answers": {
+      "A": "Sie muss am darauffolgenden Montag einen Zuschlag von 100 % in bar ausgezahlt bekommen.",
+      "B": "Ihr muss in derselben Woche ein Ersatzruhetag an einem Werktag gewährt werden. Zudem müssen mindestens zwei Sonntage im Monat beschäftigungsfrei bleiben.",
+      "C": "Die Sonntagsarbeit ist für Jugendliche in Bäckereien generell verboten, sie dürfen nur in der Produktion (Backstube) eingesetzt werden.",
+      "D": "Es ist kein Ausgleich nötig, da die Ausbildung zur Fachverkäuferin im Lebensmittelhandwerk die Sonntagsarbeit als 'branchenüblich' voraussetzt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Bei erlaubter Sonntagsarbeit für Jugendliche (§ 17 JArbSchG) ist ein Ersatzruhetag in derselben Woche sowie die 5-Tage-Woche sicherzustellen.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "In einer Lernsituation stellt der Ausbilder fest, dass der Auszubildende unter 'Überforderung' leidet. Welche Ursache ist im Rahmen der 'didaktischen Reduktion' am wahrscheinlichsten?",
+    "answers": {
+      "A": "Der Ausbilder hat den Stoff zu sehr vereinfacht, sodass der Azubi den Sinn der Aufgabe nicht mehr erkennen kann.",
+      "B": "Der Ausbilder hat zu viele komplexe Informationen in zu kurzer Zeit vermittelt, ohne den Stoff auf das Wesentliche zu konzentrieren.",
+      "C": "Der Auszubildende hat zu viel geschlafen und ist deshalb unterfordert, was sich paradoxerweise als Überforderung äußert.",
+      "D": "Die Raumtemperatur im Schulungsraum war zu niedrig, was die kognitive Leistungsfähigkeit des Gehirns blockiert hat."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Didaktische Reduktion bedeutet, Stoff so aufzubereiten, dass er fassbar wird. Fehlt diese Reduktion, kommt es zur Überforderung.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender (20 Jahre) weigert sich, an einer überbetrieblichen Unterweisung (ÜBA) teilzunehmen, da er die Fahrtzeit von zwei Stunden als unzumutbar empfindet. Darf der Ausbilder die Teilnahme anordnen?",
+    "answers": {
+      "A": "Nein, überbetriebliche Maßnahmen sind freiwillig und dürfen nur mit Zustimmung des Betriebsrats durchgeführt werden.",
+      "B": "Ja, die Teilnahme an Maßnahmen außerhalb der Ausbildungsstätte ist eine Pflicht des Azubis, sofern diese in der Ausbildungsordnung vorgesehen oder zur Erreichung des Ziels nötig sind.",
+      "C": "Nur wenn der Betrieb dem Azubi für die Zeit der ÜBA ein Dienstfahrzeug zur Verfügung stellt.",
+      "D": "Der Ausbilder muss stattdessen einen Privatlehrer engagieren, der den Stoff im Betrieb vermittelt, um die Wegezeiten zu vermeiden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Teilnahme an vorgeschriebenen Ausbildungsmaßnahmen (auch extern) gehört zu den Pflichten des Auszubildenden (§ 13 BBiG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Was versteht man unter dem 'Pygmalion-Effekt' (Rosenthal-Effekt) in der Ausbildung?",
+    "answers": {
+      "A": "Dass Auszubildende immer die schlechtesten Eigenschaften ihres Ausbilders kopieren.",
+      "B": "Dass die positive Erwartungshaltung eines Ausbilders gegenüber einem Azubi dessen tatsächliche Leistung messbar steigern kann.",
+      "C": "Dass Werkstücke aus Metall sich bei Hitze ausdehnen, was Azubis oft vergessen.",
+      "D": "Dass die Abschlussnoten in der Ausbildung jedes Jahr statistisch gesehen schlechter werden."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Der Pygmalion-Effekt beschreibt eine 'selbsterfüllende Prophezeiung': Glaube ich an den Erfolg des Azubis, fördere ich ihn unbewusst stärker, was zu besseren Ergebnissen führt.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "1",
+    "schwierigkeit": 3,
+    "question": "Ein Betrieb möchte die Ausbildung zum 'Kaufmann für E-Commerce' anbieten, hat aber keinen Mitarbeiter, der diesen Beruf selbst gelernt hat. Kann der Betrieb trotzdem ausbilden?",
+    "answers": {
+      "A": "Nein, man darf nur in Berufen ausbilden, die man selbst erfolgreich mit einer Prüfung abgeschlossen hat.",
+      "B": "Ja, wenn ein Mitarbeiter durch langjährige Tätigkeit in diesem Bereich die fachlichen Kenntnisse erworben hat und die Kammer diese fachliche Eignung bestätigt.",
+      "C": "Nur wenn der Inhaber des Betriebs bereit ist, die Prüfung in diesem Beruf parallel zum Azubi selbst abzulegen.",
+      "D": "Ja, aber nur im Rahmen einer Verbundausbildung, bei der der theoretische Teil komplett von einer Universität übernommen wird."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die fachliche Eignung kann auch durch entsprechende Berufserfahrung und Qualifikation nachgewiesen werden, auch ohne formale Ausbildung im selben Beruf (§ 30 BBiG).",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "2",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender (17 Jahre) hat eine tägliche Arbeitszeit von 8 Stunden. Wann muss er spätestens seine erste Pause machen?",
+    "answers": {
+      "A": "Spätestens nach 6 Stunden Arbeit.",
+      "B": "Spätestens nach 4,5 Stunden Arbeit.",
+      "C": "Spätestens nach 3 Stunden Arbeit, da Minderjährige schneller ermüden.",
+      "D": "Das darf der Azubi selbst entscheiden, solange er die Pause vor Feierabend nimmt."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 11 JArbSchG dürfen Jugendliche nicht länger als 4,5 Stunden ohne Ruhepause beschäftigt werden.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "3",
+    "schwierigkeit": 3,
+    "question": "Ein Ausbilder möchte die 'Kreativität' seiner Auszubildenden fördern. Welche Methode ist hierfür am ungeeignetsten?",
+    "answers": {
+      "A": "Brainstorming.",
+      "B": "Die Vier-Stufen-Methode.",
+      "C": "Die Mind-Map-Methode.",
+      "D": "Das Rollenspiel."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Die Vier-Stufen-Methode ist auf Nachmachen und Standardisierung ausgelegt. Sie lässt kaum Raum für kreative Eigenwege und dient eher dem Erlernen fester Arbeitsabläufe.",
+    "question_type": "normal"
+  },
+  {
+    "handlungsfeld": "4",
+    "schwierigkeit": 3,
+    "question": "Ein Auszubildender fühlt sich im Betrieb ungerecht behandelt und möchte vor dem Arbeitsgericht klagen. Was muss er in vielen Kammerbezirken zwingend vorab tun?",
+    "answers": {
+      "A": "Er muss zuerst kündigen, um klageberechtigt zu sein.",
+      "B": "Er muss den Schlichtungsausschuss der zuständigen Kammer anrufen, um eine außergerichtliche Einigung zu versuchen.",
+      "C": "Er muss eine Gebühr von 500 Euro bei der Innung hinterlegen.",
+      "D": "Er muss warten, bis er seine Abschlussprüfung bestanden hat, da Azubis während der Ausbildung nicht klagen dürfen."
+    },
+    "correct_answer": ["B"],
+    "explanation": "Nach § 111 ArbGG muss bei Streitigkeiten zwischen Ausbildenden und Azubis zuerst der Schlichtungsausschuss angerufen werden, bevor das Arbeitsgericht zuständig ist.",
+    "question_type": "normal"
   }
+
   
 ];
 
