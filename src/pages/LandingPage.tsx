@@ -46,12 +46,11 @@ export default function LandingPage() {
               Ausbildung der Ausbilder
             </div>
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
-              KI Trainer für{" "}
+              Dein KI Trainer für{" "}
               <span className="text-gradient">AEVO</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              Bereite dich effektiv auf die AEVO-Prüfung vor. Übe mit Fragen aus allen vier Handlungsfeldern —
-              angepasst an dein Niveau und Tempo.
+              Bereite dich effektiv auf die AEVO-Theorierüfung vor. Übe mit über 500 Fragen aus den vier Handlungsfeldern.
             </p>
             <div className="pt-4">
               <Button asChild size="lg" className="text-base px-8 h-12 rounded-full shadow-lg">
